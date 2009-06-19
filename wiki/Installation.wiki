@@ -6,7 +6,7 @@ This page describes the installation and configuration of the pChart4mw extensio
 == Install the pChart scripts ==
 The first thing you need is a copy of the pChart script. This script can be found on the [http://pchart.sourceforge.net pChart website]. Follow the instructions for pChart installation.
  
-The location where pChart is installed must be specified later on in LocalSettings.php. Remember this location.
+The location where pChart is installed must be specified later on in 'LocalSettings.php'. Remember this location.
 
 pChart4mw is tested with pChart version 1.27d, but should also work with any newer version. Regarding the pChart release notes, version 1.27c should also work.
 
