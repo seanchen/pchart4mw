@@ -3,21 +3,24 @@
 
 This page describes the installation and configuration of the pChart4mw extension. Most steps for installation and configuration are the same as for other extensions. When you follow the following steps, the extension should work within minutes.
 
- * Install the pChart scripts
- The first thing you need is a copy of the pChart script. This script can be found on the [http://pchart.sourceforge.net pChart website]. Follow the instructions for pChart installation.
+== Install the pChart scripts ==
+The first thing you need is a copy of the pChart script. This script can be found on the [http://pchart.sourceforge.net pChart website]. Follow the instructions for pChart installation.
  
- The location where pChart is installed must be specified later on in LocalSettings.php. Remember this location.
+The location where pChart is installed must be specified later on in LocalSettings.php. Remember this location.
 
- pChart4mw is tested with pChart version 1.27d, but should also work with any newer version. Regarding the pChart release notes, version 1.27c should also work.
- * Install this extension
- Download the PHP scripts here and put them into the directory
+pChart4mw is tested with pChart version 1.27d, but should also work with any newer version. Regarding the pChart release notes, version 1.27c should also work.
+
+== Install this extension ==
+Download the PHP scripts here and put them into the directory
  {{{
 $IP/extensions/pChart4mw
 }}}
- * Tell Mediawiki about this extensions
- Add the following line to the file LocalSettings.php
- {{{
+
+== Tell Mediawiki about this extension ==
+Add the following line to the file LocalSettings.php
+{{{
 require_once( "$IP/extensions/pChart4mw/pChart4mw.php" );
 }}}
- * Configure the extension
- More information about the configuration can be found in the section [configuration].
+
+== Configure the extension ==
+More information about the configuration can be found in the section [configuration].
