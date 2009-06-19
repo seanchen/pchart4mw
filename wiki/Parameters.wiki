@@ -16,6 +16,25 @@ Sydney,6.4,2.1
 </pBars>
 }}}
 
+== Entering parameters ==
+The parameters can be entered inside the XML-tag, so between '<pbars' and '>'. Different parameters can be separated with one or more spaces. 
+
+When a parameter expects a value (e.g. 'title'), you can use a '=' sign and then specify the value. When the value contains a whitespace (space, tab or newline) you have to put quotation marks around them. There are also parameters that do not expect a value (e.g. 'legend').
+
+== Colors ==
+When colors are specified using a parameter, the HTML color notation is used. HTML colors are defined using a [http://en.wikipedia.org/wiki/Hexadecimal hexadecimal] (hex) notation for the combination of Red, Green, and Blue color values (RGB). The lowest value that can be given to one of the light sources is 0 (hex 00). The highest value is 255 (hex FF). Hex values are written as 3 double digit numbers, starting with a # sign.
+
+_Example_:
+||*Color*||*Red*||*Green*||*Blue*||*HTML color*||
+||Red||255||0||0||#FF0000||
+||Blue||0||0||255||#0000FF||
+||Yellow||0||255||255||#0000FF||
+||Gray||128||128||128||#808080||
+
+_See also_:
+[http://www.w3schools.com/Html/html_colors.asp HTML colors at w3schools]
+[http://html-color-codes.info/ HTML color picker]
+
 = Parameters for all types of charts =
 There are a number of parameters that can be set for all types of charts. 
 
@@ -23,7 +42,6 @@ There are a number of parameters that can be set for all types of charts.
 <dl>
 <dt>*size=aaxbb*</dt>
 <dd>Sets the size of the image to aa pixels wide and bb pixels high. If only one number is given, the graph will be that wide and also that high. The minimum size of the image is dependent on the margins and whether a title and legend are shown.
-
 _Examples:_
 || Shows a bar chart of 300 pixels wide and 200 pixels high ||
 {{{
@@ -52,7 +70,7 @@ _Examples:_
 <dt>*marginx=...  marginy=...*</dt>
 <dd>
 These settings determine the margin from the border of the image to the border of the drawing area. This setting is useful to keep some empty space on the edges. You can set a margin for top and bottom 'marginy' and a margin for left and right 'marginx'.
-
+_Example:_
 || Sets all margins to zero ||
 {{{
 <pLines marginx=0 marginy=0>
@@ -65,9 +83,22 @@ Apr,44
 </dd>
 </dl>
 
-===Titel===
-;title="Site visitors"
-:Stelt de titel van de grafiek in op 'Site Visitors'
+== Title ==
+<dl>
+<dt>*title="Site visitors"*</dt>
+<dd>Sets the title of the chart to _Site visitors_. If no title is given, nothing is printed.
+_Example:_
+<pLines title="Average temperature">
+Jan,45
+Feb,62
+Mar,51
+Apr,44
+</pLines>
+</dd>
+<dt>titlecolor=..</dt>
+<dd>
+</dd>
+</dl>
 
 ;titlecolor=..
 :Stelt de kleur van de titel in. De kleur wordt ingevuld als HTML kleur
