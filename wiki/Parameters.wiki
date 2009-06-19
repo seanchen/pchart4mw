@@ -49,8 +49,10 @@ There are a number of parameters that can be set for all types of charts.
 <dl>
 <dt>*size={aa}x{bb}*</dt>
 <dd>Sets the size of the image to aa pixels wide and bb pixels high. If only one number is given, the graph will be that wide and also that high. The minimum size of the image is dependent on the margins and whether a title and legend are shown.
+
 _Examples:_
 || Shows a bar chart of 300 pixels wide and 200 pixels high ||
+
 {{{
 <pBars size=300x200>
 20
@@ -58,6 +60,7 @@ _Examples:_
 }}}
 
 || Shows a bar chart of 100 pixels wide and 100 pixels high ||
+
 {{{
 <pBars size=100>
 40
@@ -66,6 +69,7 @@ _Examples:_
 }}}
 
 || Shows a bar chart of 250 pixels wide and uses the default number of pixels for height ||
+
 {{{
 <pBars size=250x>
 40
@@ -77,8 +81,10 @@ _Examples:_
 <dt>*marginx=...  marginy=...*</dt>
 <dd>
 These settings determine the margin from the border of the image to the border of the drawing area. This setting is useful to keep some empty space on the edges. You can set a margin for top and bottom 'marginy' and a margin for left and right 'marginx'.
+
 _Example:_
 || Sets all margins to zero ||
+
 {{{
 <pLines marginx=0 marginy=0>
 Jan,45
@@ -93,18 +99,34 @@ Apr,44
 == Title ==
 <dl>
 <dt>*title="Site visitors"*</dt>
-<dd>Sets the title of the chart to _Site visitors_. If no title is given, nothing is printed.
+<dd>Sets the title of the chart to _Site visitors_. If no title is given, nothing is printed. The title is always shown on top of the chart.
 _Example:_
+|| Shows the title Average temperature above the graph ||
+
+{{{
 <pLines title="Average temperature">
 Jan,45
 Feb,62
 Mar,51
 Apr,44
 </pLines>
+}}}
 </dd>
 <dt>titlecolor={color}</dt>
 <dd>
 Sets the color of the text of the title. Use HTML hexadecimal colors.
+_Example:_
+|| Shows the title Average temperature in red. ||
+
+{{{
+<pLines title="Average temperature" titlecolor=#FF0000>
+Jan,45
+Feb,62
+Mar,51
+Apr,44
+</pLines>
+}}}
+
 </dd>
 </dl>
 
@@ -117,6 +139,7 @@ Sets whether the axes are shown or not. 'axis=true' means that the axes are show
 
 _Example_:
 || Creates a bar chart with axis shown ||
+
 {{{
 <pBars axis>
 49
@@ -124,6 +147,7 @@ _Example_:
 }}}
 
 || Hides the axes on a line chart ||
+
 {{{
 <pLines axis=false>
 4
@@ -134,6 +158,7 @@ _Example_:
 }}}
 
 || Tries to hide the axes. Because the background type is gradient, the axes will still be visible ||
+
 {{{
 <pLines bgtype=gradient axis=false>
 4
@@ -145,7 +170,10 @@ _Example_:
 </dd>
 <dt>*labels[=<u>true</u>|false]*</dt>
 <dd>Shows or hides the labels next to the axes. If no labels are given in the data section, but this parameter is set to true, numbers are shown next to the X-axis.
+
 _Example:_
+||Shows the labels in the graph||
+
 {{{
 <pLines labels>
 Jan,4
@@ -157,7 +185,10 @@ Apr,3
 </dd>
 <dt>*axiscolor={color}*</dt>
 <dd>Sets the color of the axes and the labels next to the axes. This parameter only has effect when 'axis'=true.
+
 _Example:_
+|| Shows the axes and labels in the graph in red ||
+
 {{{
 <pLines axiscolor=#FF0000>
 Jan,4
@@ -169,7 +200,10 @@ Apr,3
 </dd>
 <dt>*xtitle=..* and *ytitle=..*</dt>
 <dd>Sets a title for the X-axis and Y-axis.
+
 _Example:_
+|| Shows titels next to the X-axis and Y-axis ||
+
 {{{
 <pLines xtitle="Months" ytitle="Calls per day">
 Jan,4
@@ -181,7 +215,10 @@ Apr,3
 </dd>
 <dt>*xunit=..* and *yunit=..*</dt>
 <dd>Sets the unit for the values on the X-axis and Y-axis. The unit is appended to the values on that axis.
+
 _Example:_
+|| Shows the values on the Y-axis as millions ||
+
 {{{
 <pLines yunit="M" title="Turnover per month">
 Jan,4
@@ -196,9 +233,12 @@ Apr,3
 The format 'number' is default and shows the numbers on the axes as expected.
 If you set the format to 'time', the values on that axis are expected to be seconds since midnight. The number 60 will be converted to 00:01:00 and the number 3599 will be converted to 00:59:59.
 If you set the format to 'date', the values on that axis are expected to be seconds since 1 january 1970, midnight. This is called a [http://www.unixtimestamp.com UNIX timestamp]. The value 1100491220 will be converted to 11/14/04 22:00
+
 _Example:_
+|| Shows the values on the X-axis as time ||
+
 {{{
-<pLines title="Calls over time" xunit="time">
+<pLines title="Calls over time" xunit="time" xlabels>
 32400,60
 36000,140
 39600,160
@@ -211,7 +251,10 @@ _Example:_
 <dt>*angle=..*</dt>
 <dd>
 Angle in degrees for printing the labels under the X-axis. This is especially useful when these labels are wide and the graph is small. Values must be between 0 and 180 degrees.
+
 _Example:_
+|| The labels on the X-axis are rotated 45 degrees ||
+
 {{{
 <pBars angle=45>
 January,5
@@ -225,8 +268,10 @@ May,22
 <dt>*grid[=<u>true</u>|false]*</dt>
 <dd>Sets the visibility of the grid. 
 _Example:_
+|| Shows a grid underneath the chart ||
+
 {{{
-<pScatter grid=false>
+<pScatter grid>
 1,2
 4,2
 3,6
