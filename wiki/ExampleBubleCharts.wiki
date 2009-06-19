@@ -1,0 +1,23 @@
+#summary Examples of bubble charts
+#labels Phase-Documentation
+
+{{{
+<pBubble size=400x300 legend colors=F00,0F0,00F,0FF,F0F,FF0 xtitle="Aantal FTE" ytitle="Aantal personen" title="Omzet">
+Sales,3,6,20
+Marketing,5,2,21
+Development,1,5,56
+Customer Support,8,8,23
+Information Technology,7,4,51
+Administration,6,2,38
+</pBubble>
+}}}
+{{{
+<pBubble size=500x300 legend cross axis=false>
+Sales,3,6,20
+Marketing,5,2,21
+Development,1,5,56
+Customer Support,8,8,23
+Information Technology,7,4,51
+Administration,6,2,38
+</pBubble>
+}}}
