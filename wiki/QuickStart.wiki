@@ -27,7 +27,7 @@ As explained, creating a chart starts with the XML-tag. Every tag has an opening
 </table>
 
 == Step 2: Entering data ==
-The tags above result in an empty chart. That is right. To show a chart, some data has to be entered. The data can be entered between the opening and closing tag in [http://en.wikipedia.org/wiki/Comma-separated_values CSV-style]. That means: every value must be entered on a new line.
+The tags above result in an empty chart. That is correct. To show a chart, some data has to be entered. The data can be entered between the opening and closing tag in [http://en.wikipedia.org/wiki/Comma-separated_values CSV-style]. That means: every value must be entered on a new line.
 <table><tr><td>
 {{{
 <pbars>
