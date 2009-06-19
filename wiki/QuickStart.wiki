@@ -6,18 +6,18 @@
 With the pChart4mw extension, you can create different types of charts easily using wikitext only. This pages shows the steps to create a chart with some examples. 
 
 pChart4mw is capable of generating six different types of charts. Information on how to create the different charts with all specific parameters can be found on the example pages below. The types of charts that can be created are:
-* [ExampleBarCharts Bar charts]
-* [ExampleLineCharts Line charts]
-* [ExamplePieCharts Pie charts]
-* [ExampleScatterCharts Scatter charts]
-* [ExampleRadarCharts Radar charts]
-* [ExampleBubbleCharts Bubble charts]
+ * [ExampleBarCharts Bar charts]
+ * [ExampleLineCharts Line charts]
+ * [ExamplePieCharts Pie charts]
+ * [ExampleScatterCharts Scatter charts]
+ * [ExampleRadarCharts Radar charts]
+ * [ExampleBubbleCharts Bubble charts]
 
 = Usage =
-A chart can be included in a wiki page using special XML-tags. An example of such a XML-tag is '<pBars>' or '<pPie>'. For every type of chart, a different tag is available. This page shows step by step how a bar chart is made. Other types of charts are made in a similar way, using another tag. More information about other types of charts can be found on the pages linked above.
+A chart can be included in a wiki page using special XML-tags. An example of such a XML-tag is '`<pBars>`' or '`<pPie>`'. For every type of chart, a different tag is available. This page shows step by step how a bar chart is made. Other types of charts are made in a similar way, using another tag. More information about other types of charts can be found on the pages linked above.
 
 == Step 1: Initial tags ==
-As explained, creating a chart starts with the XML-tag. Every tag has an opening part ('<pBars>') and a closing part ('</pBars>'). 
+As explained, creating a chart starts with the XML-tag. Every tag has an opening part ('`<pBars>`') and a closing part ('`</pBars>`'). 
 <table><tr><td>
 {{{
 <pbars></pbars>
