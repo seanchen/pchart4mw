@@ -1,0 +1,230 @@
+#summary Quickstart for users to start using pChart4mw
+#labels Phase-Documentation
+
+= Introduction =
+
+With the pChart4mw extension, you can create different types of charts easily using wikitext only. This pages shows the steps to create a chart with some examples. 
+
+pChart4mw is capable of generating six different types of charts. Information on how to create the different charts with all specific parameters can be found on the example pages below. The types of charts that can be created are:
+* [ExampleBarCharts Bar charts]
+* [ExampleLineCharts Line charts]
+* [ExamplePieCharts Pie charts]
+* [ExampleScatterCharts Scatter charts]
+* [ExampleRadarCharts Radar charts]
+* [ExampleBubbleCharts Bubble charts]
+
+= Usage =
+A chart can be included in a wiki page using special XML-tags. An example of such a XML-tag is '<pBars>' or '<pPie>'. For every type of chart, a different tag is available. This page shows step by step how a bar chart is made. Other types of charts are made in a similar way, using another tag. More information about other types of charts can be found on the pages linked above.
+
+== Step 1: Initial tags ==
+As explained, creating a chart starts with the XML-tag. Every tag has an opening part ('<pBars>') and a closing part ('</pBars>'). 
+<table><tr><td>
+{{{
+<pbars></pbars>
+}}}
+</td>
+<td><pbars size=50x50></pbars></td></tr>
+</table>
+
+== Step 2: Entering data ==
+The tags above result in an empty chart. That is right. To show a chart, some data has to be entered. The data can be entered between the opening and closing tag in [http://en.wikipedia.org/wiki/Comma-separated_values CSV-style]. That means: every value must be entered on a new line.
+<table><tr><td>
+{{{
+<pbars>
+5345
+3452
+7843
+</pbars>
+}}}
+</td>
+<td><pbars size=200x150>
+5345
+3452
+7843
+</pbars>
+</td></tr></table>
+
+== Step 3: Adding labels ==
+Every line results in a new bar in the chart. Many times a bar should be labeled to give the chart more meaning. The label will be shown beneath the bar. In this case, the different values belong to different months:
+<table><tr><td>
+{{{
+<pbars>
+Oct,5345
+Nov,3452
+Dec,7843
+</pbars>
+}}}
+</td>
+<td>
+<pbars size=200x150>
+Oct,5345
+Nov,3452
+Dec,7843
+</pbars>
+</td></tr></table>
+
+== Step 4: Multiple series ==
+It is also possible to compare multiple series of data. These series are shown as bars with different colors next to eachother. Every color denotes a specific serie. 
+<table><tr><td>
+{{{
+<pbars>
+Oct,5345,3110,1291
+Nov,3452,3695,1047
+Dec,7843,4712,1305
+</pbars>
+}}}
+</td><td>
+<pbars size=200x150>
+Oct,5345,3110,1291
+Nov,3452,3695,1047
+Dec,7843,4712,1305
+</pbars>
+</td></tr></table>
+
+== Step 5: Labeling series ==
+Every serie can also be labeled. This is done by entering labels on the first row. These labels can be shown in a legend.
+
+*N.B.* The label must be in the same column as the data it belongs to. The columns are separated by a comma and the first column contains the labels for the x-axis. Therefore the first label for the series is prepended with a comma.
+<table><tr><td>
+{{{<pbars legend>
+,Europe,United States,Asia
+Oct,5345,3110,1291
+Nov,3452,3695,1047
+Dec,7843,4712,1305
+</pbars>
+}}}
+</td><td><pbars size=300x150 legend>
+,Europe,United States,Asia
+Oct,5345,3110,1291
+Nov,3452,3695,1047
+Dec,7843,4712,1305
+</pbars>
+</td></tr></table>
+
+== Step 6: Style the graph ==
+Apart from the data in the graph, you can control the look and feel of the graph using different [parameters]. Examples of parameters are the title and colors. 
+<table><tr><td>
+{{{
+<pbars size=300x150 title="Site Visitors" ymin=0 ymax=10000 legend>
+,Europe,United States,Asia
+Oct,5345,3110,1291
+Nov,3452,3695,1047
+Dec,7843,4712,1305
+</pbars>
+}}}
+</td><td>
+<pbars size=300x150 title="Site Visitors" ymin=0 ymax=10000 legend>
+,Europe,United States,Asia
+Oct,5345,3110,1291
+Nov,3452,3695,1047
+Dec,7843,4712,1305
+</pbars>
+</td></tr></table>
+
+=Parameters=
+Voor het instellen van het uiterlijk van de verschillende grafieken, kunnen parameters in de tag gebruikt worden. Een voorbeeld hiervan is te zien in bovenstaande grafiek. Onderstaande tabel geeft een overzicht van een aantal veelgebruikte parameters. Een compleet overzicht hiervan is te vinden op de pagina [[parameters]].
+
+{|class="prettytable sortable" width="100%" style="font-size:95%; line-height:150%;"
+!<!-- Parameter ----->style="text-align:left;" width="100px"|Parameter 
+!<!-- Histo --------->style="text-align:center;" width="70px"|Hist 
+!<!-- Taart --------->style="text-align:center;" width="70px"|Taart 
+!<!-- Lijn ---------->style="text-align:center;" width="70px"|Lijn 
+!<!-- Radar --------->style="text-align:center;" width="70px"|Radar 
+!<!-- Spreiding ----->style="text-align:center;" width="70px"|Spreiding 
+!<!-- Bollen -------->style="text-align:center;" width="70px"|Bollen 
+!<!-- Beschrijving -->class="unsortable" style="text-align:left;"|Beschrijving 
+|-
+|<!-- Parameter ----->size 
+|<!-- Histo --------->style="text-align:center;"|ja
+|<!-- Taart --------->style="text-align:center;"|ja
+|<!-- Lijn ---------->style="text-align:center;"|ja
+|<!-- Radar --------->style="text-align:center;"|ja
+|<!-- Spreiding ----->style="text-align:center;"|ja
+|<!-- Bollen -------->style="text-align:center;"|ja
+|<!-- Beschrijving -->Determines the size of the chart image in pixels.
+|-
+|<!-- Parameter ----->title
+|<!-- Histo --------->style="text-align:center;"|ja
+|<!-- Taart --------->style="text-align:center;"|ja
+|<!-- Lijn ---------->style="text-align:center;"|ja
+|<!-- Radar --------->style="text-align:center;"|ja
+|<!-- Spreiding ----->style="text-align:center;"|ja
+|<!-- Bollen -------->style="text-align:center;"|ja
+|<!-- Beschrijving -->Sets the title of the chart. The title is printed on top of the chart.
+|-
+|<!-- Parameter ----->colors
+|<!-- Histo --------->style="text-align:center;"|ja
+|<!-- Taart --------->style="text-align:center;"|ja
+|<!-- Lijn ---------->style="text-align:center;"|ja
+|<!-- Radar --------->style="text-align:center;"|ja
+|<!-- Spreiding ----->style="text-align:center;"|ja
+|<!-- Bollen -------->style="text-align:center;"|ja
+|<!-- Beschrijving -->with colors you can set the color for the chart in RRGGBB-style (like FF0000 for red). If you have multiple data columns separate the colors with a colon. If more colors are needed to draw the chart than given, the colors are used multiple times.
+|-
+|<!-- Parameter ----->labels
+|<!-- Histo --------->style="text-align:center;"|ja
+|<!-- Taart --------->style="text-align:center;"|ja
+|<!-- Lijn ---------->style="text-align:center;"|ja
+|<!-- Radar --------->style="text-align:center;"|nee
+|<!-- Spreiding ----->style="text-align:center;"|ja
+|<!-- Bollen -------->style="text-align:center;"|ja
+|<!-- Beschrijving -->set labels=false to hide the labels on the X and Y axes.
+|-
+|<!-- Parameter ----->grid
+|<!-- Histo --------->style="text-align:center;"|ja
+|<!-- Taart --------->style="text-align:center;"|nee
+|<!-- Lijn ---------->style="text-align:center;"|ja
+|<!-- Radar --------->style="text-align:center;"|nee
+|<!-- Spreiding ----->style="text-align:center;"|ja
+|<!-- Bollen -------->style="text-align:center;"|ja
+|<!-- Beschrijving -->Often a chart is more appealing if there is a grid under it. Use grid=true to do so. Otherwise, set grid=false
+|-
+|<!-- Parameter ----->legend
+|<!-- Histo --------->style="text-align:center;"|ja
+|<!-- Taart --------->style="text-align:center;"|ja
+|<!-- Lijn ---------->style="text-align:center;"|ja
+|<!-- Radar --------->style="text-align:center;"|ja
+|<!-- Spreiding ----->style="text-align:center;"|ja
+|<!-- Bollen -------->style="text-align:center;"|ja
+|<!-- Beschrijving -->you can add a legend to the chart with the legend parameter and putting the labels in the first row of the content. You can specify the location of the legend by setting legend=top, legend=bottom, legend=left or legend=right. Any other value will put the legend on the right.
+|-
+|<!-- Parameter ----->stacked
+|<!-- Histo --------->style="text-align:center;"|ja
+|<!-- Taart --------->style="text-align:center;"|nee
+|<!-- Lijn ---------->style="text-align:center;"|nee
+|<!-- Radar --------->style="text-align:center;"|nee
+|<!-- Spreiding ----->style="text-align:center;"|nee
+|<!-- Bollen -------->style="text-align:center;"|nee
+|<!-- Beschrijving -->if you show multiple data columns in a chart you can use the stacked-parameter to show them stacked and not side by side.
+|-
+|<!-- Parameter ----->plots
+|<!-- Histo --------->style="text-align:center;"|nee
+|<!-- Taart --------->style="text-align:center;"|nee
+|<!-- Lijn ---------->style="text-align:center;"|ja
+|<!-- Radar --------->style="text-align:center;"|nee
+|<!-- Spreiding ----->style="text-align:center;"|ja
+|<!-- Bollen -------->style="text-align:center;"|nee
+|<!-- Beschrijving -->shows small circles on the position of the measured values.
+|-
+|<!-- Parameter ----->opacity
+|<!-- Histo --------->style="text-align:center;"|ja
+|<!-- Taart --------->style="text-align:center;"|nee
+|<!-- Lijn ---------->style="text-align:center;"|ja
+|<!-- Radar --------->style="text-align:center;"|ja
+|<!-- Spreiding ----->style="text-align:center;"|nee
+|<!-- Bollen -------->style="text-align:center;"|nee
+|<!-- Beschrijving -->sets the opacity of the bars or the area underneath the line or radar area. Set a percentage
+|-
+|<!-- Parameter ----->3d
+|<!-- Histo --------->style="text-align:center;"|nee
+|<!-- Taart --------->style="text-align:center;"|ja
+|<!-- Lijn ---------->style="text-align:center;"|nee
+|<!-- Radar --------->style="text-align:center;"|nee
+|<!-- Spreiding ----->style="text-align:center;"|nee
+|<!-- Bollen -------->style="text-align:center;"|nee
+|<!-- Beschrijving -->make the pie 3d. Default is no.
+|}
+
+==Externe referenties==
+* http://pchart.sourceforge.net Original pChart scripts
+* http://www.mediawiki.org/wiki/Extension:Pchart4mw Mediawiki Extension
