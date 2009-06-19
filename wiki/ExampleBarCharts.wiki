@@ -1,0 +1,68 @@
+#summary Examples of bar charts.
+
+{{{
+<pBars TiTLe="Site Visitors" labels overlay ymin=0 size=x200 legend>
+,EU,US,AS
+Jan,6748,1952,2391
+Feb,5918,4091,3001
+Mar,5211,3011,2181
+Apr,6019,3519,1791
+May,7183,5118,3219
+Jun,6109,4411,3572
+</pBars>
+}}}
+{{{
+<pBars TiTLe="Site Visitors" labels stacked ymin=0 size=x200>
+,EU,US,AS
+Jan,6748,2391,1952
+Feb,5918,4091,3001
+Mar,5211,3011,2181
+Apr,6019,3519,1791
+May,7183,5118,3219
+Jun,6109,4411,3572
+</pBars>
+}}}
+{{{
+<pBars TiTLe="Site Visitors" colors=FF0000,00FF00 labels=true ymin=0 ymax=10000 size=500x200 legend>
+,EU,US,AS
+Jan,6748,2391,1952
+Feb,5918,4091,3001
+Mar,5211,3011,2181
+Apr,6019,3519,1791
+May,7183,5118,3219
+Jun,6109,4411,3572
+</pBars>
+}}}
+{{{
+<pBars TiTLe="Site Visitors" size=400x200>
+,EU
+Jan,6748
+Feb,5918
+Mar,5211
+Apr,6019
+May,7183
+Jun,6109
+</pBars>
+}}}
+{{{
+<pBars TiTLe="Site Visitors" labels=false >
+,EU,US,AS
+Jan,6748,2391,1952
+Feb,5918,4091,3001
+Mar,5211,3011,2181
+Apr,6019,3519,1791
+May,7183,5118,3219
+Jun,6109,4411,3572
+</pBars>
+}}}
+{{{
+<pBars TiTLe="Site Visitors"  colors=FF0000,00FF00,0000FF labels=false ymin=0>
+,EU,US,AS
+Jan,6748,2391,1952
+Feb,5918,4091,3001
+Mar,5211,3011,2181
+Apr,6019,3519,1791
+May,7183,5118,3219
+Jun,6109,4411,3572
+</pBars>
+}}}
