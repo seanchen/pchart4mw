@@ -1,0 +1,223 @@
+#summary Parameters that can be used in pchart4mw-tags
+#labels Phase-Documentation
+
+= Introduction =
+
+This page describes all paramaters that can be used in pchart4mw. These parameters are set inside the chart-tag, to control the look and feel of the chart. The example below shows a graph with a title, a specified size, a legend and the unit on the Y-axis is millions. The default parameters are set by the wiki owner, so the can differ per site.
+
+{{{
+<pBars title="Hello World!" size=400x200 legend yunit="M">
+,Turnover,Profit
+New York,3.1,0.2
+London,7.5,1.2
+Amsterdam,4.0,0.4
+Jerusalem,1.2,0.1
+Sydney,6.4,2.1
+</pBars>
+}}}
+
+= Parameters for all types of charts =
+There are a number of parameters that can be set for all types of charts. 
+
+== Size of the chart==
+<dl>
+<dt>size=aaxbb</dt>
+<dd>Sets the size of the image to aa pixels wide and bb pixels high. If only one number is given, the graph will be that wide and also that high. The minimum size of the image is dependent on the margins and whether a title and legend are shown.
+
+_Example:_
+|| {{{
+<pBars size=300x200>
+20
+</pBars>
+}}} || Shows a bar chart of 300 pixels wide and 200 pixels high ||
+|| {{{
+<pBars size=100>
+40
+50
+</pBars>
+}}} || Shows a bar chart of 100 pixels wide and 100 pixels high ||
+|| {{{
+<pBars size=250x>
+40
+50
+</pBars>
+}}} || Shows a bar chart of 250 pixels wide and uses the default number of pixels for height ||
+
+;marginx=..  marginy=..
+:Hiermee kun je de marge in de grafiek bepalen. Staat standaard op 10px. De margin links en rechts is altijd gelijk (marginx). De margin onder en boven is ook altijd gelijk (marginy)
+
+===Titel===
+;title="Site visitors"
+:Stelt de titel van de grafiek in op 'Site Visitors'
+
+;titlecolor=..
+:Stelt de kleur van de titel in. De kleur wordt ingevuld als HTML kleur
+
+===Assen===
+
+;axis[=<u>true</u>|false]
+:Zorgt ervoor dat de assen worden getoond of niet. Intern wordt dan de kleur voor de assen gelijkgesteld aan de achtergrond. Dit werkt dus niet als de achtergrond een gradient is! Als axis=false worden ook de xtitle en ytitle niet getoond!
+
+;labels[=<u>true</u>|false]
+:labels=false betekent dat er geen labels worden geprint bij de assen. Alle andere waarden zorgen ervoor dat de labels wel worden geprint.
+
+;axiscolor=...
+:Bepaalt de kleur van de assen en de tekst daarbij
+
+;xtitle en ytitle
+:Geeft een titel voor de beide assen aan
+
+;xunit en yunit
+:Geeft de eenheid voor de waarden op de X en Y as aan. Deze eenheid wordt achter de verschillende waarden geplakt
+
+;xformat en yformat
+:Het formaat voor de waarden op de X en Y assen. Kan zijn: number, time en date. Bij time moet de waarde het aantal seconden sinds middernacht zijn. Bij een date moet de waarde een UNIX timestamp zijn (dus het aantal seconden sinds 1 jan 1970.
+
+;angle=..
+:Angle for printing the xlabels. This is especially useful when the xlabels are wide.
+
+;grid[=true|<u>false</u>]
+:grid=false betekent dat er geen grid onder de grafiek wordt gezet. Alle andere waarden zijn 'true' en zorgen voor een grid
+
+===Kleuren===
+;colors=FF0000,00FF00
+:Stelt de kleuren in voor het palet. In dit geval worden de eerst twee series rood en groen gekleurd. Als er meer dan twee kleuren nodig zijn, dan krijgen die ook achtereenvolgens rood en groen.
+
+;colorscheme=[accent|greenblue|softblue|purpleblue|paired|original]
+:Stelt een heel kleurenpalet in. Deze namen verwijzen naar bestanden in de colorschemes directory. Als de colorscheme wordt ingevuld en ook de colors, dan heeft de colors-parameter voorrang.
+
+===Data===
+;xlabels[=true|false]
+:Geeft aan dat in de data sectie de eerste kolom de labels voor de X-as bevat. Deze flag is alleen nodig wanneer die eerste kolom numerieke X-labels bevat. Als er non-numerics in staan, dan herkent het script automatisch dat het labels zijn.
+
+;ylabels[=true|false]
+:Geeft aan dat in de data sectie de eerste rij de labels voor de Y-as bevat. Deze flag is alleen nodig wanneer die eerste rij numerieke Y-labels bevat. Als er non-numerics in staan, dan herkent het script automatisch dat het labels zijn.
+
+;ymin=..  ymax=..
+:Deze waarden worden gebruikt voor het handmatig instellen van de Y-as. Er zijn verschillende mogelijkheden:
+:*Alleen 'ymax': de Y-as loopt van 0 tot ymax
+:*Alleen 'ymin': ymin = 0 is het enige geldige. In dat geval wordt de max automatisch bepaald, en is ymin gefixeerd tot 0. Zonder ymin = 0 wordt ook de min automatisch bepaald
+:*'ymin' en 'ymax': de y-as loopt van ymin tot ymax
+:*geen van beide: de hele y-as wordt automatisch bepaald
+
+===Legenda===
+;legend[=<u>none</u>|left|top|right|bottom]
+:Zet de legenda al dan niet ergens neer. Wanneer geen lokatie wordt opgegeven, dan verschijnt de legenda rechts
+
+;legendcolor=..
+:Stelt de kleur van de tekst in de legenda in. De kleur wordt ingevuld als HTML kleur
+
+;legendbgcolor=..
+:Stelt de achtergrondkleur van de legenda in. De kleur wordt ingevuld als HTML kleur
+
+;legendbordercolor=..
+:Stelt de kleur van de border/schaduw van de legenda in. De kleur wordt ingevuld als HTML kleur
+
+===Achtergrond===
+;bgcolor=..
+:Stelt de achtergrondkleur van de grafiek in. De kleur wordt ingevuld als HTML kleur
+
+;bgtype=<u>normal</u>|gradient
+:Maakt de achtergrond als een verloop (gradient), of effen (normal)
+
+;graphbgcolor=..
+:Stelt de achtergrondkleur van het grafiekdeel in
+
+;graphbgtype=<u>transparent</u>|normal|gradient
+:Maakt de achtergrond van het grafiekdeel als een verloop (gradient), of effen (normal)
+
+==Bar charts==
+;stacked[=true|<u>false</u>]
+:Geeft aan of de bar chart stacked moet zijn of niet.
+
+;overlay[=true|<u>false</u>]
+:Produceert een overlay grafiek, waarbij de staven van verschillende series over elkaar heen worden getoond. Werkt niet in combinatie met stacked=true
+
+;opacity=..
+:Geeft aan hoe doorzichtig de staven moeten zijn. 0 = geheel doorzichtig, 100 = geheel ondoorzichtig. Standaard is het 100 voor een gewone en een stacked grafiek. Bij een overlay grafiek is het standaard 50.
+
+==Line charts==
+;plots=<u>none</u>|open|closed
+:Laat op de gemeten punten een rondje zien, al dan niet open
+
+;plotsize=..
+:Grootte van het rondje die getoond wordt.
+
+;cubic[=true|<u>false</u>]
+:Toont de grafiek als een lijn zonder harde knikken erin.
+
+;filled[=true|<u>false</u>]
+:Vult de ruimte onder de grafiek
+
+;opacity=..
+:Geeft aan hoe doorzichtig de gevulde ruimte onder de grafiek moet zijn. 0 = geheel doorzichtig, 100 = geheel ondoorzichtig. Standaard is het 40(= 40% ondoorzichtig). Deze waarde heeft alleen zin als filled=true
+
+==Radar charts==
+;filled[=true|<u>false</u>]
+:Vult de ruimte onder de grafiek
+
+;striped[=true|<u>false</u>]
+:Toont strepen tussen de verbindingslijnen in de radar grafiek
+
+;stripecolor=...
+:Bepaalt de kleur van de verbindingslijnen in de radar grafiek (dus niet van de achtergrond)
+
+;opacity=..
+:Geeft aan hoe doorzichtig de gevulde ruimte onder de grafiek moet zijn. 0 = geheel doorzichtig, 100 = geheel ondoorzichtig. Standaard is het 40(= 40% ondoorzichtig). Deze waarde heeft alleen zin als filled=true
+
+==Pie charts==
+1 of 2 kolommen:
+de eerste bevat de titel, 
+de tweede de waarde voor in de pie chart
+Volgende kolommen worden verwijderd
+
+;labels[=true|<u>false</u>]
+:labels=false betekent dat er geen labels worden geprint bij de taartpunten. Eventueel kunnen er wel percentages getoond worden met percentages=true. Wanneer de labels worden aangezet, is het handig om de legenda uit te zetten. Anders kost het erg veel ruimte en wordt de taart ook erg klein.
+
+;percentages[=<u>true</u>|false]
+:labels=true betekent dat er percentages worden geprint bij de taartpunten.
+
+;3d[=true|<u>false</u>]
+:Zorgt voor een 3d weergave van de pie chart
+
+;exploded[=true|<u>false</u>]
+:Zet de taartpunten een klein stukje uit elkaar
+
+==Scatter charts==
+2 of 3 kolommen:
+de eerste bevat de titel, 
+de tweede de X coordinaat,
+de derde de Y coordinaat
+
+Als er geen kolom is, dan worden de coordinaten (1,1), (2,2), (3,3) etc. gebruikt.
+Wanneer er maar 1 kolom is, dan worden die coordinaten als X en als Y coordinaat gebruikt
+
+Het is ook mogelijk om ipv 2 kolommen voor X en Y coordinaten er 4 of 6 te gebruiken. Dan worden meerdere series getoond. De titel voor elke serie staat boven de X kolom ervan.
+
+;plots=<u>none</u>|open|closed
+:Laat op de gemeten punten een rondje zien, al dan niet open
+
+;plotsize=..
+:Grootte van het rondje die getoond wordt.
+
+;connected[=<u>true</u>|false]
+:Bepaalt of de punten verbonden moeten worden met een lijn
+
+==Bubble charts==
+3 of 4 kolommen:
+de eerste bevat de titel, 
+de tweede de X coordinaat,
+de derde de Y coordinaat,
+de vierde de oppervlakte van de bubble
+
+Als er geen kolom is, dan worden de coordinaten (1,1), (2,2), (3,3) etc. gebruikt, met als grootte 1.
+
+Wanneer er maar 1 kolom is, dan wordt die als oppervlakte-kolom gebruikt, met coordinaten (1,1), (2,2), (3,3).
+
+Wanneer er 2 kolommen zijn, dan wordt de eerste als X en Y coordinaat gebruikt en de tweede als oppervlakte
+
+;plotsize=..
+:Grootte van de grootste bubble die getoond wordt.
+
+;cross=[true|<u>false</u>]
+:Divides the graph in four areas.
