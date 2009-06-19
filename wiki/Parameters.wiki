@@ -32,15 +32,22 @@ _Example_:
 ||Gray||128||128||128||#808080||
 
 _See also_:
-[http://www.w3schools.com/Html/html_colors.asp HTML colors at w3schools]
-[http://html-color-codes.info/ HTML color picker]
+* [http://www.w3schools.com/Html/html_colors.asp HTML colors at w3schools]
+* [http://html-color-codes.info/ HTML color picker]
+
+== Notation ==
+In the explanation of the parameters below, we use the following notation standards:
+|| *title=..* || This notation means that the title expects a value, but you can enter whatever you want as a title. ||
+|| *axis[=<u>true</u>|false]* || This parameter has a few possible values. The brackets around the value-part means that this part is optional. If it is not specified, the underlined value is taken as default. The parameter 'axis' without value means therefore that the axis must be shown. ||
+|| *size={aa}x{bb}* || This means that the parameter size must have a value. The value has a specific format, in this case some number followed by a x followed by another number. The allowed values for the parameter is explained in detail in the details section for the parameter. ||
+|| *axiscolor={color}* || This means that the parameter axiscolor must have a value. The value should be a HTML color, as explained in the previous paragraph. ||
 
 = Parameters for all types of charts =
 There are a number of parameters that can be set for all types of charts. 
 
 == Size of the chart==
 <dl>
-<dt>*size=aaxbb*</dt>
+<dt>*size={aa}x{bb}*</dt>
 <dd>Sets the size of the image to aa pixels wide and bb pixels high. If only one number is given, the graph will be that wide and also that high. The minimum size of the image is dependent on the margins and whether a title and legend are shown.
 _Examples:_
 || Shows a bar chart of 300 pixels wide and 200 pixels high ||
@@ -95,39 +102,140 @@ Mar,51
 Apr,44
 </pLines>
 </dd>
-<dt>titlecolor=..</dt>
+<dt>titlecolor={color}</dt>
 <dd>
+Sets the color of the text of the title. Use HTML hexadecimal colors.
 </dd>
 </dl>
 
-;titlecolor=..
-:Stelt de kleur van de titel in. De kleur wordt ingevuld als HTML kleur
+== Assen ==
 
-===Assen===
+<dl>
+<dt>*axis[=<u>true</u>|false]*</dt>
+<dd>
+Sets whether the axes are shown or not. 'axis=true' means that the axes are shown, 'axis=false' tells the extension to hide the axes. When the axes are hidden, internally the color for the axes is set to be the same as the background color. Because of this implementation, hiding the axes does not work when setting the background type to gradient.
 
-;axis[=<u>true</u>|false]
-:Zorgt ervoor dat de assen worden getoond of niet. Intern wordt dan de kleur voor de assen gelijkgesteld aan de achtergrond. Dit werkt dus niet als de achtergrond een gradient is! Als axis=false worden ook de xtitle en ytitle niet getoond!
+_Example_:
+|| Creates a bar chart with axis shown ||
+{{{
+<pBars axis>
+49
+</pBars>
+}}}
 
-;labels[=<u>true</u>|false]
-:labels=false betekent dat er geen labels worden geprint bij de assen. Alle andere waarden zorgen ervoor dat de labels wel worden geprint.
+|| Hides the axes on a line chart ||
+{{{
+<pLines axis=false>
+4
+6
+2
+3
+</pLines>
+}}}
 
-;axiscolor=...
-:Bepaalt de kleur van de assen en de tekst daarbij
-
-;xtitle en ytitle
-:Geeft een titel voor de beide assen aan
-
-;xunit en yunit
-:Geeft de eenheid voor de waarden op de X en Y as aan. Deze eenheid wordt achter de verschillende waarden geplakt
-
-;xformat en yformat
-:Het formaat voor de waarden op de X en Y assen. Kan zijn: number, time en date. Bij time moet de waarde het aantal seconden sinds middernacht zijn. Bij een date moet de waarde een UNIX timestamp zijn (dus het aantal seconden sinds 1 jan 1970.
-
-;angle=..
-:Angle for printing the xlabels. This is especially useful when the xlabels are wide.
-
-;grid[=true|<u>false</u>]
-:grid=false betekent dat er geen grid onder de grafiek wordt gezet. Alle andere waarden zijn 'true' en zorgen voor een grid
+|| Tries to hide the axes. Because the background type is gradient, the axes will still be visible ||
+{{{
+<pLines bgtype=gradient axis=false>
+4
+6
+2
+3
+</pLines>
+}}}
+</dd>
+<dt>*labels[=<u>true</u>|false]*</dt>
+<dd>Shows or hides the labels next to the axes. If no labels are given in the data section, but this parameter is set to true, numbers are shown next to the X-axis.
+_Example:_
+{{{
+<pLines labels>
+Jan,4
+Feb,6
+Mar,2
+Apr,3
+</pLines>
+}}}
+</dd>
+<dt>*axiscolor={color}*</dt>
+<dd>Sets the color of the axes and the labels next to the axes. This parameter only has effect when 'axis'=true.
+_Example:_
+{{{
+<pLines axiscolor=#FF0000>
+Jan,4
+Feb,6
+Mar,2
+Apr,3
+</pLines>
+}}}
+</dd>
+<dt>*xtitle=..* and *ytitle=..*</dt>
+<dd>Sets a title for the X-axis and Y-axis.
+_Example:_
+{{{
+<pLines xtitle="Months" ytitle="Calls per day">
+Jan,4
+Feb,6
+Mar,2
+Apr,3
+</pLines>
+}}}
+</dd>
+<dt>*xunit=..* and *yunit=..*</dt>
+<dd>Sets the unit for the values on the X-axis and Y-axis. The unit is appended to the values on that axis.
+_Example:_
+{{{
+<pLines yunit="M" title="Turnover per month">
+Jan,4
+Feb,5
+Mar,4.2
+Apr,3
+</pLines>
+}}}
+</dd>
+<dt>*xformat=number|time|date* en *yformat=number|time|date*</dt>
+<dd>Sets the format for the values on the X-axis and Y-axis. 
+The format 'number' is default and shows the numbers on the axes as expected.
+If you set the format to 'time', the values on that axis are expected to be seconds since midnight. The number 60 will be converted to 00:01:00 and the number 3599 will be converted to 00:59:59.
+If you set the format to 'date', the values on that axis are expected to be seconds since 1 january 1970, midnight. This is called a [http://www.unixtimestamp.com UNIX timestamp]. The value 1100491220 will be converted to 11/14/04 22:00
+_Example:_
+{{{
+<pLines title="Calls over time" xunit="time">
+32400,60
+36000,140
+39600,160
+43200,120
+46800,89
+50400,171
+</pLines>
+}}}
+</dd>
+<dt>*angle=..*</dt>
+<dd>
+Angle in degrees for printing the labels under the X-axis. This is especially useful when these labels are wide and the graph is small. Values must be between 0 and 180 degrees.
+_Example:_
+{{{
+<pBars angle=45>
+January,5
+February,10
+March,20
+April,15
+May,22
+</pBars>
+}}}
+</dd>
+<dt>*grid[=<u>true</u>|false]*</dt>
+<dd>Sets the visibility of the grid. 
+_Example:_
+{{{
+<pScatter grid=false>
+1,2
+4,2
+3,6
+3,4
+7,1
+</pScatter>
+}}}
+</dd>
+</dl>
 
 ===Kleuren===
 ;colors=FF0000,00FF00
