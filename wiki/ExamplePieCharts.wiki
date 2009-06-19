@@ -1,0 +1,43 @@
+#summary Examples of pie charts
+#labels Phase-Documentation
+
+{{{
+<pPie>
+Sales,43
+Marketing,21
+Development,56
+Customer Support,23
+Information Technology,31
+Administration,13
+</pPie>
+}}}
+{{{
+<pPie 3d percentages=false labels>
+Sales,43
+Marketing,21
+Development,56
+Customer Support,23
+Information Technology,31
+Administration,13
+</pPie>
+}}}
+{{{
+<pPie labels percentages size=400x300>
+Sales,43
+Marketing,21
+Development,56
+Customer Support,23
+Information Technology,31
+Administration,13
+</pPie>
+}}}
+{{{
+<pPie exploded 3d>
+Sales,43
+Marketing,21
+Development,56
+Customer Support,23
+Information Technology,31
+Administration,13
+</pPie>
+}}}
