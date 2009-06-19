@@ -21,30 +21,49 @@ There are a number of parameters that can be set for all types of charts.
 
 == Size of the chart==
 <dl>
-<dt>size=aaxbb</dt>
+<dt>*size=aaxbb*</dt>
 <dd>Sets the size of the image to aa pixels wide and bb pixels high. If only one number is given, the graph will be that wide and also that high. The minimum size of the image is dependent on the margins and whether a title and legend are shown.
 
-_Example:_
-|| {{{
+_Examples:_
+|| Shows a bar chart of 300 pixels wide and 200 pixels high ||
+{{{
 <pBars size=300x200>
 20
 </pBars>
-}}} || Shows a bar chart of 300 pixels wide and 200 pixels high ||
-|| {{{
+}}}
+
+|| Shows a bar chart of 100 pixels wide and 100 pixels high ||
+{{{
 <pBars size=100>
 40
 50
 </pBars>
-}}} || Shows a bar chart of 100 pixels wide and 100 pixels high ||
-|| {{{
+}}}
+
+|| Shows a bar chart of 250 pixels wide and uses the default number of pixels for height ||
+{{{
 <pBars size=250x>
 40
 50
 </pBars>
-}}} || Shows a bar chart of 250 pixels wide and uses the default number of pixels for height ||
+}}} 
+</dd>
 
-;marginx=..  marginy=..
-:Hiermee kun je de marge in de grafiek bepalen. Staat standaard op 10px. De margin links en rechts is altijd gelijk (marginx). De margin onder en boven is ook altijd gelijk (marginy)
+<dt>*marginx=...  marginy=...*</dt>
+<dd>
+These settings determine the margin from the border of the image to the border of the drawing area. This setting is useful to keep some empty space on the edges. You can set a margin for top and bottom 'marginy' and a margin for left and right 'marginx'.
+
+|| Sets all margins to zero ||
+{{{
+<pLines marginx=0 marginy=0>
+Jan,45
+Feb,62
+Mar,51
+Apr,44
+</pLines>
+}}}
+</dd>
+</dl>
 
 ===Titel===
 ;title="Site visitors"
