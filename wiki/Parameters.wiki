@@ -300,7 +300,6 @@ _Examples:_
 35,36
 </pBars>
 }}}
-
 || Bar chart with four series in red and green ||
 
 {{{
