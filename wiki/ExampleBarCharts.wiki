@@ -1,4 +1,5 @@
 #summary Examples of bar charts.
+#labels Phase-Documentation
 
 {{{
 <pBars TiTLe="Site Visitors" labels overlay ymin=0 size=x200 legend>
