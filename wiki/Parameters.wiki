@@ -12,7 +12,7 @@ New York,3.1,0.2
 London,7.5,1.2
 Amsterdam,4.0,0.4
 Jerusalem,1.2,0.1
-Sydney,6.4,2.1
+Sydney,6.4,2.1ti
 </pBars>
 }}}
 
@@ -100,6 +100,7 @@ Apr,44
 <dl>
 <dt>*title="Site visitors"*</dt>
 <dd>Sets the title of the chart to _Site visitors_. If no title is given, nothing is printed. The title is always shown on top of the chart.
+
 _Example:_
 || Shows the title Average temperature above the graph ||
 
@@ -112,9 +113,10 @@ Apr,44
 </pLines>
 }}}
 </dd>
-<dt>titlecolor={color}</dt>
+<dt>*titlecolor={color}*</dt>
 <dd>
 Sets the color of the text of the title. Use HTML hexadecimal colors.
+
 _Example:_
 || Shows the title Average temperature in red. ||
 
