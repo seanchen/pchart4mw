@@ -185,6 +185,24 @@ Apr,3
 </pLines>
 }}}
 </dd>
+<dt>*box[=<u>true</u>|false]*</dt>
+<dd>This parameter is used to draw a box around the graph area. The box is drawn in the same color as the axes. The result is a solid line above and to the right of the graph area. 
+
+This parameter is present since version 1.0.2
+
+_Example:_
+|| Shows a box around the graph area ||
+
+{{{
+<pLines box>
+Jan,4
+Feb,6
+Mar,2
+Apr,3
+</pLines>
+}}}
+</dd>
+
 <dt>*axiscolor={color}*</dt>
 <dd>Sets the color of the axes and the labels next to the axes. This parameter only has effect when 'axis'=true.
 
@@ -280,6 +298,23 @@ _Example:_
 3,4
 7,1
 </pScatter>
+}}}
+</dd>
+<dt>*gridcolor={color}*</dt>
+<dd>Sets the color of the grid. This parameter only has effect when 'grid'=true.
+
+This parameter is present since version 1.0.2
+
+_Example:_
+|| Shows the grid behind the graph in red||
+
+{{{
+<pLines grid gridcolor=#FF0000>
+Jan,4
+Feb,6
+Mar,2
+Apr,3
+</pLines>
 }}}
 </dd>
 </dl>
