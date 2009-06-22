@@ -367,46 +367,238 @@ Production,47
 </dl>
 
 == Data ==
-;xlabels[=true|false]
-:Geeft aan dat in de data sectie de eerste kolom de labels voor de X-as bevat. Deze flag is alleen nodig wanneer die eerste kolom numerieke X-labels bevat. Als er non-numerics in staan, dan herkent het script automatisch dat het labels zijn.
+<dl>
+<dt>*xlabels[=true|false]*</dt>
+<dd>Set this parameter if the first column contains numeric labels. The script automatically detects whether the data contains labels when the labels are non-numeric. This flag is introduced to create the possibility for numeric labels.
 
-;ylabels[=true|false]
-:Geeft aan dat in de data sectie de eerste rij de labels voor de Y-as bevat. Deze flag is alleen nodig wanneer die eerste rij numerieke Y-labels bevat. Als er non-numerics in staan, dan herkent het script automatisch dat het labels zijn.
+_Example:_
+|| A bar chart with numeric labels on the X-axis ||
 
-;ymin=..  ymax=..
-:Deze waarden worden gebruikt voor het handmatig instellen van de Y-as. Er zijn verschillende mogelijkheden:
-:*Alleen 'ymax': de Y-as loopt van 0 tot ymax
-:*Alleen 'ymin': ymin = 0 is het enige geldige. In dat geval wordt de max automatisch bepaald, en is ymin gefixeerd tot 0. Zonder ymin = 0 wordt ook de min automatisch bepaald
-:*'ymin' en 'ymax': de y-as loopt van ymin tot ymax
-:*geen van beide: de hele y-as wordt automatisch bepaald
+{{{
+<pBars xtitle="minute" ytitle="calls" xlabels>
+0,25
+10,26
+20,31
+30,30
+40,36
+50,27
+</pBars>
+}}}
+</dd>
+<dt>*ylabels[=true|false]*</dt>
+<dd>Set this parameter if the first row contains numeric labels. The script automatically detects whether the data contains labels when the labels are non-numeric. This flag is introduced to create the possibility for numeric labels.
+
+_Example:_
+|| A bar chart with numeric labels for the different series ||
+
+{{{
+<pBars xtitle="minute" ytitle="calls">
+,2008,2009
+0,25,26
+10,26,26
+20,31,29
+30,30,32
+40,36,33
+50,27,29
+</pBars>
+}}}
+</dd>
+<dt>*ymin=0  ymax=..*</dt>
+<dd>
+These values can be set to override automatic scaling. Different combinations of these parameters have a different effect:
+* Both 'ymax' and 'ymin' are not set: the script automatically computes the bounds for the Y-axis
+* Set 'ymax' but leave 'ymin' empty: the lowest value on the Y-axis is automatically computed, the highest value is set to ymax
+* Set 'ymin' to 0 but leave 'ymax' empty: the highest value on the Y-axis is computed, and the lowest value is 0. The only valid value for ymin is 0.
+* Set 'ymin' to 0 and 'ymax' to some other value: The Y-axis will run from 0 to ymax.
+
+_Examples:_
+|| A bar chart with automatic scaling ||
+
+{{{
+<pBars>
+Y2008,Y2009
+25,26
+26,26
+31,29
+30,32
+36,33
+27,29
+</pBars>
+}}}
+|| A bar chart running from 0 to 50 ||
+
+{{{
+<pBars ymin=0 ymax=50>
+Y2008,Y2009
+25,26
+26,26
+31,29
+30,32
+36,33
+27,29
+</pBars>
+}}}
+
+</dd>
+</dl>
 
 == Legend ==
-;legend[=<u>none</u>|left|top|right|bottom]
-:Zet de legenda al dan niet ergens neer. Wanneer geen lokatie wordt opgegeven, dan verschijnt de legenda rechts
+<dl>
+<dt>*legend[=none|left|top|<u>right</u>|bottom]*</dt>
+<dd>Shows the legend on the specified position. If no location is given (i.e. just 'legend'), the legend is placed on the right.
 
-;legendcolor=..
-:Stelt de kleur van de tekst in de legenda in. De kleur wordt ingevuld als HTML kleur
+_Examples:_
+|| A bar chart with legend||
 
-;legendbgcolor=..
-:Stelt de achtergrondkleur van de legenda in. De kleur wordt ingevuld als HTML kleur
+{{{
+<pBars legend>
+Y2008,Y2009
+25,26
+26,26
+31,29
+30,32
+36,33
+27,29
+</pBars>
+}}}
+|| A line chart with a legend on the left ||
 
-;legendbordercolor=..
-:Stelt de kleur van de border/schaduw van de legenda in. De kleur wordt ingevuld als HTML kleur
+{{{
+<pLines legend=left>
+Y2008,Y2009
+25,26
+26,26
+31,29
+30,32
+36,33
+27,29
+</pLines>
+}}}
+</dd>
+<dt>*legendcolor={color}*</dt>
+<dd>Sets the color for the text inside the legend.
+
+_Example:_
+|| A bar chart with legend with red text||
+
+{{{
+<pBars legend legendcolor=#F00>
+Y2008,Y2009
+25,26
+26,26
+31,29
+30,32
+36,33
+27,29
+</pBars>
+}}}
+</dd>
+<dt>*legendbgcolor={color}*</dt>
+<dd>Sets the color for the text inside the legend.
+
+_Example:_
+|| A bar chart with legend with red background||
+
+{{{
+<pBars legend legendbgcolor=#F00>
+Y2008,Y2009
+25,26
+26,26
+31,29
+30,32
+36,33
+27,29
+</pBars>
+}}}
+</dd>
+<dt>*legendbordercolor={color}*</dt>
+<dd>Sets the color for the border around the legend.
+
+_Example:_
+|| A bar chart with legend with red border||
+
+{{{
+<pBars legend legendbordercolor=#F00>
+Y2008,Y2009
+25,26
+26,26
+31,29
+30,32
+36,33
+27,29
+</pBars>
+}}}
+</dd>
+</dl>
 
 == Background ==
-;bgcolor=..
-:Stelt de achtergrondkleur van de grafiek in. De kleur wordt ingevuld als HTML kleur
+<dl>
+<dt>*bgcolor={color}*</dt>
+<dd>Sets the background color for the whole image. The 'graphbgcolor' sets the color for the chart area alone.
 
-;bgtype=<u>normal</u>|gradient
-:Maakt de achtergrond als een verloop (gradient), of effen (normal)
+_Example:_
+|| A bar chart with green background ||
 
-;graphbgcolor=..
-:Stelt de achtergrondkleur van het grafiekdeel in
+{{{
+<pBars bgcolor=#0F0>
+24,43
+28,31
+11,22
+42,21
+</pBars>
+}}}
+</dd>
+<dt>*bgtype=normal|gradient*</dt>
+<dd>Defines the type of background for the whole image. The possibilities are
+* normal: results in a one color background
+* gradient: will produce a gradient on the background
 
-;graphbgtype=<u>transparent</u>|normal|gradient
-:Maakt de achtergrond van het grafiekdeel als een verloop (gradient), of effen (normal)
+_Example:_
+|| A bar chart with gradient background ||
 
-==Bar charts==
+{{{
+<pBars bgtype=gradient>
+24,43
+28,31
+11,22
+42,21
+</pBars>
+}}}
+</dd>
+<dt>*graphbgcolor={color}*</dt>
+<dd>Sets the background color for the chart area alone. 
+
+_Example:_
+|| A bar chart with yellow chart area on green background ||
+
+{{{
+<pBars bgcolor=#0F0 graphbgcolor=#0FF>
+24,43
+28,31
+11,22
+42,21
+</pBars>
+}}}
+</dd>
+<dt>*graphbgtype=normal|gradient*</dt>
+<dd>Defines the type of background in the chart area. The possibilities are
+* normal: results in a one color background
+* gradient: will produce a gradient on the background
+
+_Example:_
+|| A bar chart with gradient background ||
+
+{{{
+<pBars graphbgtype=gradient>
+24,43
+28,31
+11,22
+42,21
+</pBars>
+}}}
+</dd>
+
+= Bar charts =
 ;stacked[=true|<u>false</u>]
 :Geeft aan of de bar chart stacked moet zijn of niet.
 
@@ -416,7 +608,7 @@ Production,47
 ;opacity=..
 :Geeft aan hoe doorzichtig de staven moeten zijn. 0 = geheel doorzichtig, 100 = geheel ondoorzichtig. Standaard is het 100 voor een gewone en een stacked grafiek. Bij een overlay grafiek is het standaard 50.
 
-==Line charts==
+= Line charts =
 ;plots=<u>none</u>|open|closed
 :Laat op de gemeten punten een rondje zien, al dan niet open
 
@@ -432,7 +624,7 @@ Production,47
 ;opacity=..
 :Geeft aan hoe doorzichtig de gevulde ruimte onder de grafiek moet zijn. 0 = geheel doorzichtig, 100 = geheel ondoorzichtig. Standaard is het 40(= 40% ondoorzichtig). Deze waarde heeft alleen zin als filled=true
 
-==Radar charts==
+= Radar charts =
 ;filled[=true|<u>false</u>]
 :Vult de ruimte onder de grafiek
 
@@ -445,7 +637,7 @@ Production,47
 ;opacity=..
 :Geeft aan hoe doorzichtig de gevulde ruimte onder de grafiek moet zijn. 0 = geheel doorzichtig, 100 = geheel ondoorzichtig. Standaard is het 40(= 40% ondoorzichtig). Deze waarde heeft alleen zin als filled=true
 
-==Pie charts==
+= Pie charts =
 1 of 2 kolommen:
 de eerste bevat de titel, 
 de tweede de waarde voor in de pie chart
@@ -463,7 +655,7 @@ Volgende kolommen worden verwijderd
 ;exploded[=true|<u>false</u>]
 :Zet de taartpunten een klein stukje uit elkaar
 
-==Scatter charts==
+= Scatter charts =
 2 of 3 kolommen:
 de eerste bevat de titel, 
 de tweede de X coordinaat,
@@ -483,7 +675,7 @@ Het is ook mogelijk om ipv 2 kolommen voor X en Y coordinaten er 4 of 6 te gebru
 ;connected[=<u>true</u>|false]
 :Bepaalt of de punten verbonden moeten worden met een lijn
 
-==Bubble charts==
+= Bubble charts =
 3 of 4 kolommen:
 de eerste bevat de titel, 
 de tweede de X coordinaat,
