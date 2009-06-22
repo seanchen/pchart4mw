@@ -43,7 +43,7 @@ In the explanation of the parameters below, we use the following notation standa
 || *axiscolor={color}* || This means that the parameter axiscolor must have a value. The value should be a HTML color, as explained in the previous paragraph. ||
 
 = Parameters =
-This list describes the parameters that can be used in pChart4mw. In-depth information about the parameters can be found on the page [[parameterDetails]].
+This list describes the parameters that can be used in pChart4mw. In-depth information about the parameters with examples can be found on the page [[parameterDetails]].
 
 == Size of the chart==
 <dl>
