@@ -42,94 +42,25 @@ In the explanation of the parameters below, we use the following notation standa
 || *size={aa}x{bb}* || This means that the parameter size must have a value. The value has a specific format, in this case some number followed by a x followed by another number. The allowed values for the parameter is explained in detail in the details section for the parameter. ||
 || *axiscolor={color}* || This means that the parameter axiscolor must have a value. The value should be a HTML color, as explained in the previous paragraph. ||
 
-= Parameters for all types of charts =
-There are a number of parameters that can be set for all types of charts. 
+= Parameters =
+This list describes the parameters that can be used in pChart4mw. In-depth information about the parameters can be found on the page [[parameterDetails]].
 
 == Size of the chart==
 <dl>
 <dt>*size={aa}x{bb}*</dt>
-<dd>Sets the size of the image to aa pixels wide and bb pixels high. If only one number is given, the graph will be that wide and also that high. The minimum size of the image is dependent on the margins and whether a title and legend are shown.
-
-_Examples:_
-|| Shows a bar chart of 300 pixels wide and 200 pixels high ||
-
-{{{
-<pBars size=300x200>
-20
-</pBars>
-}}}
-
-|| Shows a bar chart of 100 pixels wide and 100 pixels high ||
-
-{{{
-<pBars size=100>
-40
-50
-</pBars>
-}}}
-
-|| Shows a bar chart of 250 pixels wide and uses the default number of pixels for height ||
-
-{{{
-<pBars size=250x>
-40
-50
-</pBars>
-}}} 
-</dd>
-
+<dd>Sets the size of the image to aa pixels wide and bb pixels high. If only one number is given, the graph will be that wide and also that high. The minimum size of the image is dependent on the margins and whether a title and legend are shown.</dd>
 <dt>*marginx=...  marginy=...*</dt>
 <dd>
-These settings determine the margin from the border of the image to the border of the drawing area. This setting is useful to keep some empty space on the edges. You can set a margin for top and bottom 'marginy' and a margin for left and right 'marginx'.
-
-_Example:_
-|| Sets all margins to zero ||
-
-{{{
-<pLines marginx=0 marginy=0>
-Jan,45
-Feb,62
-Mar,51
-Apr,44
-</pLines>
-}}}
-</dd>
+These settings determine the margin from the border of the image to the border of the drawing area. This setting is useful to keep some empty space on the edges. You can set a margin for top and bottom 'marginy' and a margin for left and right 'marginx'.</dd>
 </dl>
 
 == Title ==
 <dl>
 <dt>*title="Site visitors"*</dt>
-<dd>Sets the title of the chart to _Site visitors_. If no title is given, nothing is printed. The title is always shown on top of the chart.
-
-_Example:_
-|| Shows the title Average temperature above the graph ||
-
-{{{
-<pLines title="Average temperature">
-Jan,45
-Feb,62
-Mar,51
-Apr,44
-</pLines>
-}}}
-</dd>
+<dd>Sets the title of the chart to _Site visitors_. If no title is given, nothing is printed. The title is always shown on top of the chart.</dd>
 <dt>*titlecolor={color}*</dt>
 <dd>
-Sets the color of the text of the title. Use HTML hexadecimal colors.
-
-_Example:_
-|| Shows the title Average temperature in red. ||
-
-{{{
-<pLines title="Average temperature" titlecolor=#FF0000>
-Jan,45
-Feb,62
-Mar,51
-Apr,44
-</pLines>
-}}}
-
-</dd>
+Sets the color of the text of the title. Use HTML hexadecimal colors.</dd>
 </dl>
 
 == Axes ==
@@ -137,466 +68,85 @@ Apr,44
 <dl>
 <dt>*axis[=<u>true</u>|false]*</dt>
 <dd>
-Sets whether the axes are shown or not. 'axis=true' means that the axes are shown, 'axis=false' tells the extension to hide the axes. When the axes are hidden, internally the color for the axes is set to be the same as the background color. Because of this implementation, hiding the axes does not work when setting the background type to gradient.
-
-_Example_:
-|| Creates a bar chart with axis shown ||
-
-{{{
-<pBars axis>
-49
-</pBars>
-}}}
-
-|| Hides the axes on a line chart ||
-
-{{{
-<pLines axis=false>
-4
-6
-2
-3
-</pLines>
-}}}
-
-|| Tries to hide the axes. Because the background type is gradient, the axes will still be visible ||
-
-{{{
-<pLines bgtype=gradient axis=false>
-4
-6
-2
-3
-</pLines>
-}}}
-</dd>
+Sets whether the axes are shown or not. 'axis=true' means that the axes are shown, 'axis=false' tells the extension to hide the axes. When the axes are hidden, internally the color for the axes is set to be the same as the background color. Because of this implementation, hiding the axes does not work when setting the background type to gradient.</dd>
 <dt>*labels[=<u>true</u>|false]*</dt>
-<dd>Shows or hides the labels next to the axes. If no labels are given in the data section, but this parameter is set to true, numbers are shown next to the X-axis.
-
-_Example:_
-||Shows the labels in the graph||
-
-{{{
-<pLines labels>
-Jan,4
-Feb,6
-Mar,2
-Apr,3
-</pLines>
-}}}
-</dd>
+<dd>Shows or hides the labels next to the axes. If no labels are given in the data section, but this parameter is set to true, numbers are shown next to the X-axis.</dd>
 <dt>*box[=<u>true</u>|false]*</dt>
 <dd>This parameter is used to draw a box around the graph area. The box is drawn in the same color as the axes. The result is a solid line above and to the right of the graph area. 
 
-This parameter is present since version 1.0.2
-
-_Example:_
-|| Shows a box around the graph area ||
-
-{{{
-<pLines box>
-Jan,4
-Feb,6
-Mar,2
-Apr,3
-</pLines>
-}}}
-</dd>
-
+This parameter is present since version 1.0.2</dd>
 <dt>*axiscolor={color}*</dt>
-<dd>Sets the color of the axes and the labels next to the axes. This parameter only has effect when 'axis'=true.
-
-_Example:_
-|| Shows the axes and labels in the graph in red ||
-
-{{{
-<pLines axiscolor=#FF0000>
-Jan,4
-Feb,6
-Mar,2
-Apr,3
-</pLines>
-}}}
-</dd>
+<dd>Sets the color of the axes and the labels next to the axes. This parameter only has effect when 'axis'=true.</dd>
 <dt>*xtitle=..* and *ytitle=..*</dt>
-<dd>Sets a title for the X-axis and Y-axis.
-
-_Example:_
-|| Shows titels next to the X-axis and Y-axis ||
-
-{{{
-<pLines xtitle="Months" ytitle="Calls per day">
-Jan,4
-Feb,6
-Mar,2
-Apr,3
-</pLines>
-}}}
-</dd>
+<dd>Sets a title for the X-axis and Y-axis.</dd>
 <dt>*xunit=..* and *yunit=..*</dt>
-<dd>Sets the unit for the values on the X-axis and Y-axis. The unit is appended to the values on that axis.
-
-_Example:_
-|| Shows the values on the Y-axis as millions ||
-
-{{{
-<pLines yunit="M" title="Turnover per month">
-Jan,4
-Feb,5
-Mar,4.2
-Apr,3
-</pLines>
-}}}
-</dd>
+<dd>Sets the unit for the values on the X-axis and Y-axis. The unit is appended to the values on that axis.</dd>
 <dt>*xformat=number|time|date* en *yformat=number|time|date*</dt>
 <dd>Sets the format for the values on the X-axis and Y-axis. 
 The format 'number' is default and shows the numbers on the axes as expected.
 If you set the format to 'time', the values on that axis are expected to be seconds since midnight. The number 60 will be converted to 00:01:00 and the number 3599 will be converted to 00:59:59.
-If you set the format to 'date', the values on that axis are expected to be seconds since 1 january 1970, midnight. This is called a [http://www.unixtimestamp.com UNIX timestamp]. The value 1100491220 will be converted to 11/14/04 22:00
-
-_Example:_
-|| Shows the values on the X-axis as time ||
-
-{{{
-<pLines title="Calls over time" xunit="time" xlabels>
-32400,60
-36000,140
-39600,160
-43200,120
-46800,89
-50400,171
-</pLines>
-}}}
-</dd>
+If you set the format to 'date', the values on that axis are expected to be seconds since 1 january 1970, midnight. This is called a [http://www.unixtimestamp.com UNIX timestamp]. The value 1100491220 will be converted to 11/14/04 22:00</dd>
 <dt>*angle=..*</dt>
-<dd>
-Angle in degrees for printing the labels under the X-axis. This is especially useful when these labels are wide and the graph is small. Values must be between 0 and 180 degrees.
-
-_Example:_
-|| The labels on the X-axis are rotated 45 degrees ||
-
-{{{
-<pBars angle=45>
-January,5
-February,10
-March,20
-April,15
-May,22
-</pBars>
-}}}
-</dd>
+<dd>Angle in degrees for printing the labels under the X-axis. This is especially useful when these labels are wide and the graph is small. Values must be between 0 and 180 degrees.</dd>
 <dt>*grid[=<u>true</u>|false]*</dt>
-<dd>Sets the visibility of the grid. 
-_Example:_
-|| Shows a grid underneath the chart ||
-
-{{{
-<pScatter grid>
-1,2
-4,2
-3,6
-3,4
-7,1
-</pScatter>
-}}}
-</dd>
+<dd>Sets the visibility of the grid.</dd>
 <dt>*gridcolor={color}*</dt>
 <dd>Sets the color of the grid. This parameter only has effect when 'grid'=true.
 
-This parameter is present since version 1.0.2
-
-_Example:_
-|| Shows the grid behind the graph in red||
-
-{{{
-<pLines grid gridcolor=#FF0000>
-Jan,4
-Feb,6
-Mar,2
-Apr,3
-</pLines>
-}}}
-</dd>
+This parameter is present since version 1.0.2</dd>
 </dl>
 
 == Colors ==
 <dl>
 <dt>*colors={color}[,{color},...]*</dt>
-<dd>Defines the colors that are used to draw the chart. Every drawn serie will be drawn using a new color. You can specify multiple colors by separating them with a comma. When less colors are specified than needed, the colors are used multiple times. For example when 4 series are drawn and only red and green are specified as colors, the 1st and 3rd serie are drawn red and the 2nd and 4th are drawn green.
-
-_Examples:_
-|| Bar chart with two series in red and green ||
-
-{{{
-<pBars colors=#F00,#00F>
-16,18
-22,26
-49,49
-35,36
-</pBars>
-}}}
-|| Bar chart with four series in red and green ||
-
-{{{
-<pBars colors=#F00,#00F>
-16,18,13,15
-22,26,21,25
-49,49,52,50
-35,36,34,37
-</pBars>
-}}}
-</dd>
+<dd>Defines the colors that are used to draw the chart. Every drawn serie will be drawn using a new color. You can specify multiple colors by separating them with a comma. When less colors are specified than needed, the colors are used multiple times. For example when 4 series are drawn and only red and green are specified as colors, the 1st and 3rd serie are drawn red and the 2nd and 4th are drawn green.</dd>
 <dt>*colorscheme=[accent|greenblue|softblue|purpleblue|paired|original]*</dt>
 <dd>Tells the chart to use a predefined colorscheme. A colorscheme is a list of colors looking well together. These schemes are defined in textfiles in the colorscheme directory specified in the [[configuration]]. The wiki administrator can add new colorschemes if needed.
 
-*N.B.* If the colors and colorscheme parameters are both set, the colors parameter has precedence over the colorscheme.
-
-_Example:_
-|| A pie chart with soft blue tones ||
-
-{{{
-<pPie colorscheme="softblue">
-Administration,23
-Management,19
-IT and services,28
-Sales,25
-Production,47
-</pPie>
-}}}
-</dd>
+*N.B.* If the colors and colorscheme parameters are both set, the colors parameter has precedence over the colorscheme.</dd>
 </dl>
 
 == Data ==
 <dl>
 <dt>*xlabels[=true|false]*</dt>
-<dd>Set this parameter if the first column contains numeric labels. The script automatically detects whether the data contains labels when the labels are non-numeric. This flag is introduced to create the possibility for numeric labels.
-
-_Example:_
-|| A bar chart with numeric labels on the X-axis ||
-
-{{{
-<pBars xtitle="minute" ytitle="calls" xlabels>
-0,25
-10,26
-20,31
-30,30
-40,36
-50,27
-</pBars>
-}}}
-</dd>
+<dd>Set this parameter if the first column contains numeric labels. The script automatically detects whether the data contains labels when the labels are non-numeric. This flag is introduced to create the possibility for numeric labels.</dd>
 <dt>*ylabels[=true|false]*</dt>
-<dd>Set this parameter if the first row contains numeric labels. The script automatically detects whether the data contains labels when the labels are non-numeric. This flag is introduced to create the possibility for numeric labels.
-
-_Example:_
-|| A bar chart with numeric labels for the different series ||
-
-{{{
-<pBars xtitle="minute" ytitle="calls">
-,2008,2009
-0,25,26
-10,26,26
-20,31,29
-30,30,32
-40,36,33
-50,27,29
-</pBars>
-}}}
-</dd>
+<dd>Set this parameter if the first row contains numeric labels. The script automatically detects whether the data contains labels when the labels are non-numeric. This flag is introduced to create the possibility for numeric labels.</dd>
 <dt>*ymin=0  ymax=..*</dt>
 <dd>
 These values can be set to override automatic scaling. Different combinations of these parameters have a different effect:
 * Both 'ymax' and 'ymin' are not set: the script automatically computes the bounds for the Y-axis
 * Set 'ymax' but leave 'ymin' empty: the lowest value on the Y-axis is automatically computed, the highest value is set to ymax
 * Set 'ymin' to 0 but leave 'ymax' empty: the highest value on the Y-axis is computed, and the lowest value is 0. The only valid value for ymin is 0.
-* Set 'ymin' to 0 and 'ymax' to some other value: The Y-axis will run from 0 to ymax.
-
-_Examples:_
-|| A bar chart with automatic scaling ||
-
-{{{
-<pBars>
-Y2008,Y2009
-25,26
-26,26
-31,29
-30,32
-36,33
-27,29
-</pBars>
-}}}
-|| A bar chart running from 0 to 50 ||
-
-{{{
-<pBars ymin=0 ymax=50>
-Y2008,Y2009
-25,26
-26,26
-31,29
-30,32
-36,33
-27,29
-</pBars>
-}}}
-
-</dd>
+* Set 'ymin' to 0 and 'ymax' to some other value: The Y-axis will run from 0 to ymax.</dd>
 </dl>
 
 == Legend ==
 <dl>
 <dt>*legend[=none|left|top|<u>right</u>|bottom]*</dt>
-<dd>Shows the legend on the specified position. If no location is given (i.e. just 'legend'), the legend is placed on the right.
-
-_Examples:_
-|| A bar chart with legend||
-
-{{{
-<pBars legend>
-Y2008,Y2009
-25,26
-26,26
-31,29
-30,32
-36,33
-27,29
-</pBars>
-}}}
-|| A line chart with a legend on the left ||
-
-{{{
-<pLines legend=left>
-Y2008,Y2009
-25,26
-26,26
-31,29
-30,32
-36,33
-27,29
-</pLines>
-}}}
-</dd>
+<dd>Shows the legend on the specified position. If no location is given (i.e. just 'legend'), the legend is placed on the right.</dd>
 <dt>*legendcolor={color}*</dt>
-<dd>Sets the color for the text inside the legend.
-
-_Example:_
-|| A bar chart with legend with red text||
-
-{{{
-<pBars legend legendcolor=#F00>
-Y2008,Y2009
-25,26
-26,26
-31,29
-30,32
-36,33
-27,29
-</pBars>
-}}}
-</dd>
+<dd>Sets the color for the text inside the legend.</dd>
 <dt>*legendbgcolor={color}*</dt>
-<dd>Sets the color for the text inside the legend.
-
-_Example:_
-|| A bar chart with legend with red background||
-
-{{{
-<pBars legend legendbgcolor=#F00>
-Y2008,Y2009
-25,26
-26,26
-31,29
-30,32
-36,33
-27,29
-</pBars>
-}}}
-</dd>
+<dd>Sets the color for the text inside the legend.</dd>
 <dt>*legendbordercolor={color}*</dt>
-<dd>Sets the color for the border around the legend.
-
-_Example:_
-|| A bar chart with legend with red border||
-
-{{{
-<pBars legend legendbordercolor=#F00>
-Y2008,Y2009
-25,26
-26,26
-31,29
-30,32
-36,33
-27,29
-</pBars>
-}}}
-</dd>
+<dd>Sets the color for the border around the legend.</dd>
 </dl>
 
 == Background ==
 <dl>
 <dt>*bgcolor={color}*</dt>
-<dd>Sets the background color for the whole image. The 'graphbgcolor' sets the color for the chart area alone.
-
-_Example:_
-|| A bar chart with green background ||
-
-{{{
-<pBars bgcolor=#0F0>
-24,43
-28,31
-11,22
-42,21
-</pBars>
-}}}
-</dd>
+<dd>Sets the background color for the whole image. The 'graphbgcolor' sets the color for the chart area alone.</dd>
 <dt>*bgtype=normal|gradient*</dt>
 <dd>Defines the type of background for the whole image. The possibilities are
 * normal: results in a one color background
-* gradient: will produce a gradient on the background
-
-_Example:_
-|| A bar chart with gradient background ||
-
-{{{
-<pBars bgtype=gradient>
-24,43
-28,31
-11,22
-42,21
-</pBars>
-}}}
-</dd>
+* gradient: will produce a gradient on the background</dd>
 <dt>*graphbgcolor={color}*</dt>
-<dd>Sets the background color for the chart area alone. 
-
-_Example:_
-|| A bar chart with yellow chart area on green background ||
-
-{{{
-<pBars bgcolor=#0F0 graphbgcolor=#0FF>
-24,43
-28,31
-11,22
-42,21
-</pBars>
-}}}
-</dd>
+<dd>Sets the background color for the chart area alone.</dd>
 <dt>*graphbgtype=normal|gradient*</dt>
 <dd>Defines the type of background in the chart area. The possibilities are
 * normal: results in a one color background
-* gradient: will produce a gradient on the background
-
-_Example:_
-|| A bar chart with gradient background ||
-
-{{{
-<pBars graphbgtype=gradient>
-24,43
-28,31
-11,22
-42,21
-</pBars>
-}}}
-</dd>
+* gradient: will produce a gradient on the background</dd>
 
 = Bar charts =
 ;stacked[=true|<u>false</u>]
