@@ -4,23 +4,16 @@
 = Introduction =
 pChart4mw is built as a wrapper around pChart. The chart generation itself is done by pChart, the logic of converting the wiki tags to a chart is done by this extension. This process follows these steps
 
-#Get default settings
-#:Default settings can be set per chart type in <tt>LocalSettings.php</tt>. These settings are read from <tt>LocalSettings.php</tt> and settings that are left empty are filled in by built-in defaults.
-#Parse chart arguments
-#:The arguments from the XML tag are parsed by the system. Correct parameters are used for chart generation and parameters that are not set are filled in with default settings.
-#Parse chart data
-#:The data between the opening and closing tag is parsed and checked for correctness. If too much or too little data is entered, interpolation is applied.
-#Initialize chart
-#:Create the chart object with correct background and print the axes if needed.
-#Draw chart
-#:Draw the chart itself based on the data that is entered by the user. This method is different for each type of chart.
-#Finish chart
-#:Print the title and legend to finish the chart.
-#Output
-#:Output the correct HTML code to the browser that shows the chart.
+ # *Get default settings*: default settings can be set per chart type in `LocalSettings.php`. These settings are read from `LocalSettings.php` and settings that are left empty are filled in by built-in defaults.
+ # *Parse chart arguments*: the arguments from the XML tag are parsed by the system. Correct parameters are used for chart generation and parameters that are not set are filled in with default settings.
+ # *Parse chart data*: the data between the opening and closing tag is parsed and checked for correctness. If too much or too little data is entered, interpolation is applied.
+ # *Initialize chart*: create the chart object with correct background and print the axes if needed.
+ # *Draw chart*: draw the chart itself based on the data that is entered by the user. This method is different for each type of chart.
+ # *Finish chart*: print the title and legend to finish the chart.
+ # *Output*: output the correct HTML code to the browser that shows the chart.
 
 = Files =
-The basic pChart4mw file is <tt>pChart4mw.php</tt>. This file is loaded by MediWiki. It sets the default settings, determines the files to be loaded and tells MediaWiki to call a specific function based. 
+The basic pChart4mw file is `pChart4mw.php`. This file is loaded by [http://www.mediawiki.org MediWiki]. It sets the default settings, determines the files to be loaded and tells [http://www.mediawiki.org MediWiki] to call a specific function based. 
 
 When the wiki-code for a chart is found, a specific class for that chart is loaded. For example when the code
 {{{
