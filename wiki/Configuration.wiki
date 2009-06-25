@@ -7,14 +7,14 @@ To configure this extension, several parameters can be set. A few options are ne
 == Obligatory settings ==
 <dl>
 <dt>*pChart location*</dt>
-<dd>Defines the location where pChart is installed. THis variable contains the absolute path to the directory where the pChart class resides. Add the following line to 'LocalSettings.php':
+<dd>Defines the location where pChart is installed. THis variable contains the absolute path to the directory where the pChart class resides. Add the following line to `LocalSettings.php`:
 {{{
 $wgPChart4mwPChartPath = $_SERVER[ "DOCUMENT_ROOT" ] . "/pchart";
 }}}
-to point to '{documentroot}/pchart/pChart.class'.
+to point to `{documentroot}/pchart/pChart.class`.
 </dd>
 <dt>*font location*</dt>
-<dd>Determines the truetype font file to write text into the graph. This variable contains the absolute path to the .ttf file. THe pChart installation contains some font files by default in the Fonts subdirectory. Add the following line to 'LocalSettings.php':
+<dd>Determines the truetype font file to write text into the graph. This variable contains the absolute path to the .ttf file. THe pChart installation contains some font files by default in the Fonts subdirectory. Add the following line to `LocalSettings.php`:
 {{{
 $wgPChart4mwFont = $wgPChart4mwPChartPath . "/Fonts/tahoma.ttf";
 }}}
@@ -28,14 +28,14 @@ to use the tahoma.ttf font from the Fonts subdirectory in the pChart directory.
 <dt>*image format*</dt>
 <dd>
 Determines the file type of the chart images. Can be 'png', 'jpeg' or 'gif'. The default value is 'png'. 
-Add the following line to 'LocalSettings.php':
+Add the following line to `LocalSettings.php`:
 {{{
 $wgPChart4mwImageFormat = "png";
 }}}
 </dd>
 <dt>*cache enabled*</dt>
 <dd>Flag whether the built-in cache should be used. Using the cache the system will only create each chart once and save it to disk. If no changes are detected, the image that is already created will be used. The default value for this parameter is true.
-Add the following line to 'LocalSettings.php':
+Add the following line to `LocalSettings.php`:
 {{{
 $wgPChart4mwCacheEnabled= true;
 }}}
@@ -47,13 +47,13 @@ The directory must be specified as a subdirectory of the $wgUploadPath directory
 {{{
 $wgUploadPath/pChart4mw ([wiki]/images/pChart4mw).
 }}}
-Add the following line to 'LocalSettings.php':
+Add the following line to `LocalSettings.php`:
 {{{
 $wgPChart4mwCacheDir = "pChart4mw";
 }}}
 </dd>
 <dt>*font size*</dt>
-<dd>Fontsize in points that is used for writing text into the charts. Add the following line to 'LocalSettings.php':
+<dd>Fontsize in points that is used for writing text into the charts. Add the following line to `LocalSettings.php`:
 {{{
 $wgPChart4mwFontSize	= 8;
 }}}
@@ -72,7 +72,7 @@ The default value for this parameter is the subdirectory /colorschemes in the ex
 
 All text files in this directory can be used as colorscheme. To do that, use the [[Parameters colorscheme parameter]].
 
-Add the following line to 'LocalSettings.php':
+Add the following line to `LocalSettings.php`:
 {{{
 $wgPChart4mwDefaultColorSchemeDir = "$IP/extensions/pChart4mw/colorschemes";
 }}}
@@ -82,7 +82,7 @@ to use the subdirectory /colorschemes of the pChart4mw subdirectory.
 pChart4mw contains the possibility to use a webservice to generate the charts. This can be useful is you want to use a different server to create the images. You can use the pChartwebservice.php or create your own webservice. More information can be found on the [Webservice webservice] page.
 
 If you leave this parameter emtpy, no webservice is used. That is also the default value.
-Add the following line to 'LocalSettings.php':
+Add the following line to `LocalSettings.php`:
 {{{
 $wgPChart4mwWebservice = "http://localhost:8000/wiki/extensions/pChart4mw/pChartWebservice.php";
 }}}
@@ -92,7 +92,7 @@ $wgPChart4mwWebservice = "http://localhost:8000/wiki/extensions/pChart4mw/pChart
 ==Default settings==
 You can set default settings for all charts on your wiki. All [[parameters]] that can be set for the charts, can also be set to a default value.
 
-To set a default size for all charts, add the following line to 'LocalSettings.php':
+To set a default size for all charts, add the following line to `LocalSettings.php`:
 {{{
 $wgPChart4mwDefaults = Array ( "size" => "200x120" );
 }}}
@@ -102,7 +102,7 @@ You can separate multiple settings with a comma.
 $wgPChart4mwDefaults = Array ( "size" => "200x120", "colorscheme" => "softblue" );
 }}}
 
-Another possibility is to set default values for a specific type of chart. This can be done by adding the following lines (or similar for different types of charts) to 'LocalSettings.php':
+Another possibility is to set default values for a specific type of chart. This can be done by adding the following lines (or similar for different types of charts) to `LocalSettings.php`:
 {{{
 $wgPChart4mwLinesDefaults = Array ( "grid" => "false", "ymin" => "0", "colors" => "F00,0F0,00F" );
   $wgPChart4mwBarsDefaults = Array ( "ymin" => "0" );
