@@ -23,4 +23,4 @@ require_once( "$IP/extensions/pChart4mw/pChart4mw.php" );
 }}}
 
 == Configure the extension ==
-More information about the configuration can be found in the section [configuration].
+More information about the configuration can be found in the section [Configuration configuration].
