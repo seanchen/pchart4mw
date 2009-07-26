@@ -1,5 +1,5 @@
 #summary Table of Contents
 
- * [Introduction]
- * [Installation]
- * [Chart types]
+* [Introduction]
+* [Installation]
+* [Chart types]
