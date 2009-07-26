@@ -1,4 +1,4 @@
-#summary Describes the installation of pChart4mw for wiki owners
+#summary Describes the installation of pChart4mw for wiki administrators
 #labels Phase-Deploy
 #sidebar TableOfContents
 
