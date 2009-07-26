@@ -1,5 +1,6 @@
 #summary Describes the installation of pChart4mw for wiki owners
 #labels Phase-Deploy
+#sidebar TableOfContents
 
 This page describes the installation and configuration of the pChart4mw extension. Most steps for installation and configuration are the same as for other extensions. When you follow the following steps, the extension should work within minutes.
 
