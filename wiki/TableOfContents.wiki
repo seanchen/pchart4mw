@@ -12,3 +12,9 @@
    * [ExampleScatterCharts Scatter Charts]
    * [ExampleRadarCharts Radar Charts]
    * [ExampleBubleCharts Bubble Charts]
+ # [Reference Reference]
+   * [Parameters Parameters]
+   * [ColorSchemes Colorschemes]
+ # [Advanced Advanced]
+   * [TechnicalOverview Technical Overview]
+ 
