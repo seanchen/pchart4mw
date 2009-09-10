@@ -6,3 +6,8 @@
    * [Configuration]
    * [YourFirstGraph Your first graph]
  # [QuickStart Working with graph's]
+   * [ExampleBarCharts Bar Charts]
+   * [ExampleLineCharts Line Charts]
+   * [ExampleScatterCharts Scatter Charts]
+   * [ExampleRadarCharts Radar Charts]
+   * [ExampleBubleCharts Bubble Charts]
