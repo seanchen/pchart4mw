@@ -5,4 +5,4 @@
    * [Installation]
    * [Configuration]
    * [YourFirstGraph Your first graph]
- # Chart types
+ # [QuickStart Working with graph's]
