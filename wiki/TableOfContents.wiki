@@ -1,8 +1,8 @@
 #summary Table of Contents
 
- * [Introduction]
- * [Getting started]
- ** [Installation]
- ** [Configuration]
- ** [Your first graph]
- * Chart types
+ # [Introduction]
+ # [Getting started]
+   * [Installation]
+   * [Configuration]
+   * [Your first graph]
+ # Chart types
