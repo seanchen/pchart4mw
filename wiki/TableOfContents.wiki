@@ -4,5 +4,5 @@
  # [GettingStarted Getting started]
    * [Installation]
    * [Configuration]
-   * [Your first graph]
+   * [YourFirstGraph Your first graph]
  # Chart types
