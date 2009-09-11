@@ -6,7 +6,7 @@
    * [Configuration]
    * [YourFirstGraph Your first graph]
  # [QuickStart Working with graph's]
-   * [ChartTypes Chart types]]
+   * [ChartTypes Chart types]
      * [ExampleBarCharts Bar Charts]
      * [ExampleLineCharts Line Charts]
      * [ExamplePieCharts Pie Charts]
