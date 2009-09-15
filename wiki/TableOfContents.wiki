@@ -17,4 +17,4 @@
     * [ColorSchemes Colorschemes]
   * [More]
     * [TechnicalOverview Technical Overview]
-    * [FAQ Frequently Asked Questions]]
+    * [FAQ Frequently Asked Questions]
