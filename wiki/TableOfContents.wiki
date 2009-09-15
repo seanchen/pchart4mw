@@ -7,9 +7,9 @@
     * [YourFirstGraph Your first graph]
   * [QuickStart Working with graph's]
     * [ChartTypes Chart types]
-    * [ExampleBarCharts Bar Charts]
-    * [ExampleLineCharts Line Charts]
-    * [ExamplePieCharts Pie Charts
+    * [ExampleBarCharts Charts: Bar Charts]
+    * [ExampleLineCharts Charts: Line Charts]
+    * [ExamplePieCharts Pie Charts]
     * [ExampleScatterCharts Scatter Charts]
     * [ExampleRadarCharts Radar Charts]
     * [ExampleBubleCharts Bubble Charts]
