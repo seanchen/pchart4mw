@@ -2,9 +2,9 @@
 
   [Introduction]<br>
   [GettingStarted Getting started]<br>
-  &middot; [Installation]<br>
-  . [Configuration]<br>
-  . [YourFirstGraph Your first graph]<br>
+  - [Installation]<br>
+  - [Configuration]<br>
+  - [YourFirstGraph Your first graph]<br>
   [QuickStart Working with charts]
     [ChartTypes General]
     [ExampleBarCharts Charts: Bar]
