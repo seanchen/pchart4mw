@@ -1,10 +1,10 @@
 #summary Table of Contents
 
   [Introduction]<br>
-  [GettingStarted Getting started]
-  . [Installation]
-  . [Configuration]
-  . [YourFirstGraph Your first graph]
+  [GettingStarted Getting started]<br>
+  . [Installation]<br>
+  . [Configuration]<br>
+  . [YourFirstGraph Your first graph]<br>
   [QuickStart Working with charts]
     [ChartTypes General]
     [ExampleBarCharts Charts: Bar]
