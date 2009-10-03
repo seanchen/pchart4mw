@@ -11,7 +11,7 @@ There are a few simple steps you need to take to set yourself up:
  # [Installation Install] the pChart Library 
  # [Installation Install] the pchart4mw extension
  # [Configuration Configure] the extension so that it can be used within your site
- # Try and test your first chart.
+ # [YourFirstGraph Try and test] your first chart.
 
 == References ==
  * pChart library can be found http://pchart.sourceforge.net/ 
