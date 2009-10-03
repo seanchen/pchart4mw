@@ -10,7 +10,7 @@ To set yourself up you need both the pChart library AND the pchart4mw extension.
 === Get yourself setup==
 There are a few simple steps you need to take to set yourself up:
 
- # [Installation Instal=l] the pChart Library 
+ # [Installation Install] the pChart Library 
  # [Installation Install] the pchart4mw extension
  # [Configuration Configure] the extension so that it can be used within your site
  # [YourFirstGraph Try and test] your first chart.
