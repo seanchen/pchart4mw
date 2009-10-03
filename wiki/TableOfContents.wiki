@@ -1,11 +1,11 @@
 #summary Table of Contents
 
-  # [Introduction]
-  # [GettingStarted Getting started]
+  [Introduction]
+  [GettingStarted Getting started]
     * [Installation]
     * [Configuration]
     * [YourFirstGraph Your first graph]
-  * [QuickStart Working with graph's]
+  [QuickStart Working with graph's]
     * [ChartTypes General]
     * [ExampleBarCharts Charts: Bar]
     * [ExampleLineCharts Charts: Line]
@@ -15,6 +15,6 @@
     * [ExampleBubleCharts Charts: Bubble]
     * [Parameters Parameters]
     * [ColorSchemes Colorschemes]
-  * [More]
+  [More]
     * [TechnicalOverview Technical Overview]
     * [FAQ Frequently Asked Questions]
