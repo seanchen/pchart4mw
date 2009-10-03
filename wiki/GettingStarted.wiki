@@ -8,7 +8,8 @@ pchart4mw works, together with the pChart library, fully within your Mediawiki s
 = Get yourself ready to go==
 There are a few simple steps you need to take to set yourself up:
 
- # Install the pChart Library PLUS the pchart4mw extension
+ # Install the pChart Library 
+ # Install the pchart4mw extension
  # Configure the extension so that it can be used
  # Try and test your first chart.
 
