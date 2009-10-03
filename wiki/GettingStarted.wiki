@@ -14,4 +14,4 @@ There are a few simple steps you need to take to set yourself up:
  # Try and test your first chart.
 
 = References =
-* pChart library can be found [http://pchart.sourceforge.net/ here]...
+ * pChart library can be found http://pchart.sourceforge.net/ 
