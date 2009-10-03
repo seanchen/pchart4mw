@@ -1,19 +1,19 @@
 #summary Getting yourself setup and started
 
-== What you need ==
+=== What you need ===
 The pChart for Mediawiki extension (pchart4mw) allows you to make graph charts like line-, bar-, pie-, radar-, scatter- and bubble charts. It uses the (free) PHP Chart library pChart to produce these graphs. It allows for 2- or 3-dimensional graphs, which are all within the potential of the pChart library. The graphs are based on your data from the wiki page.
 
 pchart4mw works, together with the pChart library, fully within your Mediawiki server environment. The data is processed completely within the server environment. 
 
 To set yourself up you need both the pChart library AND the pchart4mw extension.
 
-== Get yourself setup==
+=== Get yourself setup==
 There are a few simple steps you need to take to set yourself up:
 
- # [Installation Install] the pChart Library 
+ # [Installation Instal=l] the pChart Library 
  # [Installation Install] the pchart4mw extension
  # [Configuration Configure] the extension so that it can be used within your site
  # [YourFirstGraph Try and test] your first chart.
 
-== References ==
+=== References ===
  * pChart library can be found http://pchart.sourceforge.net/ 
