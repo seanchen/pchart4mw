@@ -7,7 +7,7 @@ This page describes the installation and configuration of the pChart4mw extensio
 == Install the pChart scripts ==
 The first thing you need is a copy of the pChart library. Download the latest version from the pChart website. Follow the instructions for pChart installation. The location where pChart is installed must be specified later on in <tt>LocalSettings.php</tt>.<br> Remember this location. Check the system requirements for the pChart library, _(your PHP installation needs to have GD library with freetype extension enabled_). 
 Possible locations for the pChart library are, for example: <br>
- # Example 1: pChart library installed in '[documentroot]/pChart/pChart.class' 
+ # Example 1: pChart library installed in {{{[documentroot]/pChart/pChart.class}}} 
  # Example 2: pChart library installed in <tt>$IP/extensions/pChart4mw/pChart/pChart.class</tt> (sub-directory of pchart4mw extension) 
 
 pChart4mw is tested with pChart version 1.27d, but should also work with any newer version. Regarding the pChart release notes, version 1.27c should also work.
