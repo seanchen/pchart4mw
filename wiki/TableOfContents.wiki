@@ -1,7 +1,7 @@
 #summary Table of Contents
 
-  * [Introduction]
-  * [GettingStarted Getting started]
+  # [Introduction]
+  # [GettingStarted Getting started]
     * [Installation]
     * [Configuration]
     * [YourFirstGraph Your first graph]
