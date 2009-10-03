@@ -7,7 +7,7 @@ pchart4mw works, together with the pChart library, fully within your Mediawiki s
 
 To set yourself up you need both the pChart library AND the pchart4mw extension.
 
-== Get yourself ready to go==
+== Get yourself setup==
 There are a few simple steps you need to take to set yourself up:
 
  # [Installation Install] the pChart Library 
