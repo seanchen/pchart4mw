@@ -12,7 +12,7 @@ Locations for the pChart library are, for example: <br>
 
 pChart4mw is tested with pChart library version 1.27d.
 
-== Install this extension ==
+== Install the pchart4mw extension ==
 Download the PHP scripts here and put them into the directory
 {{{
 $IP/extensions/pChart4mw
