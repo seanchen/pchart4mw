@@ -5,7 +5,7 @@
     * [Installation]
     * [Configuration]
     * [YourFirstGraph Your first graph]
-  [QuickStart Working with graph's]
+  [QuickStart Working with charts]
     * [ChartTypes General]
     * [ExampleBarCharts Charts: Bar]
     * [ExampleLineCharts Charts: Line]
