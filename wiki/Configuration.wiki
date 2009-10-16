@@ -68,7 +68,7 @@ to use the subdirectory /colorschemes of the pChart4mw subdirectory.
 </dd>
 
 <dt>*webservice*</dt>
-<dd>pChart4mw contains the possibility to use a webservice to generate the charts. This can be useful is you want to use a different server to create the images. You can use the pChartwebservice.php or create your own webservice. More information can be found on the [Webservice webservice] page.
+<dd>pChart4mw contains the possibility to use a webservice to generate the charts. This can be useful is you want to use a different server to create the images. You can use the pChartwebservice.php or create your own webservice. More information can be found on the  webservice page.
 
 If you leave this parameter emtpy, no webservice is used. That is also the default value.
 Add the following line to `LocalSettings.php`:
@@ -77,6 +77,8 @@ $wgPChart4mwWebservice = "http://localhost:8000/wiki/extensions/pChart4mw/pChart
 }}}
 </dd>
 </dl>
+
+Please note: This is advanced use of pchart4mw it will be documented later...
 
 ===Default settings===
 You can set default settings for all charts on your wiki. All [[parameters]] that can be set for the charts, can also be set to a default value.
