@@ -75,10 +75,9 @@ Add the following line to `LocalSettings.php`:
 {{{
 $wgPChart4mwWebservice = "http://localhost:8000/wiki/extensions/pChart4mw/pChartWebservice.php";
 }}}
+Importand: This is advanced use of pchart4mw it will be documented later...
 </dd>
 </dl>
-
-Please note: This is advanced use of pchart4mw it will be documented later...
 
 ===Default settings===
 You can set default settings for all charts on your wiki. All [[parameters]] that can be set for the charts, can also be set to a default value.
