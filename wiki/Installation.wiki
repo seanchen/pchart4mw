@@ -19,8 +19,18 @@ $IP/extensions/pChart4mw
 }}}
 After extraction you should have the files:
 {{{
-$IP/extensions/pChart4mw/
-                        /pChart4mw
+$IP/extensions/pChart4mw/colorschemes/
+                        /colorschemes/*.txt
+                        /pChart4mw.php
+                        /pChart4mw.class.php
+                        /pChart4mw.bars.class.php
+                        /pChart4mw.bubble.class.php
+                        /pChart4mw.lines.class.php
+                        /pChart4mw.pie.class.php
+                        /pChart4mw.radar.php
+                        /pChart4mw.scatter.class.php
+                        /library.inc.php
+                        /changes.txt
 }}}
 
 
