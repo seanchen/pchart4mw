@@ -1,6 +1,6 @@
 #summary Introduction to pchart for mediawiki
 
-== What is pchart4mw? ==
+=== What is pchart4mw? ===
 
 pchart4mw is a Mediawiki extension that enables you to create professional looking charts within a mediawiki page. 
 
