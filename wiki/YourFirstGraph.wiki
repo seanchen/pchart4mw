@@ -10,3 +10,5 @@
 </pbars>
 }}}
 Shows like:
+
+http://pchart4mw.googlecode.com/files/pchart4mw-bar-00.png
