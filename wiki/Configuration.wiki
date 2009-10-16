@@ -3,7 +3,7 @@
 
 To configure this extension, several parameters can be set. These settings are optional to configure pchart4mw to your personal settings.
 
-== Optional settings ==
+=== Optional settings ===
 <dl>
 <dt>*font location*</dt>
 <dd>Determines the truetype font file to write text into the graph. This variable contains the absolute path to the .ttf file. THe pChart installation contains some font files by default in the Fonts subdirectory. Add the following line to `LocalSettings.php`:
@@ -79,7 +79,7 @@ $wgPChart4mwWebservice = "http://localhost:8000/wiki/extensions/pChart4mw/pChart
 </dd>
 </dl>
 
-==Default settings==
+===Default settings===
 You can set default settings for all charts on your wiki. All [[parameters]] that can be set for the charts, can also be set to a default value.
 
 To set a default size for all charts, add the following line to `LocalSettings.php`:
