@@ -58,7 +58,7 @@ $wgPChart4mwFontSize	= 8;
 204,204,204
 255,255,255
 }}}
-The default value for this parameter is the subdirectory `/colorschemes` in the `$IP/extensions/pChart4mw` directory. All text files in this directory can be used as colorscheme. To do that, use the [Parameters colorscheme parameter].
+The default value for this parameter is the subdirectory `/colorschemes` in the `$IP/extensions/pChart4mw` directory. All text files in this directory can be used as colorscheme. To do that, use the colorscheme parameter.
 
 Add the following line to `LocalSettings.php`:
 {{{
