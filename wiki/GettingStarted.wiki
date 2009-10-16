@@ -19,4 +19,5 @@ There are a few simple steps you need to take to set yourself up:
  # [YourFirstGraph Try and test] your first chart.
 
 === References ===
- * pChart library can be found http://pchart.sourceforge.net/ 
+ * pChart library can be found http://pchart.sourceforge.net/
+ * The pchart4mw extension page: http://www.mediawiki.org/wiki/Extension:pchart4mw  
