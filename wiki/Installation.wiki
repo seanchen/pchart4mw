@@ -44,7 +44,7 @@ $IP/extensions/pChart4mw/colorschemes/
 
 
 === Step 3: Tell Mediawiki about this extension ==
-Add the following line to the file LocalSettings.php
+Once the files are installed you need to let MediaWiki know about this extension. Add the following line to the file {{{LocalSettings.php}}}
 {{{
 require_once( "$IP/extensions/pChart4mw/pChart4mw.php" );
 }}}
