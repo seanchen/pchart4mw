@@ -62,6 +62,7 @@ Option 2: point to `$IP/extensions/pChart4mw/pChart/pChart.class` with:
 }}}
 
 === Configure the extension ===
-Your setup is good to go. There are several optional configuration options you might like to add to `LocalSettings.php`. (Recommended is to do this after testing your first graph). 
+Your setup is good to go. There are several optional configuration options you might like to add to `LocalSettings.php`. (Recommended is to do this after testing [YourFirstGraph your first chart]). 
+
 
 More information about the configuration can be found in the section [Configuration configuration].
