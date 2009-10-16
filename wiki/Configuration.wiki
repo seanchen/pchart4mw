@@ -75,7 +75,7 @@ Add the following line to `LocalSettings.php`:
 {{{
 $wgPChart4mwWebservice = "http://localhost:8000/wiki/extensions/pChart4mw/pChartWebservice.php";
 }}}
-Importand: This is advanced use of pchart4mw it will be documented later...
+Important: This is advanced use of pchart4mw it will be documented later...
 </dd>
 </dl>
 
