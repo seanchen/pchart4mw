@@ -2,8 +2,7 @@
 
 Once pchart4mw is installed you can try creating your first bar chart.
 
-=== Edit a wiki page===
-Open a page of your wiki site and edit this wikitext in it and save the page:
+Open a page of your wiki site and edit this wikitext in it:
 {{{
 <pbars>
 5345
@@ -12,7 +11,6 @@ Open a page of your wiki site and edit this wikitext in it and save the page:
 </pbars>
 }}}
 
-=== Looks like===
-The page should look something like:
+After you have saved the page it should show a bar chart like:
 
 http://pchart4mw.googlecode.com/files/pchart4mw-bar-00.png
