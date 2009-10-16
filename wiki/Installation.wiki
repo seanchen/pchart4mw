@@ -10,7 +10,16 @@ Locations for the pChart library are, for example: <br>
  # Example 1: pChart library installed in {{{[documentroot]/pChart/pChart.class}}} 
  # Example 2: pChart library installed in {{{$IP/extensions/pChart4mw/pChart/pChart.class}}} _(sub-directory of pchart4mw extension)_ 
 
-pChart4mw is tested with pChart library version 1.27d.
+After extraction you should have the files:
+{{{
+...pChart/Fonts/
+         /Fonts/*.ttf
+         /pChart.class
+         /pChart.class.php
+         /pCache.class
+         /pData.class
+}}}
+Please note that pChart4mw is tested with pChart library version 1.27d.
 
 === Step 2: Install the pchart4mw extension ===
 Download the PHP scripts from our download page and extract them into the directory
