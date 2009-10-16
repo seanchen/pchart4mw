@@ -4,10 +4,15 @@
 pchart4mw is a Mediawiki extension that enables you to create professional looking charts within a mediawiki page. With it you can create line-, bar-, pie-, radar-, scatter- and bubble charts. For example:
 http://pchart4mw.googlecode.com/files/pchart4mw-line-02.png
 
-=== How do I get started with pchart4wm ? ===
-If you are a Mediawiki user and you're the administrator of your wiki site pchart4mw is for you. It is easy to install and use.
+If you use Mediawiki and you would like to add professional charting to your site pchart4mw is for you!
 
- Follow the 
+=== How do I get started with pchart4wm ? ===
+If your new to pchart4mw continue reading the [Getting started]
+
+ # [Installation Install] the pChart Library 
+ # [Installation Install] the pchart4mw extension
+ # [Configuration Configure] the extension so that it can be used within your site
+ # [YourFirstGraph Try and test] your first chart.
 
 
 
