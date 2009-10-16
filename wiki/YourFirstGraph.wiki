@@ -1,13 +1,12 @@
 #summary Try out pchart4mw
 
-= Introduction =
+===Creating your first chart===
 
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+{{{
+<pbars>
+5345
+3452
+7843
+</pbars>
+}}}
+Shows like:
