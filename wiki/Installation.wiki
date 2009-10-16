@@ -49,7 +49,12 @@ Once the files are installed you need to let MediaWiki know about this extension
 require_once( "$IP/extensions/pChart4mw/pChart4mw.php" );
 }}}
 
-
+Define the location where pChart library is installed. This variable contains the absolute path to the directory where the pChart class resides. Add the following line to `LocalSettings.php`:
+{{{
+$wgPChart4mwPChartPath = $_SERVER[ "DOCUMENT_ROOT" ] . "/pchart";
+}}}
+to point to `{documentroot}/pchart/pChart.class`.
+</dd>
 
 === Configure the extension ===
 More information about the configuration can be found in the section [Configuration configuration].
