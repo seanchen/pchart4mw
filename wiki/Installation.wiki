@@ -4,7 +4,7 @@
 
 This page describes the installation and configuration of the pChart library AND the pChart4mw extension. Most steps for installation and configuration are the same as for other Mediawiki extensions. When you follow the following steps, the extension should work within minutes.
 
-=== Install the pChart library ===
+=== Step 1: Install the pChart library ===
 The first thing you need is a copy of the pChart library. Download the latest version from the pChart website [http://pchart.sourceforge.net/ here...] <br>Follow the instructions for pChart installation. The location where pChart is installed must be specified later on in {{{LocalSettings.php}}}. Remember this location. Check the system requirements for the pChart library. _(your PHP installation needs to have GD library with freetype extension enabled)_ 
 Locations for the pChart library are, for example: <br>
  # Example 1: pChart library installed in {{{[documentroot]/pChart/pChart.class}}} 
@@ -12,17 +12,17 @@ Locations for the pChart library are, for example: <br>
 
 pChart4mw is tested with pChart library version 1.27d.
 
-== Install the pchart4mw extension ==
+=== Step 2: Install the pchart4mw extension ===
 Download the PHP scripts here and put them into the directory
 {{{
 $IP/extensions/pChart4mw
 }}}
 
-== Tell Mediawiki about this extension ==
+=== Step 3: Tell Mediawiki about this extension ==
 Add the following line to the file LocalSettings.php
 {{{
 require_once( "$IP/extensions/pChart4mw/pChart4mw.php" );
 }}}
 
-== Configure the extension ==
+=== Configure the extension ===
 More information about the configuration can be found in the section [Configuration configuration].
