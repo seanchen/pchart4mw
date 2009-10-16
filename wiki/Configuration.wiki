@@ -49,7 +49,7 @@ $wgPChart4mwFontSize	= 8;
 }}}
 </dd>
 <dt>*color scheme directory*</dt>
-<dd>Directory containing the color schemes. These color schemes are text files with a color on each line. Every color is a comma-separated RGB color. An example is
+<dd>Directory containing the color schemes. These color schemes are text files with a color on each line. Every color is a comma-separated RGB color. For example:
 {{{
 0,0,0
 51,51,51
@@ -58,9 +58,9 @@ $wgPChart4mwFontSize	= 8;
 204,204,204
 255,255,255
 }}}
-The default value for this parameter is the subdirectory /colorschemes in the extensions/pChart4mw subdirectory.
+The default value for this parameter is the subdirectory `/colorschemes` in the `$IP/extensions/pChart4mw` directory.
 
-All text files in this directory can be used as colorscheme. To do that, use the [[Parameters colorscheme parameter]].
+All text files in this directory can be used as colorscheme. To do that, use the [Parameters colorscheme parameter].
 
 Add the following line to `LocalSettings.php`:
 {{{
@@ -68,6 +68,7 @@ $wgPChart4mwDefaultColorSchemeDir = "$IP/extensions/pChart4mw/colorschemes";
 }}}
 to use the subdirectory /colorschemes of the pChart4mw subdirectory.
 </dd>
+
 <dt>*webservice*</dt>
 pChart4mw contains the possibility to use a webservice to generate the charts. This can be useful is you want to use a different server to create the images. You can use the pChartwebservice.php or create your own webservice. More information can be found on the [Webservice webservice] page.
 
