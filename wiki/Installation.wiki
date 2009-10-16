@@ -13,10 +13,16 @@ Locations for the pChart library are, for example: <br>
 pChart4mw is tested with pChart library version 1.27d.
 
 === Step 2: Install the pchart4mw extension ===
-Download the PHP scripts here and put them into the directory
+Download the PHP scripts from our download page and extract them into the directory
 {{{
 $IP/extensions/pChart4mw
 }}}
+After extraction you should have the files:
+{{{
+$IP/extensions/pChart4mw/
+                        /pChart4mw
+}}}
+
 
 === Step 3: Tell Mediawiki about this extension ==
 Add the following line to the file LocalSettings.php
