@@ -7,6 +7,9 @@ pchart4mw works, together with the pChart library, fully within your Mediawiki s
 
 To set yourself up you need both the pChart library AND the pchart4mw extension.
 
+===Requirements===
+You need a uo-and-running Mediawiki site. Make sure that you're PHP version is 5.x with GD and freetype library enabled.
+
 === Get yourself setup==
 There are a few simple steps you need to take to set yourself up:
 
