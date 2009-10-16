@@ -1,13 +1,9 @@
 #summary Introduction to pchart for mediawiki
 
-= Introduction =
+== What is pchart4mw? ==
 
-Add your content here.
+pchart4mw is a Mediawiki extension that enables you to create professional looking charts within a mediawiki page. 
 
+== New to pchart4mw?
 
 = Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, <strike>paragraphs</strike>, and lists
-  * Automatic links to other wiki pages
