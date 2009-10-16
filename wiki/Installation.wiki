@@ -49,5 +49,7 @@ Once the files are installed you need to let MediaWiki know about this extension
 require_once( "$IP/extensions/pChart4mw/pChart4mw.php" );
 }}}
 
+
+
 === Configure the extension ===
 More information about the configuration can be found in the section [Configuration configuration].
