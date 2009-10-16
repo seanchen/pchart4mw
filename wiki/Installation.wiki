@@ -58,8 +58,10 @@ $wgPChart4mwPChartPath = $_SERVER[ "DOCUMENT_ROOT" ] . "/pchart";
 
 Option 2: point to `$IP/extensions/pChart4mw/pChart/pChart.class` with: 
 {{{
-$wgPChart4mwPChartPath = $_SERVER[ "DOCUMENT_ROOT" ] . "/pchart";
+#$wgPChart4mwPChartPath = $dirname(__FILE__)."/pChart";
 }}}
 
 === Configure the extension ===
+Your setup is good to go. There are several optional configuration options you might like to add to 'LocalSettings.php'. (Recomended is to do this after testing your first graph). 
+
 More information about the configuration can be found in the section [Configuration configuration].
