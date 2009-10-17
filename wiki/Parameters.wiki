@@ -3,7 +3,7 @@
 
 <wiki:toc max_depth="3" />
 
-== Introduction ==
+= Introduction =
 
 This page describes all parameters that can be used in pchart4mw. These parameters are set inside the chart-tag, to control the look and feel of the chart. The example below shows a graph with a title, a specified size, a legend and the unit on the Y-axis is millions. The default parameters are set by the wiki owner, so the can differ per site.
 
