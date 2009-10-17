@@ -6,7 +6,6 @@
   o [Configuration]<br>
   o [YourFirstGraph Your first chart]<br>
   [WorkingWithCharts Working with charts]<br>
-  [QuickStart Working with charts]<br>
     [ChartTypes General]
     [ExampleBarCharts Charts: Bar]
     [ExampleLineCharts Charts: Line]
