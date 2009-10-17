@@ -58,7 +58,7 @@ $wgPChart4mwPChartPath = $_SERVER["DOCUMENT_ROOT"] . "/pchart";
 
 Option 2: point to `$IP/extensions/pChart4mw/pChart/pChart.class` with: 
 {{{
-#$wgPChart4mwPChartPath = $_SERVER["DOCUMENT_ROOT"] . "/wiki/extensions/pChart4mw/pChart";
+$wgPChart4mwPChartPath = $_SERVER["DOCUMENT_ROOT"] . "/wiki/extensions/pChart4mw/pChart";
 }}}
 
 === Configure the extension ===
