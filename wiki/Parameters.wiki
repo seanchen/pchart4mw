@@ -1,9 +1,9 @@
 #summary Parameters that can be used in pchart4mw-tags
 #labels Phase-Documentation
 
-= Introduction =
+=== Introduction ===
 
-This page describes all paramaters that can be used in pchart4mw. These parameters are set inside the chart-tag, to control the look and feel of the chart. The example below shows a graph with a title, a specified size, a legend and the unit on the Y-axis is millions. The default parameters are set by the wiki owner, so the can differ per site.
+This page describes all parameters that can be used in pchart4mw. These parameters are set inside the chart-tag, to control the look and feel of the chart. The example below shows a graph with a title, a specified size, a legend and the unit on the Y-axis is millions. The default parameters are set by the wiki owner, so the can differ per site.
 
 {{{
 <pBars title="Hello World!" size=400x200 legend yunit="M">
@@ -16,12 +16,12 @@ Sydney,6.4,2.1ti
 </pBars>
 }}}
 
-== Entering parameters ==
+=== Entering parameters ===
 The parameters can be entered inside the XML-tag, so between '<pbars' and '>'. Different parameters can be separated with one or more spaces. 
 
 When a parameter expects a value (e.g. 'title'), you can use a '=' sign and then specify the value. When the value contains a whitespace (space, tab or newline) you have to put quotation marks around them. There are also parameters that do not expect a value (e.g. 'legend').
 
-== Colors ==
+=== Colors ===
 When colors are specified using a parameter, the HTML color notation is used. HTML colors are defined using a [http://en.wikipedia.org/wiki/Hexadecimal hexadecimal] (hex) notation for the combination of Red, Green, and Blue color values (RGB). The lowest value that can be given to one of the light sources is 0 (hex 00). The highest value is 255 (hex FF). Hex values are written as 3 double digit numbers, starting with a # sign.
 
 _Example_:
@@ -35,17 +35,17 @@ _See also_:
 * [http://www.w3schools.com/Html/html_colors.asp HTML colors at w3schools]
 * [http://html-color-codes.info/ HTML color picker]
 
-== Notation ==
+=== Notation ===
 In the explanation of the parameters below, we use the following notation standards:
 || *title=..* || This notation means that the title expects a value, but you can enter whatever you want as a title. ||
 || *axis[=<u>true</u>|false]* || This parameter has a few possible values. The brackets around the value-part means that this part is optional. If it is not specified, the underlined value is taken as default. The parameter 'axis' without value means therefore that the axis must be shown. ||
 || *size={aa}x{bb}* || This means that the parameter size must have a value. The value has a specific format, in this case some number followed by a x followed by another number. The allowed values for the parameter is explained in detail in the details section for the parameter. ||
 || *axiscolor={color}* || This means that the parameter axiscolor must have a value. The value should be a HTML color, as explained in the previous paragraph. ||
 
-= Parameters =
+=== Parameters ===
 This list describes the parameters that can be used in pChart4mw. In-depth information about the parameters with examples can be found on the page [[parameterDetails]].
 
-== Size of the chart==
+=== Size of the chart===
 <dl>
 <dt>*size={aa}x{bb}*</dt>
 <dd>Sets the size of the image to aa pixels wide and bb pixels high. If only one number is given, the graph will be that wide and also that high. The minimum size of the image is dependent on the margins and whether a title and legend are shown.</dd>
@@ -54,7 +54,7 @@ This list describes the parameters that can be used in pChart4mw. In-depth infor
 These settings determine the margin from the border of the image to the border of the drawing area. This setting is useful to keep some empty space on the edges. You can set a margin for top and bottom 'marginy' and a margin for left and right 'marginx'.</dd>
 </dl>
 
-== Title ==
+=== Title ===
 <dl>
 <dt>*title="Site visitors"*</dt>
 <dd>Sets the title of the chart to _Site visitors_. If no title is given, nothing is printed. The title is always shown on top of the chart.</dd>
