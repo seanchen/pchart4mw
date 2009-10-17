@@ -5,6 +5,7 @@
   o [Installation]<br>
   o [Configuration]<br>
   o [YourFirstGraph Your first chart]<br>
+  [WorkingWithCharts Working with charts]
   [QuickStart Working with charts]
     [ChartTypes General]
     [ExampleBarCharts Charts: Bar]
