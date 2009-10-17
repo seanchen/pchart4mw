@@ -16,10 +16,4 @@ After you have saved the page it should show a bar chart like:
 http://pchart4mw.googlecode.com/files/pchart4mw-bar-00.png
 
 || Wikitext || Chart ||
-|| {{{
-<pbars>
-5345
-3452
-7843
-</pbars>
-}}} ||http://pchart4mw.googlecode.com/files/pchart4mw-bar-00.png ||
+|| {{{<pbars> 5345 3452 7843 </pbars>}}} ||http://pchart4mw.googlecode.com/files/pchart4mw-bar-00.png ||
