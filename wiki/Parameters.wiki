@@ -3,7 +3,7 @@
 
 <wiki:toc max_depth="3" />
 
-=== Introduction ===
+== Introduction ==
 
 This page describes all parameters that can be used in pchart4mw. These parameters are set inside the chart-tag, to control the look and feel of the chart. The example below shows a graph with a title, a specified size, a legend and the unit on the Y-axis is millions. The default parameters are set by the wiki owner, so the can differ per site.
 
@@ -23,7 +23,7 @@ The parameters can be entered inside the XML-tag, so between '<pbars' and '>'. D
 
 When a parameter expects a value (e.g. 'title'), you can use a '=' sign and then specify the value. When the value contains a whitespace (space, tab or newline) you have to put quotation marks around them. There are also parameters that do not expect a value (e.g. 'legend').
 
-=== Colors ===
+=== Using Colors ===
 When colors are specified using a parameter, the HTML color notation is used. HTML colors are defined using a [http://en.wikipedia.org/wiki/Hexadecimal hexadecimal] (hex) notation for the combination of Red, Green, and Blue color values (RGB). The lowest value that can be given to one of the light sources is 0 (hex 00). The highest value is 255 (hex FF). Hex values are written as 3 double digit numbers, starting with a # sign.
 
 _Example_:
@@ -44,7 +44,7 @@ In the explanation of the parameters below, we use the following notation standa
 || *size={aa}x{bb}* || This means that the parameter size must have a value. The value has a specific format, in this case some number followed by a x followed by another number. The allowed values for the parameter is explained in detail in the details section for the parameter. ||
 || *axiscolor={color}* || This means that the parameter axiscolor must have a value. The value should be a HTML color, as explained in the previous paragraph. ||
 
-=== Parameters ===
+== Parameter overview ==
 This list describes the parameters that can be used in pChart4mw. In-depth information about the parameters with examples can be found on the page [[parameterDetails]].
 
 === Size of the chart===
@@ -65,7 +65,7 @@ These settings determine the margin from the border of the image to the border o
 Sets the color of the text of the title. Use HTML hexadecimal colors.</dd>
 </dl>
 
-== Axes ==
+=== Axes ===
 
 <dl>
 <dt>*axis[=<u>true</u>|false]*</dt>
@@ -98,7 +98,7 @@ If you set the format to 'date', the values on that axis are expected to be seco
 This parameter is present since version 1.0.2</dd>
 </dl>
 
-== Colors ==
+=== Colors ===
 <dl>
 <dt>*colors={color}[,{color},...]*</dt>
 <dd>Defines the colors that are used to draw the chart. Every drawn serie will be drawn using a new color. You can specify multiple colors by separating them with a comma. When less colors are specified than needed, the colors are used multiple times. For example when 4 series are drawn and only red and green are specified as colors, the 1st and 3rd serie are drawn red and the 2nd and 4th are drawn green.</dd>
@@ -108,7 +108,7 @@ This parameter is present since version 1.0.2</dd>
 *N.B.* If the colors and colorscheme parameters are both set, the colors parameter has precedence over the colorscheme.</dd>
 </dl>
 
-== Data ==
+=== Data ===
 <dl>
 <dt>*xlabels[=true|false]*</dt>
 <dd>Set this parameter if the first column contains numeric labels. The script automatically detects whether the data contains labels when the labels are non-numeric. This flag is introduced to create the possibility for numeric labels.</dd>
@@ -123,7 +123,7 @@ These values can be set to override automatic scaling. Different combinations of
 * Set 'ymin' to 0 and 'ymax' to some other value: The Y-axis will run from 0 to ymax.</dd>
 </dl>
 
-== Legend ==
+=== Legend ===
 <dl>
 <dt>*legend[=none|left|top|<u>right</u>|bottom]*</dt>
 <dd>Shows the legend on the specified position. If no location is given (i.e. just 'legend'), the legend is placed on the right.</dd>
@@ -135,7 +135,7 @@ These values can be set to override automatic scaling. Different combinations of
 <dd>Sets the color for the border around the legend.</dd>
 </dl>
 
-== Background ==
+=== Background ===
 <dl>
 <dt>*bgcolor={color}*</dt>
 <dd>Sets the background color for the whole image. The 'graphbgcolor' sets the color for the chart area alone.</dd>
@@ -150,7 +150,7 @@ These values can be set to override automatic scaling. Different combinations of
 * normal: results in a one color background
 * gradient: will produce a gradient on the background</dd>
 
-= Bar charts =
+== Bar charts ==
 ;stacked[=true|<u>false</u>]
 :Geeft aan of de bar chart stacked moet zijn of niet.
 
@@ -160,7 +160,7 @@ These values can be set to override automatic scaling. Different combinations of
 ;opacity=..
 :Geeft aan hoe doorzichtig de staven moeten zijn. 0 = geheel doorzichtig, 100 = geheel ondoorzichtig. Standaard is het 100 voor een gewone en een stacked grafiek. Bij een overlay grafiek is het standaard 50.
 
-= Line charts =
+== Line charts ==
 ;plots=<u>none</u>|open|closed
 :Laat op de gemeten punten een rondje zien, al dan niet open
 
@@ -176,7 +176,7 @@ These values can be set to override automatic scaling. Different combinations of
 ;opacity=..
 :Geeft aan hoe doorzichtig de gevulde ruimte onder de grafiek moet zijn. 0 = geheel doorzichtig, 100 = geheel ondoorzichtig. Standaard is het 40(= 40% ondoorzichtig). Deze waarde heeft alleen zin als filled=true
 
-= Radar charts =
+== Radar charts ==
 ;filled[=true|<u>false</u>]
 :Vult de ruimte onder de grafiek
 
@@ -189,7 +189,7 @@ These values can be set to override automatic scaling. Different combinations of
 ;opacity=..
 :Geeft aan hoe doorzichtig de gevulde ruimte onder de grafiek moet zijn. 0 = geheel doorzichtig, 100 = geheel ondoorzichtig. Standaard is het 40(= 40% ondoorzichtig). Deze waarde heeft alleen zin als filled=true
 
-= Pie charts =
+== Pie charts ==
 1 of 2 kolommen:
 de eerste bevat de titel, 
 de tweede de waarde voor in de pie chart
@@ -207,7 +207,7 @@ Volgende kolommen worden verwijderd
 ;exploded[=true|<u>false</u>]
 :Zet de taartpunten een klein stukje uit elkaar
 
-= Scatter charts =
+== Scatter charts ==
 2 of 3 kolommen:
 de eerste bevat de titel, 
 de tweede de X coordinaat,
@@ -227,7 +227,7 @@ Het is ook mogelijk om ipv 2 kolommen voor X en Y coordinaten er 4 of 6 te gebru
 ;connected[=<u>true</u>|false]
 :Bepaalt of de punten verbonden moeten worden met een lijn
 
-= Bubble charts =
+== Bubble charts ==
 3 of 4 kolommen:
 de eerste bevat de titel, 
 de tweede de X coordinaat,
