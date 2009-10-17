@@ -1,12 +1,12 @@
 #summary Parameters that can be used in pchart4mw-tags
 #labels Phase-Documentation
 
+This page describes all parameters that can be used in pchart4mw. These parameters are set inside the chart-tag, to control the look and feel of each chart.
+
 <wiki:toc max_depth="3" />
 
-= Introduction =
-
-This page describes all parameters that can be used in pchart4mw. These parameters are set inside the chart-tag, to control the look and feel of the chart. The example below shows a graph with a title, a specified size, a legend and the unit on the Y-axis is millions. The default parameters are set by the wiki owner, so the can differ per site.
-
+=Introduction=
+The example below shows a graph with a title, a specified size, a legend and the unit on the Y-axis is millions.
 {{{
 <pBars title="Hello World!" size=400x200 legend yunit="M">
 ,Turnover,Profit
