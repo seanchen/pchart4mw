@@ -53,7 +53,7 @@ Define the location where pChart library is installed. This variable contains th
 
 Option 1: point to `[documentroot]/pChart/pChart.class` with:
 {{{
-$wgPChart4mwPChartPath = $_SERVER["DOCUMENT_ROOT"] . "/pchart";
+$wgPChart4mwPChartPath = $_SERVER["DOCUMENT_ROOT"] . "/pChart";
 }}}
 
 Option 2: point to `$IP/extensions/pChart4mw/pChart/pChart.class` with: 
