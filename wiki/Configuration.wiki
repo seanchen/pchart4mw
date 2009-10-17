@@ -80,7 +80,7 @@ Important: This is advanced use of pchart4mw it will be documented later...
 </dl>
 
 ===Default settings===
-You can set default settings for all charts on your wiki. All [[parameters]] that can be set for the charts, can also be set to a default value.
+You can set default settings that apply to all charts on your wiki. All parameters that can be set for individual charts, can also be set to a default value.
 
 To set a default size for all charts, add the following line to `LocalSettings.php`:
 {{{
@@ -95,6 +95,6 @@ $wgPChart4mwDefaults = Array ( "size" => "200x120", "colorscheme" => "softblue" 
 Another possibility is to set default values for a specific type of chart. This can be done by adding the following lines (or similar for different types of charts) to `LocalSettings.php`:
 {{{
 $wgPChart4mwLinesDefaults = Array ( "grid" => "false", "ymin" => "0", "colors" => "F00,0F0,00F" );
-  $wgPChart4mwBarsDefaults = Array ( "ymin" => "0" );
-  $wgPChart4mwPieDefaults = Array ( "3d" => "3d" );
+$wgPChart4mwBarsDefaults = Array ( "ymin" => "0" );
+$wgPChart4mwPieDefaults = Array ( "3d" => "3d" );
 }}}
