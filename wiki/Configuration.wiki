@@ -3,14 +3,11 @@
 
 To configure this extension, several parameters can be set. 
 
-# [#Optional_settings]
-# [#Default_settings]
+ [#Optional_settings Optional settings]
+ [#Default_settings Defauls settings]
 
 
 These settings are optional to configure pchart4mw to your personal settings.
-
-
-
 
 === Optional settings ===
 <dl>
