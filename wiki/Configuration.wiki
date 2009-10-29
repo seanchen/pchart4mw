@@ -3,11 +3,8 @@
 
 To configure this extension, several parameters can be set. 
 
- [#Optional_settings Optional settings]
- [#Default_settings Defauls settings]
-
-
-These settings are optional to configure pchart4mw to your personal settings.
+ * [#Optional_settings Optional settings], these settings are optional to configure pchart4mw to your personal preference.
+ * [#Default_settings Default settings], these settings are also optional and are used as defaults for the charts on your wiki.
 
 === Optional settings ===
 <dl>
