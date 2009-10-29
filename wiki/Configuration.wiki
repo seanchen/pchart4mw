@@ -1,7 +1,16 @@
 #summary Describes the configuration of pChart4mw
 #labels Phase-Deploy
 
-To configure this extension, several parameters can be set. These settings are optional to configure pchart4mw to your personal settings.
+To configure this extension, several parameters can be set. 
+
+* [#Optional settings]
+* [#Default settings]
+
+
+These settings are optional to configure pchart4mw to your personal settings.
+
+
+
 
 === Optional settings ===
 <dl>
