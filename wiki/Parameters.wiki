@@ -4,7 +4,7 @@
 This page describes all parameters that can be used in pchart4mw. These parameters are set inside the chart-tag, to control the look and feel of each chart.
 
 <wiki:toc max_depth="3" />
-
+=Introduction=
 == Entering parameters ==
 The parameters can be entered inside the XML-tag, so between '<pbars' and '>'. Different parameters can be separated with one or more spaces. 
 
