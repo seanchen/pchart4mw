@@ -11,7 +11,6 @@ Nov,3452,3695,1047
 Dec,7843,4712,1305
 </pbars>
 }}}
-
 http://pchart4mw.googlecode.com/files/pchart4mw-bar-01.png
 
 ====Sample 2====
@@ -26,8 +25,9 @@ May,7183,5118,3219
 Jun,6109,4411,3572
 </pBars>
 }}}
+http://pchart4mw.googlecode.com/files/pchart4mw-bar-02.png
 
-
+====Sample 3====
 {{{
 <pBars TiTLe="Site Visitors" labels stacked ymin=0 size=x200>
 ,EU,US,AS
