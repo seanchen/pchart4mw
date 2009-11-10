@@ -1,6 +1,7 @@
 #summary Examples of line charts
 #labels Phase-Documentation
-
+This page gives several samples of bar charts.
+====Sample 1====
 {{{
 <pLines TiTLe="Site Visitors" colors=FF0000,00FF00 labels=true size=500x200 legend>
 Jan,6748,2391,1952
@@ -11,6 +12,7 @@ May,7183,5118,3219
 Jun,6109,4411,3572
 </pLines>
 }}}
+====Sample 2====
 {{{
 <pLines ymin=0 title="Site visitors" legend>
 ,US,EU
@@ -29,6 +31,7 @@ Nov,6749,4761
 Dec,7184,4918
 </pLines>
 }}}
+====Sample 3====
 {{{
 <pLines ymin=0 cubic filled plots legend>
 ,US,EU
