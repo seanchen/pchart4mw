@@ -6,8 +6,8 @@
   o [Configuration]<br>
   o [YourFirstGraph Your first chart]<br>
   [WorkingWithCharts Working with charts]<br>
-    [ChartTypes General]
-    [ExampleBarCharts Charts: Bar]
+    [ChartTypes General]<br>
+    [ExampleBarCharts Charts: Bar]<br>
     [ExampleLineCharts Charts: Line]
     [ExamplePieCharts Charts: Pie]
     [ExampleScatterCharts Charts: Scatter]
