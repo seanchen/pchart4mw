@@ -15,6 +15,6 @@
   · [ExampleBubleCharts Charts: Bubble]<br>
   · [Parameters Parameters]<br>
   · [ColorSchemes Colorschemes]<br>
-  [More]<br>
+  More<br>
   · [TechnicalOverview Technical Overview]<br>
   · [FAQ Frequently Asked Questions]<br>
