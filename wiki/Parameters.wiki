@@ -62,7 +62,7 @@ Sets whether the axes are shown or not. 'axis=true' means that the axes are show
 <dt>*labels[=<u>true</u>|false]*</dt>
 <dd>Shows or hides the labels next to the axes. If no labels are given in the data section, but this parameter is set to true, numbers are shown next to the X-axis.</dd>
 <dt>*box[=<u>true</u>|false]*</dt>
-<dd>This parameter is used to draw a box around the graph area. The box is drawn in the same color as the axes. The result is a solid line above and to the right of the graph area. 
+<dd>This parameter is used to draw a box around the graph area. The box is drawn in the same color as the axes. The result is a solid line above and to the right of the graph area.</dd> 
 <dt>*axiscolor={color}*</dt>
 <dd>Sets the color of the axes and the labels next to the axes. This parameter only has effect when 'axis'=true.</dd>
 <dt>*xtitle=..* and *ytitle=..*</dt>
@@ -79,9 +79,7 @@ If you set the format to 'date', the values on that axis are expected to be seco
 <dt>*grid[=<u>true</u>|false]*</dt>
 <dd>Sets the visibility of the grid.</dd>
 <dt>*gridcolor={color}*</dt>
-<dd>Sets the color of the grid. This parameter only has effect when 'grid'=true.
-
-This parameter is present since version 1.0.2</dd>
+<dd>Sets the color of the grid. This parameter only has effect when 'grid'=true.</dd>
 </dl>
 
 == Colors ==
