@@ -6,17 +6,14 @@ A chart can be included in a wiki page using special tags. An example of such a 
 
 === Step 1: Initial tags ===
 As explained, creating a chart starts with the XML-tag. Every tag has an opening part `<pBars>` and a closing part `</pBars>`. 
-<table><tr><td>
 {{{
 <pbars></pbars>
 }}}
-</td>
-<td>
+Within the '<pbars>' tag you can include extra parameters to customize the chart e.g.
 {{{
 <pbars size=50x50></pbars>
 }}}
-</td></tr>
-</table>
+
 
 === Step 2: Entering data ===
 The tags above result in an empty chart. That is correct. To show a chart, some data has to be entered. The data can be entered between the opening and closing tag in [http://en.wikipedia.org/wiki/Comma-separated_values CSV-style]. That means: every value must be entered on a new line.
