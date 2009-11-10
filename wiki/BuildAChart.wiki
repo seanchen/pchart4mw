@@ -71,4 +71,7 @@ Dec,7843,4712,1305
 }}}
 
 The result looks like this:
+
 http://pchart4mw.googlecode.com/files/pchart4mw-bar-01.png
+
+Nice he? 
