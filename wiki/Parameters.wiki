@@ -31,7 +31,7 @@ In the explanation of the parameters below, we use the following notation standa
 || *size={aa}x{bb}* || This means that the parameter size must have a value. The value has a specific format, in this case some number followed by a x followed by another number. The allowed values for the parameter is explained in detail in the details section for the parameter. ||
 || *axiscolor={color}* || This means that the parameter axiscolor must have a value. The value should be a HTML color, as explained in the previous paragraph. ||
 
-
+<br>
 = General Parameters =
 This paragraph describes the general parameters that can be used in pChart4mw. The general parameters apply to all the chart types.
 
@@ -137,16 +137,19 @@ These values can be set to override automatic scaling. Different combinations of
 <dd>Defines the type of background in the chart area. The possibilities are
 * normal: results in a one color background
 * gradient: will produce a gradient on the background</dd>
+</dl>
 
-
+<br>
 = Chart type specific parameters=
 This section describes parameters that are specific for a certain chart type.
 == Bar chart ==
-;stacked[=true|<u>false</u>]
-:Geeft aan of de bar chart stacked moet zijn of niet.
+<dl>
+<dt>*stacked[=true|<u>false</u>*</dt>
+<dd>Defines weather the bar chart is stacked or not</dd>
 
-;overlay[=true|<u>false</u>]
-:Produceert een overlay grafiek, waarbij de staven van verschillende series over elkaar heen worden getoond. Werkt niet in combinatie met stacked=true
+<dt>*overlay[=true|<u>false</u>]*</dt>
+<dd>Produces an overlag bar chart. Does not work in combination with stacked=true</dd>
+</dl>
 
 ;opacity=..
 :Geeft aan hoe doorzichtig de staven moeten zijn. 0 = geheel doorzichtig, 100 = geheel ondoorzichtig. Standaard is het 100 voor een gewone en een stacked grafiek. Bij een overlay grafiek is het standaard 50.
