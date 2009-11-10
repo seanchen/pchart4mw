@@ -1,7 +1,6 @@
 #summary Examples of scatter charts
 #labels Phase-Documentation
 
-
 This page gives several samples of scatter charts.
 ====Sample 1====
 {{{
