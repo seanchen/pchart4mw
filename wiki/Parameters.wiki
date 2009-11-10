@@ -74,7 +74,7 @@ This parameter is present since version 1.0.2</dd>
 <dd>Sets the format for the values on the X-axis and Y-axis. 
 The format 'number' is default and shows the numbers on the axes as expected.
 If you set the format to 'time', the values on that axis are expected to be seconds since midnight. The number 60 will be converted to 00:01:00 and the number 3599 will be converted to 00:59:59.
-If you set the format to 'date', the values on that axis are expected to be seconds since 1 january 1970, midnight. This is called a [http://www.unixtimestamp.com UNIX timestamp]. The value 1100491220 will be converted to 11/14/04 22:00</dd>
+If you set the format to 'date', the values on that axis are expected to be seconds since 1 january 1970, midnight. This is called a UNIX timestamp. The value 1100491220 will be converted to 11/14/04 22:00</dd>
 <dt>*angle=..*</dt>
 <dd>Angle in degrees for printing the labels under the X-axis. This is especially useful when these labels are wide and the graph is small. Values must be between 0 and 180 degrees.</dd>
 <dt>*grid[=<u>true</u>|false]*</dt>
@@ -90,7 +90,7 @@ This parameter is present since version 1.0.2</dd>
 <dt>*colors={color}[,{color},...]*</dt>
 <dd>Defines the colors that are used to draw the chart. Every drawn serie will be drawn using a new color. You can specify multiple colors by separating them with a comma. When less colors are specified than needed, the colors are used multiple times. For example when 4 series are drawn and only red and green are specified as colors, the 1st and 3rd serie are drawn red and the 2nd and 4th are drawn green.</dd>
 <dt>*colorscheme=[accent|greenblue|softblue|purpleblue|paired|original]*</dt>
-<dd>Tells the chart to use a predefined colorscheme. A colorscheme is a list of colors looking well together. These schemes are defined in textfiles in the colorscheme directory specified in the [[configuration]]. The wiki administrator can add new colorschemes if needed.
+<dd>Tells the chart to use a predefined colorscheme. A colorscheme is a list of colors looking well together. These schemes are defined in textfiles in the colorscheme directory specified in the [Configuration configuration]. The wiki administrator can add new colorschemes if needed.
 
 *N.B.* If the colors and colorscheme parameters are both set, the colors parameter has precedence over the colorscheme.</dd>
 </dl>
