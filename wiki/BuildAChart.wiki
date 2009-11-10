@@ -11,7 +11,7 @@ As explained, creating a chart starts with the XML-tag. Every tag has an opening
 }}}
 Within the `<pbars>` tag you can include extra [Parameters parameters] to customize the chart e.g.
 {{{
-<pbars size=50x50></pbars>
+<pbars size=200x150></pbars>
 }}}
 
 
@@ -28,78 +28,40 @@ The tags above result in an empty chart. That is correct. To show a chart, some 
 
 === Step 3: Adding labels ===
 Every line results in a new bar in the chart. Many times a bar should be labeled to give the chart more meaning. The label will be shown beneath the bar. In this case, the different values belong to different months:
-<table><tr><td>
 {{{
-<pbars>
+<pbars size=200x150>
 Oct,5345
 Nov,3452
 Dec,7843
-</pbars>
 }}}
-</td>
-<td>
-`<pbars size=200x150>
-Oct,5345
-Nov,3452
-Dec,7843
-</pbars>`
-</td></tr></table>
 
 === Step 4: Multiple series ===
 It is also possible to compare multiple series of data. These series are shown as bars with different colors next to eachother. Every color denotes a specific serie. 
 <table><tr><td>
 {{{
-<pbars>
+<pbars size=200x150>
 Oct,5345,3110,1291
 Nov,3452,3695,1047
 Dec,7843,4712,1305
-</pbars>
 }}}
-</td><td>
-`<pbars size=200x150>
-Oct,5345,3110,1291
-Nov,3452,3695,1047
-Dec,7843,4712,1305
-</pbars>`
-</td></tr></table>
 
 === Step 5: Labeling series ===
 Every serie can also be labeled. This is done by entering labels on the first row. These labels can be shown in a legend.
-
-*N.B.* The label must be in the same column as the data it belongs to. The columns are separated by a comma and the first column contains the labels for the x-axis. Therefore the first label for the series is prepended with a comma.
-<table><tr><td>
 {{{
-<pbars legend>
+<pbars size=300x150 legend>
 ,Europe,United States,Asia
 Oct,5345,3110,1291
 Nov,3452,3695,1047
 Dec,7843,4712,1305
-</pbars>
 }}}
-</td><td>`<pbars size=300x150 legend>
-,Europe,United States,Asia
-Oct,5345,3110,1291
-Nov,3452,3695,1047
-Dec,7843,4712,1305
-</pbars>`
-</td></tr></table>
+Note: The label must be in the same column as the data it belongs to. The columns are separated by a comma and the first column contains the labels for the x-axis. Therefore the first label for the series is preceded with a comma.
 
 === Step 6: Style the graph ===
 Apart from the data in the graph, you can control the look and feel of the graph using different [parameters]. Examples of parameters are the title and colors. 
-<table><tr><td>
 {{{
 <pbars size=300x150 title="Site Visitors" ymin=0 ymax=10000 legend>
 ,Europe,United States,Asia
 Oct,5345,3110,1291
 Nov,3452,3695,1047
 Dec,7843,4712,1305
-</pbars>
 }}}
-</td><td>
-`<pbars size=300x150 title="Site Visitors" ymin=0 ymax=10000 legend>
-,Europe,United States,Asia
-Oct,5345,3110,1291
-Nov,3452,3695,1047
-Dec,7843,4712,1305
-</pbars>`
-</td></tr></table>
