@@ -6,7 +6,7 @@
   · [Configuration]<br>
   · [YourFirstGraph Your first chart]<br>
   [WorkingWithCharts Working with charts]<br>
-  · [ChartTypes General]<br>
+  · [BuildAChart Build a chart]<br>
   · [ExampleBarCharts Charts: Bar]<br>
   · [ExampleLineCharts Charts: Line]<br>
   · [ExamplePieCharts Charts: Pie]<br>
