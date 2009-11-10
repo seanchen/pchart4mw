@@ -9,3 +9,5 @@ If you use Mediawiki and would like to add professional charting features to you
 
 === How do I get started with pchart4wm ? ===
 If you're new to pChart4mw continue reading the [GettingStarted getting started] section where you'll read about the [Installation installation] and [Configuration configuration] of this extension. Within minutes you'll have [YourFirstGraph your first chart] created on your site!
+
+If you have pChart4mw up-and-running continue to 
