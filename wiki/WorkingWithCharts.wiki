@@ -9,10 +9,9 @@ The general syntax of a chart in a wiki page is:
  data...
 </pChartType>
 }}}
-Where 
- `<pChartType>` is unique to each type of chart
- `p1 p2 p3 ...` is your choise of [Parameters parameters] to customize the chart
- `data` is your data to be displayed in the chart
+* `<pChartType>` is unique to each type of chart
+* `p1 p2 p3 ...` is your choise of [Parameters parameters] to customize the chart
+* `data` is your data to be displayed in the chart
 
 The types of charts that can be created are:
  * [ExampleBarCharts Bar charts] using tag `<pBars>`
