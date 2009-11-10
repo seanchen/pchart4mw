@@ -9,7 +9,7 @@ As explained, creating a chart starts with the XML-tag. Every tag has an opening
 {{{
 <pbars></pbars>
 }}}
-Within the '<pbars>' tag you can include extra parameters to customize the chart e.g.
+Within the `<pbars>` tag you can include extra parameters to customize the chart e.g.
 {{{
 <pbars size=50x50></pbars>
 }}}
