@@ -33,6 +33,7 @@ Every line results in a new bar in the chart. Many times a bar should be labeled
 Oct,5345
 Nov,3452
 Dec,7843
+</pbars>
 }}}
 
 === Step 4: Multiple series ===
@@ -43,6 +44,7 @@ It is also possible to compare multiple series of data. These series are shown a
 Oct,5345,3110,1291
 Nov,3452,3695,1047
 Dec,7843,4712,1305
+</pbars>
 }}}
 
 === Step 5: Labeling series ===
@@ -53,6 +55,7 @@ Every serie can also be labeled. This is done by entering labels on the first ro
 Oct,5345,3110,1291
 Nov,3452,3695,1047
 Dec,7843,4712,1305
+</pbars>
 }}}
 Note: The label must be in the same column as the data it belongs to. The columns are separated by a comma and the first column contains the labels for the x-axis. Therefore the first label for the series is preceded with a comma.
 
@@ -64,4 +67,5 @@ Apart from the data in the graph, you can control the look and feel of the graph
 Oct,5345,3110,1291
 Nov,3452,3695,1047
 Dec,7843,4712,1305
+</pbars>
 }}}
