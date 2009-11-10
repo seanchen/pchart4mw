@@ -69,3 +69,6 @@ Nov,3452,3695,1047
 Dec,7843,4712,1305
 </pbars>
 }}}
+
+The result looks like this:
+http://pchart4mw.googlecode.com/files/pchart4mw-bar-01.png
