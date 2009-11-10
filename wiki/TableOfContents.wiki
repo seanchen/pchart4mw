@@ -13,7 +13,7 @@
   o [ExampleScatterCharts Charts: Scatter]<br>
   o [ExampleRadarCharts Charts: Radar]<br>
   o [ExampleBubleCharts Charts: Bubble]<br>
-  o [Parameters Parameters]
+  o [Parameters Parameters]<br>
   o [ColorSchemes Colorschemes]<br>
   [More]<br>
   o [TechnicalOverview Technical Overview]<br>
