@@ -39,6 +39,8 @@ May,7183,5118,3219
 Jun,6109,4411,3572
 </pBars>
 }}}
+http://pchart4mw.googlecode.com/files/pchart4mw-bar-03.png
+
 {{{
 <pBars TiTLe="Site Visitors" colors=FF0000,00FF00 labels=true ymin=0 ymax=10000 size=500x200 legend>
 ,EU,US,AS
