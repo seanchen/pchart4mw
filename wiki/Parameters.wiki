@@ -149,10 +149,10 @@ This section describes parameters that are specific for a certain chart type.
 
 <dt>*overlay[=true|<u>false</u>]*</dt>
 <dd>Produces an overlag bar chart. Does not work in combination with stacked=true</dd>
-</dl>
 
-;opacity=..
-:Geeft aan hoe doorzichtig de staven moeten zijn. 0 = geheel doorzichtig, 100 = geheel ondoorzichtig. Standaard is het 100 voor een gewone en een stacked grafiek. Bij een overlay grafiek is het standaard 50.
+<dt>*opacity=..*</dt>
+<dd>Determines the transparancy of the bars. 0 = fully transparent, 100 = non transparent. Standard is 100 for a stacked chart. With an overlay chart the standard is 50.
+</dl>
 
 == Line chart ==
 ;plots=<u>none</u>|open|closed
