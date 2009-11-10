@@ -1,18 +1,14 @@
 #summary Working with charts using pChart4mw
 
-=== Introduction ===
+pChart4mw is capable of generating six different types of charts.  The types of charts that can be created are:
+ * [ExampleBarCharts Bar charts] using tag '<pbars>'
+ * [ExampleLineCharts Line charts] using tag '<plines>'
+ * [ExamplePieCharts Pie charts] using tag '<ppie>'
+ * [ExampleScatterCharts Scatter charts] using tag '<pscatter>'
+ * [ExampleRadarCharts Radar charts] using tag '<pradar>'
+ * [ExampleBubleCharts Bubble charts] using tag '<pbubble>'
 
-With the pChart4mw extension, you can create different types of charts easily using wikitext only. This pages shows the steps to create a chart with some examples. 
-
-pChart4mw is capable of generating six different types of charts. Information on how to create the different charts with all specific parameters can be found on the example pages below. The types of charts that can be created are:
- * [ExampleBarCharts Bar charts]
- * [ExampleLineCharts Line charts]
- * [ExamplePieCharts Pie charts]
- * [ExampleScatterCharts Scatter charts]
- * [ExampleRadarCharts Radar charts]
- * [ExampleBubleCharts Bubble charts]
-
-
+Information on how to create the different charts with all specific parameters can be found on the example pages below.
 
 === Parameters ===
 As explained before, several parameters can be used to control the way a chart looks. This table gives an overview of a number of commonly used parameters and the chart types where the parameters can be used. A complete list of all parameters is found on the page [[parameters]].
