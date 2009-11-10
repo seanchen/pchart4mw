@@ -1,6 +1,8 @@
 #summary Examples of pie charts
 #labels Phase-Documentation
 
+This page gives several samples of pie charts.
+
 ====Sample 1====
 {{{
 <pPie>
