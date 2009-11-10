@@ -18,6 +18,8 @@ This page gives several samples of scatter charts.
 10,100
 </pScatter>
 }}}
+http://pchart4mw.googlecode.com/files/pchart4mw-scatter-01.png
+
 ====Sample 2====
 {{{
 <pScatter size=400x300 plots connected=false>
@@ -29,6 +31,8 @@ Information Technology,7,31
 Administration,6,38
 </pScatter>
 }}}
+http://pchart4mw.googlecode.com/files/pchart4mw-scatter-02.png
+
 ====Sample 3====
 {{{
 <pScatter size=400x300 legend plots colors=F00,0F0,00F>
@@ -41,3 +45,4 @@ EU,,VS,,AS
 6,38,6,51,8,34
 </pScatter>
 }}}
+http://pchart4mw.googlecode.com/files/pchart4mw-scatter-03.png
