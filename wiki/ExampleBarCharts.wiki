@@ -4,6 +4,18 @@
 This page gives several samples of bar charts.
 ====Sample 1====
 {{{
+<pbars size=300x150 title="Site Visitors" ymin=0 ymax=10000 legend>
+,Europe,United States,Asia
+Oct,5345,3110,1291
+Nov,3452,3695,1047
+Dec,7843,4712,1305
+</pbars>
+}}}
+
+http://pchart4mw.googlecode.com/files/pchart4mw-bar-01.png
+
+====Sample 2====
+{{{
 <pBars TiTLe="Site Visitors" labels overlay ymin=0 size=x200 legend>
 ,EU,US,AS
 Jan,6748,1952,2391
