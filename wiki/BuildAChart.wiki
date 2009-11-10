@@ -14,7 +14,8 @@ As explained, creating a chart starts with the XML-tag. Every tag has an opening
 <td>
 {{{
 <pbars size=50x50></pbars>
-}}}</td></tr>
+}}}
+</td></tr>
 </table>
 
 === Step 2: Entering data ===
