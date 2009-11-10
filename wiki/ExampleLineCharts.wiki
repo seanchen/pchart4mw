@@ -50,3 +50,4 @@ Nov,6749,4761
 Dec,7184,4918
 </pLines>
 }}}
+http://pchart4mw.googlecode.com/files/pchart4mw-line-02.png
