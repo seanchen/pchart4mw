@@ -157,19 +157,19 @@ This section describes parameters that are specific for a certain chart type.
 == Line chart ==
 <dl>
 <dt>*plots=<u>none</u>|open|closed*</dt>
-<dd>Laat op de gemeten punten een rondje zien, al dan niet open</dd>
+<dd>Plots circles (open or closed)</dd>
 
 <dt>*plotsize=..*</dt>
-<dd>Grootte van het rondje die getoond wordt.</dd>
+<dd>Size of the plot circle.</dd>
 
 <dt>*cubic[=true|<u>false</u>]*</dt>
-<dd>Toont de grafiek als een lijn zonder harde knikken erin.</dd>
+<dd>Shows a line with smooth curves.</dd>
 
 <dt>*filled[=true|<u>false</u>]*</dt>
-<dd>Vult de ruimte onder de grafiek</dd>
+<dd>Fill the space underneath a line.</dd>
 
-<dt>*opacity=..</dt>
-<dd>Geeft aan hoe doorzichtig de gevulde ruimte onder de grafiek moet zijn. 0 = geheel doorzichtig, 100 = geheel ondoorzichtig. Standaard is het 40(= 40% ondoorzichtig). Deze waarde heeft alleen zin als filled=true</dd>
+<dt>*opacity=..*</dt>
+<dd>Determines the transparancy of the filled space under a line. 0 = fully transparent, 100 = non transparent. Standard is 40 when filled=true.</dd>
 </dl>
 
 == Radar chart ==
