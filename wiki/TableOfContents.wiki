@@ -6,15 +6,15 @@
   o [Configuration]<br>
   o [YourFirstGraph Your first chart]<br>
   [WorkingWithCharts Working with charts]<br>
-    [ChartTypes General]<br>
-    [ExampleBarCharts Charts: Bar]<br>
-    [ExampleLineCharts Charts: Line]
-    [ExamplePieCharts Charts: Pie]
-    [ExampleScatterCharts Charts: Scatter]
-    [ExampleRadarCharts Charts: Radar]
-    [ExampleBubleCharts Charts: Bubble]
-    [Parameters Parameters]
-    [ColorSchemes Colorschemes]
-  [More]
-    [TechnicalOverview Technical Overview]
-    [FAQ Frequently Asked Questions]
+  o [ChartTypes General]<br>
+  o [ExampleBarCharts Charts: Bar]<br>
+  o [ExampleLineCharts Charts: Line]<br>
+  o [ExamplePieCharts Charts: Pie]<br>
+  o [ExampleScatterCharts Charts: Scatter]<br>
+  o [ExampleRadarCharts Charts: Radar]<br>
+  o [ExampleBubleCharts Charts: Bubble]<br>
+  o [Parameters Parameters]
+  o [ColorSchemes Colorschemes]<br>
+  [More]<br>
+  o [TechnicalOverview Technical Overview]<br>
+  o [FAQ Frequently Asked Questions]<br>
