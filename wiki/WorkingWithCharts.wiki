@@ -2,7 +2,7 @@
 
 pChart4mw is capable of generating six different types of charts. Each chart type has its own tag. 
 
-===General syntax===
+====General syntax====
 The general syntax of a chart in a wiki page is:
 {{{
 <pChartType p1 p2 p3 ...>
@@ -13,7 +13,8 @@ The general syntax of a chart in a wiki page is:
  * `p1 p2 p3 ...` is your choise of [Parameters parameters] to customize the chart
  * `data` is your data to be displayed in the chart
 
-The types of charts that can be created are:
+====Chart types====
+The types of charts (with their unique tags) are:
  * [ExampleBarCharts Bar charts] using tag `<pBars>`
  * [ExampleLineCharts Line charts] using tag `<pLines>`
  * [ExamplePieCharts Pie charts] using tag `<pPie>`
