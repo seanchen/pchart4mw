@@ -2,7 +2,7 @@
 
   [Introduction]<br>
   [GettingStarted Getting started]<br>
-  o [Installation]<br>
+  &middot; [Installation]<br>
   o [Configuration]<br>
   o [YourFirstGraph Your first chart]<br>
   [WorkingWithCharts Working with charts]<br>
