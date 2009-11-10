@@ -22,7 +22,7 @@ The types of charts (with their unique tags) are:
  * [ExampleRadarCharts Radar charts] using tag `<pRadar>`
  * [ExampleBubleCharts Bubble charts] using tag `<pBubble>`
 
-Information on how to create the different charts with all specific parameters can be found on the example pages below.
+Information on how to create the different charts with all specific parameters can be found on the example pages per chart type.
 
 === Parameters ===
 As explained before, several parameters can be used to control the way a chart looks. This table gives an overview of a number of commonly used parameters and the chart types where the parameters can be used. A complete list of all parameters is found on the page [[parameters]].
