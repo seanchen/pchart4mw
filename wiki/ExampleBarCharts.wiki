@@ -1,6 +1,8 @@
 #summary Examples of bar charts.
 #labels Phase-Documentation
 
+This page gives several samples of bar charts.
+====Sample 1====
 {{{
 <pBars TiTLe="Site Visitors" labels overlay ymin=0 size=x200 legend>
 ,EU,US,AS
@@ -12,6 +14,8 @@ May,7183,5118,3219
 Jun,6109,4411,3572
 </pBars>
 }}}
+
+
 {{{
 <pBars TiTLe="Site Visitors" labels stacked ymin=0 size=x200>
 ,EU,US,AS
