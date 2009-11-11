@@ -4,9 +4,12 @@
 
 pChart4mw can work with pre-defined colorschemes. The standard download of pChart4mw comes with a few default colorschemes like accent.txt, original.txt, softblue.txt, etc...
 
-=== Using colorschemes ===
-
 You can also easily create your own.
+
+=== Using colorschemes ===
+There are two ways to use colorschemes:
+ * You can set your own default colorscheme in the configuration of pChart4mw. This colorscheme will them be used as default for all the charts unless other colors or colorschems are defined with the chart.
+ * You can call a preferred scheme in a chart definition.
 
 
 === Sample colorschemes ===
