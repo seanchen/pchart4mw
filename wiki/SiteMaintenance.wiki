@@ -1,0 +1,8 @@
+#summary Maintenance tips for your Mediawiki site
+
+=== Introduction ===
+As described in 'how does pchart4mw work', pchart4mw stores chart images in the cache folder (default images/pchart4mw/*.*). The filenames of these images are automatically generated based on the full content of the pchart4mw call. This means that every time the content of a call changes the filename of the created image also changes.
+
+A filename is for example: 4011db4213c05eed3f30f6a350072995.png
+
+The consequence is that over time the cache folder becomes populated with unused (orphan) graph images. Periodically the wiki site administrator should do some cleanup in this folder. It is recommended to delete all the files in this directory once in a while. Graph images will be (re)created whenever a page is viewed and pchart4mw discovers the graph image doesn't exist. 
