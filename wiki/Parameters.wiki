@@ -208,14 +208,16 @@ Wanneer er maar 1 kolom is, dan worden die coordinaten als X en als Y coordinaat
 
 Het is ook mogelijk om ipv 2 kolommen voor X en Y coordinaten er 4 of 6 te gebruiken. Dan worden meerdere series getoond. De titel voor elke serie staat boven de X kolom ervan.
 
-;plots=<u>none</u>|open|closed
-:Laat op de gemeten punten een rondje zien, al dan niet open
+<dl>
+<dt>*plots=<u>none</u>|open|closed*</dt>
+<dd>Laat op de gemeten punten een rondje zien, al dan niet open</dd>
 
-;plotsize=..
-:Grootte van het rondje die getoond wordt.
+<dt>*plotsize=..*</dt>
+<dd>Grootte van het rondje die getoond wordt.</dd>
 
-;connected[=<u>true</u>|false]
-:Bepaalt of de punten verbonden moeten worden met een lijn
+<dt>*connected[=<u>true</u>|false]*</dt>
+<dd>Bepaalt of de punten verbonden moeten worden met een lijn</dd>
+</dl>
 
 == Bubble chart ==
 3 of 4 kolommen:
@@ -230,8 +232,9 @@ Wanneer er maar 1 kolom is, dan wordt die als oppervlakte-kolom gebruikt, met co
 
 Wanneer er 2 kolommen zijn, dan wordt de eerste als X en Y coordinaat gebruikt en de tweede als oppervlakte
 
-;plotsize=..
-:Grootte van de grootste bubble die getoond wordt.
+<dl>
+<dt>*plotsize=..*</dt>
+<dd>Grootte van de grootste bubble die getoond wordt.</dd>
 
-;cross=[true|<u>false</u>]
-:Divides the graph in four areas.
+<dt>*cross=[true|<u>false</u>]*</dt>
+<dd>Divides the graph in four areas.</dd>
