@@ -16,3 +16,6 @@ You can also easily create your own.
 
 
 === Make your own ===
+A colorscheme is a simple text file, that is stored in the colorschemes folder of pChart4mw. Its filename is the name of the colorscheme and it always has an extension ".txt"
+
+To create your own colorscheme simply make a new colorscheme textfile with eight RGB colors.
