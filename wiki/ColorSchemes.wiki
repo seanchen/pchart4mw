@@ -7,7 +7,7 @@ pChart4mw can work with pre-defined colorschemes. The standard download of pChar
 === Using colorschemes ===
 There are two ways to use colorschemes:
  * You can set your own default colorscheme in configuration of pChart4mw. This colorscheme will them be used as default for all the charts unless other colors or colorschems are defined with the chart. See also paragraph Default settings in the [Configuration configuration] page.
- * You can call a preferred scheme in a chart definition (see [Parameters paremeters]). For example:
+ * You can call a preferred scheme in a chart definition (see [Parameters parameters]). For example:
 {{{
 colorscheme=accent
 }}}
