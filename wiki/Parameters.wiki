@@ -177,7 +177,7 @@ This section describes parameters that are specific for a certain chart type.
 
 == Pie chart ==
 In a pie chart you use 1 or 2 data columns:
-* title, value 
+ * title, value 
 <dl>
 <dt>*labels[=true|<u>false</u>]*</dt>
 <dd>labels=false disables drawing of labels near the pie. Optionally percentages can be shown with  percentages=true. When labels=true turn legend off, using both legend and labels costs a lot of grapghic space and makes the pie small.</dd>
