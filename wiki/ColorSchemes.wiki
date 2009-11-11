@@ -33,6 +33,5 @@ For example create a text file with the name wave.txt containing:
 230,230,179
 217,217,139
 }}}
-
-And you've created colorscheme "wave" with these colors:
 http://pchart4mw.googlecode.com/files/pchart4mw-col-wave.png
+And you've created colorscheme "wave" with these colors:
