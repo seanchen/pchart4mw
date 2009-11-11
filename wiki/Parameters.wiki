@@ -163,35 +163,39 @@ This section describes parameters that are specific for a certain chart type.
 </dl>
 
 == Radar chart ==
-;filled[=true|<u>false</u>]
-:Vult de ruimte onder de grafiek
+<dl>
+<dt>*filled[=true|<u>false</u>]*</dt>
+<dd>Vult de ruimte onder de grafiek</dd>
 
-;striped[=true|<u>false</u>]
-:Toont strepen tussen de verbindingslijnen in de radar grafiek
+<dt>*striped[=true|<u>false</u>]*</dt>
+<dd>Toont strepen tussen de verbindingslijnen in de radar grafiek</dd>
 
-;stripecolor=...
-:Bepaalt de kleur van de verbindingslijnen in de radar grafiek (dus niet van de achtergrond)
+<dt>*stripecolor=...*</dt>
+<dd>Bepaalt de kleur van de verbindingslijnen in de radar grafiek (dus niet van de achtergrond)</dd>
 
-;opacity=..
-:Geeft aan hoe doorzichtig de gevulde ruimte onder de grafiek moet zijn. 0 = geheel doorzichtig, 100 = geheel ondoorzichtig. Standaard is het 40(= 40% ondoorzichtig). Deze waarde heeft alleen zin als filled=true
+<dt>*opacity=..*</dt>
+<dd>Geeft aan hoe doorzichtig de gevulde ruimte onder de grafiek moet zijn. 0 = geheel doorzichtig, 100 = geheel ondoorzichtig. Standaard is het 40(= 40% ondoorzichtig). Deze waarde heeft alleen zin als filled=true</dd>
+</dl>
 
 == Pie chart ==
+In a 
 1 of 2 kolommen:
 de eerste bevat de titel, 
 de tweede de waarde voor in de pie chart
 Volgende kolommen worden verwijderd
+<dl>
+<dt>*labels[=true|<u>false</u>]*</dt>
+<dd>labels=false betekent dat er geen labels worden geprint bij de taartpunten. Eventueel kunnen er wel percentages getoond worden met percentages=true. Wanneer de labels worden aangezet, is het handig om de legenda uit te zetten. Anders kost het erg veel ruimte en wordt de taart ook erg klein.</dd>
 
-;labels[=true|<u>false</u>]
-:labels=false betekent dat er geen labels worden geprint bij de taartpunten. Eventueel kunnen er wel percentages getoond worden met percentages=true. Wanneer de labels worden aangezet, is het handig om de legenda uit te zetten. Anders kost het erg veel ruimte en wordt de taart ook erg klein.
+<dt>*percentages[=<u>true</u>|false]*</dt>
+<dd>labels=true betekent dat er percentages worden geprint bij de taartpunten.</dd>
 
-;percentages[=<u>true</u>|false]
-:labels=true betekent dat er percentages worden geprint bij de taartpunten.
+<dt>*3d[=true|<u>false</u>]*</dt>
+<dd>Zorgt voor een 3d weergave van de pie chart</dd>
 
-;3d[=true|<u>false</u>]
-:Zorgt voor een 3d weergave van de pie chart
-
-;exploded[=true|<u>false</u>]
-:Zet de taartpunten een klein stukje uit elkaar
+<dt>*exploded[=true|<u>false</u>]*</dt>
+<dd>Zet de taartpunten een klein stukje uit elkaar</dd>
+</dl>
 
 == Scatter diagram ==
 2 of 3 kolommen:
