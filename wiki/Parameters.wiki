@@ -145,7 +145,7 @@ This section describes parameters that are specific for a certain chart type.
 <dt>*overlay[=true|<u>false</u>]*</dt>
 <dd>Produces an overlag bar chart. Does not work in combination with stacked=true</dd>
 <dt>*opacity=..*</dt>
-<dd>Determines the transparancy of the bars. 0 = fully transparent, 100 = non transparent. Standard is 100 for a stacked chart. With an overlay chart the standard is 50.</dd>
+<dd>Sets the transparancy of the bars. 0 = fully transparent, 100 = non transparent. Standard is 100 for a stacked chart. With an overlay chart the standard is 50.</dd>
 </dl>
 
 == Line chart ==
@@ -159,42 +159,37 @@ This section describes parameters that are specific for a certain chart type.
 <dt>*filled[=true|<u>false</u>]*</dt>
 <dd>Fill the space underneath a line.</dd>
 <dt>*opacity=..*</dt>
-<dd>Determines the transparancy of the filled space under a line. 0 = fully transparent, 100 = non transparent. Standard is 40 when filled=true.</dd>
+<dd>Sets the transparancy of the filled space under a line. 0 = fully transparent, 100 = non transparent. Standard is 40, works only when filled=true.</dd>
 </dl>
 
 == Radar chart ==
 <dl>
 <dt>*filled[=true|<u>false</u>]*</dt>
-<dd>Vult de ruimte onder de grafiek</dd>
-
+<dd>Color fills the surface under the drawn line</dd>
 <dt>*striped[=true|<u>false</u>]*</dt>
-<dd>Toont strepen tussen de verbindingslijnen in de radar grafiek</dd>
-
+<dd>Shows striped colors in the radar chart background</dd>
 <dt>*stripecolor=...*</dt>
-<dd>Bepaalt de kleur van de verbindingslijnen in de radar grafiek (dus niet van de achtergrond)</dd>
-
+<dd>Sets the color of the connecting lines (not the background)</dd>
 <dt>*opacity=..*</dt>
-<dd>Geeft aan hoe doorzichtig de gevulde ruimte onder de grafiek moet zijn. 0 = geheel doorzichtig, 100 = geheel ondoorzichtig. Standaard is het 40(= 40% ondoorzichtig). Deze waarde heeft alleen zin als filled=true</dd>
+<dd>Sets the transparancy of the filled space under a line. 0 = fully transparent, 100 = non transparent. Standard is 40, works only when filled=true.
+</dd>
 </dl>
 
 == Pie chart ==
-In a 
-1 of 2 kolommen:
-de eerste bevat de titel, 
-de tweede de waarde voor in de pie chart
-Volgende kolommen worden verwijderd
+In a pie chart you use 1 or 2 data columns:
+* title, value 
 <dl>
 <dt>*labels[=true|<u>false</u>]*</dt>
-<dd>labels=false betekent dat er geen labels worden geprint bij de taartpunten. Eventueel kunnen er wel percentages getoond worden met percentages=true. Wanneer de labels worden aangezet, is het handig om de legenda uit te zetten. Anders kost het erg veel ruimte en wordt de taart ook erg klein.</dd>
+<dd>labels=false disables drawing of labels near the pie. Optionally percentages can be shown with  percentages=true. When labels=true turn legend off, using both legend and labels costs a lot of grapghic space and makes the pie small.</dd>
 
 <dt>*percentages[=<u>true</u>|false]*</dt>
-<dd>labels=true betekent dat er percentages worden geprint bij de taartpunten.</dd>
+<dd>labels=true shows precentages near the pie.</dd>
 
 <dt>*3d[=true|<u>false</u>]*</dt>
-<dd>Zorgt voor een 3d weergave van de pie chart</dd>
+<dd>Shows the pie in 3 dimensional perspective.</dd>
 
 <dt>*exploded[=true|<u>false</u>]*</dt>
-<dd>Zet de taartpunten een klein stukje uit elkaar</dd>
+<dd>Separates each part of the pie.</dd>
 </dl>
 
 == Scatter diagram ==
