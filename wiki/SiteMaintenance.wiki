@@ -1,7 +1,7 @@
 #summary Maintenance tips for your Mediawiki site
 
 === Introduction ===
-As described in 'how does pchart4mw work', pchart4mw stores chart images in the cache folder (default images/pchart4mw/*.*). The filenames of these images are automatically generated based on the full content of the pchart4mw call. This means that every time the content of a call changes the filename of the created image also changes.
+As described in the [TechnicalOverview technical overview], pchart4mw stores chart images in the cache folder (default images/pchart4mw/*.*). The filenames of these images are automatically generated based on the full content of the pchart4mw call. This means that every time the content of a call changes the filename of the created image also changes.
 
 A filename is for example: 4011db4213c05eed3f30f6a350072995.png
 
