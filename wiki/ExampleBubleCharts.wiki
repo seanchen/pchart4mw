@@ -1,6 +1,9 @@
 #summary Examples of bubble charts
 #labels Phase-Documentation
 
+This page gives several samples of radar charts.
+
+====Sample 1====
 {{{
 <pBubble size=400x300 legend colors=F00,0F0,00F,0FF,F0F,FF0 xtitle="Aantal FTE" ytitle="Aantal personen" title="Omzet">
 Sales,3,6,20
@@ -11,6 +14,8 @@ Information Technology,7,4,51
 Administration,6,2,38
 </pBubble>
 }}}
+
+====Sample 2====
 {{{
 <pBubble size=500x300 legend cross axis=false>
 Sales,3,6,20
