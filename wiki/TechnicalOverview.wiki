@@ -1,7 +1,7 @@
 #summary Technical overview and architecture of pChart4mw
 #labels Phase-Design
 
-= Introduction =
+=== Introduction ===
 pChart4mw is built as a wrapper around pChart. The chart generation itself is done by pChart, the logic of converting the wiki tags to a chart is done by this extension. This process follows these steps
 
  # *Get default settings*: default settings can be set per chart type in `LocalSettings.php`. These settings are read from `LocalSettings.php` and settings that are left empty are filled in by built-in defaults.
@@ -12,7 +12,7 @@ pChart4mw is built as a wrapper around pChart. The chart generation itself is do
  # *Finish chart*: print the title and legend to finish the chart.
  # *Output*: output the correct HTML code to the browser that shows the chart.
 
-= Files =
+=== Files ===
 The basic pChart4mw file is `pChart4mw.php`. This file is loaded by [http://www.mediawiki.org MediWiki]. It sets the default settings, determines the files to be loaded and tells [http://www.mediawiki.org MediWiki] to call a specific function based. 
 
 When the wiki-code for a chart is found, a specific class for that chart is loaded. For example when the code
@@ -25,7 +25,7 @@ When the wiki-code for a chart is found, a specific class for that chart is load
 }}}
 is found, the class 'pChart4mwBars' is loaded. All chart classes are subclasses of the generic 'pChart4mw' class. This class contains basic parsing and chart generation that is needed for all types of chart. The specific chart classes contain more specific parsing and chart generation for these types of charts.
 
-= Caching =
+=== Caching ===
 pChart4mw contains a built-in cache method. The generated files are stored on the hard disk in order to show the charts in the wiki. Because these files are stored, we also use these stored files as a cache. Because the pages on a wiki might be loaded frequently, every time the same chart is requested, the same file is used. This saves a lot of generation time, because the charts only have to be generated once. 
 
 The charts are saved with a filename that is generated using a MD5 hash:
