@@ -13,8 +13,9 @@ colorscheme=accent
 }}}
 
 === Sample colorschemes ===
-
-==== Accent ====
+http://pchart4mw.googlecode.com/files/pchart4mw-col-accent.png
+http://pchart4mw.googlecode.com/files/pchart4mw-col-original.png
+http://pchart4mw.googlecode.com/files/pchart4mw-col-softblue.png
 
 
 
@@ -22,3 +23,6 @@ colorscheme=accent
 A colorscheme is a simple text file, that is stored in the colorschemes folder of pChart4mw. Its filename is the name of the colorscheme and it always has an extension ".txt"
 
 To create your own colorscheme simply make a new colorscheme textfile with eight RGB colors.
+
+
+http://pchart4mw.googlecode.com/files/pchart4mw-col-wave.png
