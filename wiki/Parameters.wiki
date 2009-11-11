@@ -193,38 +193,32 @@ In a pie chart you use 1 or 2 data columns:
 In a scatter chart you use 2 or 3 data columns:
  * title, X-coordinate, Y-coordinate
 
-If X- and Y-coordinate columns are absent (1,1), (2,2), (3,3) etc. are used.
-If only the X-coordinate is used, that value is used for both X and Y.
+Rules for columns:
+ * If X- and Y-coordinate columns are absent (1,1), (2,2), (3,3) etc. are used.
+ * If only the X-coordinate is used, that value is used for both X and Y.
 
-Het is ook mogelijk om ipv 2 kolommen voor X en Y coordinaten er 4 of 6 te gebruiken. Dan worden meerdere series getoond. De titel voor elke serie staat boven de X kolom ervan.
+When using multiple series use more X and Y coordinates.
 
 <dl>
 <dt>*plots=<u>none</u>|open|closed*</dt>
-<dd>Laat op de gemeten punten een rondje zien, al dan niet open</dd>
-
+<dd>Plots a little circle (open or closed) at each measuring point</dd>
 <dt>*plotsize=..*</dt>
-<dd>Grootte van het rondje die getoond wordt.</dd>
-
+<dd>Sets the size of the plotted circle</dd>
 <dt>*connected[=<u>true</u>|false]*</dt>
 <dd>Bepaalt of de punten verbonden moeten worden met een lijn</dd>
 </dl>
 
 == Bubble chart ==
-3 of 4 kolommen:
-de eerste bevat de titel, 
-de tweede de X coordinaat,
-de derde de Y coordinaat,
-de vierde de oppervlakte van de bubble
+In a bubble chart you use 3 or 4 data columns:
+ * title, X-coordinate, Y-coordinate, bubble surface size
 
-Als er geen kolom is, dan worden de coordinaten (1,1), (2,2), (3,3) etc. gebruikt, met als grootte 1.
-
-Wanneer er maar 1 kolom is, dan wordt die als oppervlakte-kolom gebruikt, met coordinaten (1,1), (2,2), (3,3).
-
-Wanneer er 2 kolommen zijn, dan wordt de eerste als X en Y coordinaat gebruikt en de tweede als oppervlakte
+Rules for columns:
+ * If X-, Y-coordinate and surface-size columns are absent (1,1), (2,2), (3,3) etc. are used with surface-size = 1. 
+ * If only one column is used it is used as surface size with default coordinates (1,1), (2,2), (3,3) etc.
+ * If only two column are filled, the first is used for both X and Y, the second is used as the surface-size
 
 <dl>
 <dt>*plotsize=..*</dt>
-<dd>Grootte van de grootste bubble die getoond wordt.</dd>
-
+<dd>Size of the lagest bubble to be shown</dd>
 <dt>*cross=[true|<u>false</u>]*</dt>
 <dd>Divides the graph in four areas.</dd>
