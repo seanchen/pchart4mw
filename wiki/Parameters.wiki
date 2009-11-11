@@ -181,25 +181,20 @@ In a pie chart you use 1 or 2 data columns:
 <dl>
 <dt>*labels[=true|<u>false</u>]*</dt>
 <dd>labels=false disables drawing of labels near the pie. Optionally percentages can be shown with  percentages=true. When labels=true turn legend off, using both legend and labels costs a lot of grapghic space and makes the pie small.</dd>
-
 <dt>*percentages[=<u>true</u>|false]*</dt>
 <dd>labels=true shows precentages near the pie.</dd>
-
 <dt>*3d[=true|<u>false</u>]*</dt>
 <dd>Shows the pie in 3 dimensional perspective.</dd>
-
 <dt>*exploded[=true|<u>false</u>]*</dt>
 <dd>Separates each part of the pie.</dd>
 </dl>
 
 == Scatter diagram ==
-2 of 3 kolommen:
-de eerste bevat de titel, 
-de tweede de X coordinaat,
-de derde de Y coordinaat
+In a scatter chart you use 2 or 3 data columns:
+ * title, X-coordinate, Y-coordinate
 
-Als er geen kolom is, dan worden de coordinaten (1,1), (2,2), (3,3) etc. gebruikt.
-Wanneer er maar 1 kolom is, dan worden die coordinaten als X en als Y coordinaat gebruikt
+If X- and Y-coordinate columns are absent (1,1), (2,2), (3,3) etc. are used.
+If only the X-coordinate is used, that value is used for both X and Y.
 
 Het is ook mogelijk om ipv 2 kolommen voor X en Y coordinaten er 4 of 6 te gebruiken. Dan worden meerdere series getoond. De titel voor elke serie staat boven de X kolom ervan.
 
