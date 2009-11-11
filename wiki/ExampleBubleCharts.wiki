@@ -15,6 +15,7 @@ Information Technology,7,4,51
 Administration,6,2,38
 </pBubble>
 }}}
+http://pchart4mw.googlecode.com/files/pchart4mw-bubble-01.png
 
 ====Sample 2====
 {{{
@@ -27,3 +28,4 @@ Information Technology,7,4,51
 Administration,6,2,38
 </pBubble>
 }}}
+http://pchart4mw.googlecode.com/files/pchart4mw-bubble-02.png
