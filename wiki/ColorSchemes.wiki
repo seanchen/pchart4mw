@@ -1,9 +1,18 @@
-#summary Using colors schemes.
+#summary Using colorsschemes.
 
 === Introduction ===
 
-Add your content here.
+pChart4mw can work with pre-defined colorschemes. The standard download of pChart4mw comes with a few default colorschemes.
+
+=== Using colorschemes ===
+
+You can also easily create your own.
+
+
+=== Sample colorschemes ===
+
+==== Accent ====
+
 
 
 === Make your own ===
-
