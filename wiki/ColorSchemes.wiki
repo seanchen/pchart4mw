@@ -1,12 +1,14 @@
 #summary Using colorsschemes.
 
 === Introduction ===
-
-pChart4mw can work with pre-defined colorschemes. The standard download of pChart4mw comes with a few default colorschemes like accent.txt, original.txt, softblue.txt, etc... You can also easily create your own.
+A colorscheme is a set of standard colors that is used in drawing the data in a chart. pChart4mw can work with pre-defined colorschemes. The standard download of pChart4mw comes with a few colorschemes like accent.txt, original.txt, softblue.txt, etc... Of course you can also easily create your own.
 
 === Using colorschemes ===
 There are two ways to use colorschemes:
- * You can set your own default colorscheme in configuration of pChart4mw. This colorscheme will them be used as default for all the charts unless other colors or colorschems are defined with the chart. See also paragraph Default settings in the [Configuration configuration] page.
+ * You can set your own default colorscheme in configuration of pChart4mw. This colorscheme will then be used as default for all the charts unless other colors or colorschems are defined for the specific chart. See also paragraph Default settings in the [Configuration configuration] page. For example:
+{{{
+$wgPChart4mwDefaults = Array ( "size" => "200x120", "colorscheme" => "softblue" );
+}}}
  * You can call a preferred scheme in a chart definition (see [Parameters#Colors color parameters]). For example:
 {{{
 colorscheme=accent
