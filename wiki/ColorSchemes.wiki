@@ -5,7 +5,7 @@ A colorscheme is a set of standard colors that is used in drawing the data in a 
 
 === Using colorschemes ===
 There are two ways to use colorschemes:
- * You can set your own default colorscheme in configuration of pChart4mw. This colorscheme will then be used as default for all the charts unless other colors or colorschems are defined for the specific chart. See also paragraph Default settings in the [Configuration configuration] page. For example:
+ * You can set your own default colorscheme in configuration of pChart4mw. This colorscheme will then be used as default for all the charts unless other colors or colorschems are defined for the specific chart. See also paragraph default settings in the [Configuration#Default_settings configuration] page. For example:
 {{{
 $wgPChart4mwDefaults = Array ( "size" => "200x120", "colorscheme" => "softblue" );
 }}}
