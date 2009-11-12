@@ -10,6 +10,8 @@ The parameters can be entered inside the XML-tag, so between '<pbars' and '>'. D
 
 When a parameter expects a value (e.g. 'title'), you can use a '=' sign and then specify the value. When the value contains a whitespace (space, tab or newline) you have to put quotation marks around them. There are also parameters that do not expect a value (e.g. 'legend').
 
+Note that, when you use a lot of parameters, you can type them on subsequent lines for readability.
+
 == Using Colors ==
 When colors are specified using a parameter, the HTML color notation is used. HTML colors are defined using a [http://en.wikipedia.org/wiki/Hexadecimal hexadecimal] (hex) notation for the combination of Red, Green, and Blue color values (RGB). The lowest value that can be given to one of the light sources is 0 (hex 00). The highest value is 255 (hex FF). Hex values are written as 3 double digit numbers, starting with a # sign.
 
