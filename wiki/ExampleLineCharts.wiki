@@ -3,7 +3,8 @@
 This page gives several samples of bar charts.
 ====Sample 1====
 {{{
-<pLines Title="Site Visitors" colors=FF0000,00FF00,0000FF ymin=0 ymax=8000 labels=true size=500x200>
+<pLines Title="Site Visitors" colors=FF0000,00FF00,0000FF 
+         ymin=0 ymax=8000 labels=true size=500x200>
 Jan,6748,2391,1952
 Feb,5918,4091,3001
 Mar,5211,3011,2181
