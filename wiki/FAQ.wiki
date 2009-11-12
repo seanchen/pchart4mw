@@ -2,4 +2,4 @@
 
 = Introduction =
 
-<font size="3" color="red">This is some text!</font>
+<font size="3" color="#7B7B7B">This is some text!</font>
