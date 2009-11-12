@@ -2,7 +2,7 @@
 
 
 ====Release Notes====
-<font size="2" color="#7B7B7B">*Version 1.0.4, November 2009*</font><br>
+<font size="2" color="#7B7B7B">*Version 1.0.4 November 2009*</font><br>
 The first publicly available version of pchart4mw. The extension was first published on this google code site in July 2009. The documentation plus the Mediawiki extension page were finalized on November 11th 2009. pchart4mw was build with pChart library version 1.27d
 
 
