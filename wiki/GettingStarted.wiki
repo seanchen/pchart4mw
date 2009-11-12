@@ -1,7 +1,7 @@
 #summary Getting yourself setup and started
 
 === What you need ===
-The pChart for Mediawiki extension (pChart4mw) uses the (free) PHP Chart library pChart to produce these graphs.
+The pChart for Mediawiki extension (pchart4mw) uses the (free) PHP Chart library pChart to produce these graphs.
 
 pchart4mw works, together with the pChart library, fully within your Mediawiki server environment. The data is processed completely within the server environment. 
 
