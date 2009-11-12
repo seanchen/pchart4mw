@@ -38,7 +38,3 @@ As explained before, several parameters can be used to control the way a chart l
 || plots || no || no || yes || no || yes || no || shows small circles on the position of the measured values. Possible values are 'open', 'closed' or 'none'.||
 || opacity || yes || no || yes || yes || no || no || sets the opacity of the bars or the area underneath the line or radar area. A number between 0 and 100 is allowed ||
 || 3d || no || yes || no || no || no || no || make the pie chart three dimensional. ||
-
-=== See also ===
- * http://pchart.sourceforge.net Original pChart scripts
- * http://www.mediawiki.org/wiki/Extension:Pchart4mw Mediawiki Extension
