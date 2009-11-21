@@ -39,4 +39,4 @@ And you've created colorscheme "wave" with these colors:
 
 http://pchart4mw.googlecode.com/files/pchart4mw-col-wave.png
 
-Note: Be aware of the fact that not every set of colors is usable for every type of chart. A line chart for example needs more distinguishable colors than a bar chart. 
+Note: Be aware of the fact that not every set of colors is usable for every type of chart. A line chart for example needs better distinguishable colors than a bar chart. 
