@@ -1,7 +1,7 @@
 #summary Using colorsschemes.
 
 === Introduction ===
-A colorscheme is a set of standard colors that is used in drawing the data in a chart. pChart4mw can work with pre-defined colorschemes. The download of pChart4mw comes with a few [Standard_colorschemes standard colorschemes]: accent.txt, blue.txt, greenblue.txt, original.txt, paired.txt, purpleblue.txt, softblue.txt and wave.txt. <br>
+A colorscheme is a set of standard colors that is used in drawing the data in a chart. pChart4mw can work with pre-defined colorschemes. The download of pChart4mw comes with a few [#Standard_colorschemes standard colorschemes]: accent.txt, blue.txt, greenblue.txt, original.txt, paired.txt, purpleblue.txt, softblue.txt and wave.txt. <br>
 Of course you can also easily [#Make_your_own create your own].
 
 === Using colorschemes ===
