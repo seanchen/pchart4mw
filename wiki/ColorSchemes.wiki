@@ -18,14 +18,14 @@ colorscheme=accent
 === Standard colorschemes ===
 http://pchart4mw.googlecode.com/files/pchart4mw-col-accent.png
 http://pchart4mw.googlecode.com/files/pchart4mw-col-original.png
-http://pchart4mw.googlecode.com/files/pchart4mw-col-softblue.png
+http://pchart4mw.googlecode.com/files/pchart4mw-col-paired.png
 <br>
 http://pchart4mw.googlecode.com/files/pchart4mw-col-blue.png
+http://pchart4mw.googlecode.com/files/pchart4mw-col-softblue.png
 http://pchart4mw.googlecode.com/files/pchart4mw-col-greenblue.png
-http://pchart4mw.googlecode.com/files/pchart4mw-col-purpleblue.png
 <br>
-http://pchart4mw.googlecode.com/files/pchart4mw-col-paired.png
 http://pchart4mw.googlecode.com/files/pchart4mw-col-wave.png
+http://pchart4mw.googlecode.com/files/pchart4mw-col-purpleblue.png
 
 === Make your own ===
 A colorscheme is a simple text file, that is stored in the colorschemes folder of pChart4mw. Its filename is the name of the colorscheme and it always has an extension ".txt"
