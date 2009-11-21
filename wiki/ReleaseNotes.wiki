@@ -2,7 +2,7 @@
 
 
 ====Release Notes====
-<font size="2" color="#7B7B7B">*Version 1.0.4 November 18<sup>th</sup> 2009*</font><br>
+<font size="2" color="#7B7B7B">*Version 1.0.4 November 18<sup>th</sup> 2009* (current version)</font><br>
 Added [Parameters#Axes parameter boxcolor] to set the color of the (optional) box around the chart.<br>
 pchart4mw version 1.0.4 was build with pChart library version 1.27d and PHP version 5.2<br>
 Download: [http://pchart4mw.googlecode.com/files/pChart4mw%20v1.0.4.zip pChart4mw v1.0.4.zip]
