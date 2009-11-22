@@ -13,3 +13,11 @@ To use it as a webservice add the following line to `LocalSettings.php`:
 {{{
 $wgPChart4mwWebservice = "http://localhost:8000/wiki/extensions/pChart4mw/pChartWebservice.php";
 }}}
+
+===Installing the webservice===
+pChart4mw contains a PHP file that functions as a webservice. To use the webservice, you should install pChart4mw both on the server where the wiki is and also on the server where the charts should be generated. When using the webservice, most parameters set in this file do not have any effect. The parameters should be set in the webservice file itself.
+
+It is also possible to use a different webservice. You can build your own or use a webservice somebody else created. There are a few requirements for the webservice.
+ # The webservice must be able to handle a HTTP GET request.
+ # The webservice should accept a parameter called _data and a parameter called _type (see below for details).
+ # The webservice should output the image contents directly.
