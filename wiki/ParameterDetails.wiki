@@ -1,10 +1,10 @@
-#summary In-depth explanation of all parameters
+#summary In-depth explanation of all general parameters
 #labels Phase-Documentation
 
-= Parameters for all types of charts =
+=== Parameters for all types of charts ===
 There are a number of parameters that can be set for all types of charts. 
 
-== Size of the chart==
+=== Size of the chart===
 <dl>
 <dt>*size={aa}x{bb}*</dt>
 <dd>Sets the size of the image to aa pixels wide and bb pixels high. If only one number is given, the graph will be that wide and also that high. The minimum size of the image is dependent on the margins and whether a title and legend are shown.
@@ -55,7 +55,7 @@ Apr,44
 </dd>
 </dl>
 
-== Title ==
+=== Title ===
 <dl>
 <dt>*title="Site visitors"*</dt>
 <dd>Sets the title of the chart to _Site visitors_. If no title is given, nothing is printed. The title is always shown on top of the chart.
@@ -91,7 +91,7 @@ Apr,44
 </dd>
 </dl>
 
-== Axes ==
+=== Axes ===
 
 <dl>
 <dt>*axis[=<u>true</u>|false]*</dt>
@@ -278,7 +278,7 @@ Apr,3
 </dd>
 </dl>
 
-== Colors ==
+=== Colors ===
 <dl>
 <dt>*colors={color}[,{color},...]*</dt>
 <dd>Defines the colors that are used to draw the chart. Every drawn serie will be drawn using a new color. You can specify multiple colors by separating them with a comma. When less colors are specified than needed, the colors are used multiple times. For example when 4 series are drawn and only red and green are specified as colors, the 1st and 3rd serie are drawn red and the 2nd and 4th are drawn green.
@@ -325,7 +325,7 @@ Production,47
 </dd>
 </dl>
 
-== Data ==
+=== Data ===
 <dl>
 <dt>*xlabels[=true|false]*</dt>
 <dd>Set this parameter if the first column contains numeric labels. The script automatically detects whether the data contains labels when the labels are non-numeric. This flag is introduced to create the possibility for numeric labels.
@@ -401,7 +401,7 @@ Y2008,Y2009
 </dd>
 </dl>
 
-== Legend ==
+=== Legend ===
 <dl>
 <dt>*legend[=none|left|top|<u>right</u>|bottom]*</dt>
 <dd>Shows the legend on the specified position. If no location is given (i.e. just 'legend'), the legend is placed on the right.
@@ -490,7 +490,7 @@ Y2008,Y2009
 </dd>
 </dl>
 
-== Background ==
+=== Background ===
 <dl>
 <dt>*bgcolor={color}*</dt>
 <dd>Sets the background color for the whole image. The 'graphbgcolor' sets the color for the chart area alone.
@@ -556,99 +556,3 @@ _Example:_
 </pBars>
 }}}
 </dd>
-
-= Bar charts =
-;stacked[=true|<u>false</u>]
-:Geeft aan of de bar chart stacked moet zijn of niet.
-
-;overlay[=true|<u>false</u>]
-:Produceert een overlay grafiek, waarbij de staven van verschillende series over elkaar heen worden getoond. Werkt niet in combinatie met stacked=true
-
-;opacity=..
-:Geeft aan hoe doorzichtig de staven moeten zijn. 0 = geheel doorzichtig, 100 = geheel ondoorzichtig. Standaard is het 100 voor een gewone en een stacked grafiek. Bij een overlay grafiek is het standaard 50.
-
-= Line charts =
-;plots=<u>none</u>|open|closed
-:Laat op de gemeten punten een rondje zien, al dan niet open
-
-;plotsize=..
-:Grootte van het rondje die getoond wordt.
-
-;cubic[=true|<u>false</u>]
-:Toont de grafiek als een lijn zonder harde knikken erin.
-
-;filled[=true|<u>false</u>]
-:Vult de ruimte onder de grafiek
-
-;opacity=..
-:Geeft aan hoe doorzichtig de gevulde ruimte onder de grafiek moet zijn. 0 = geheel doorzichtig, 100 = geheel ondoorzichtig. Standaard is het 40(= 40% ondoorzichtig). Deze waarde heeft alleen zin als filled=true
-
-= Radar charts =
-;filled[=true|<u>false</u>]
-:Vult de ruimte onder de grafiek
-
-;striped[=true|<u>false</u>]
-:Toont strepen tussen de verbindingslijnen in de radar grafiek
-
-;stripecolor=...
-:Bepaalt de kleur van de verbindingslijnen in de radar grafiek (dus niet van de achtergrond)
-
-;opacity=..
-:Geeft aan hoe doorzichtig de gevulde ruimte onder de grafiek moet zijn. 0 = geheel doorzichtig, 100 = geheel ondoorzichtig. Standaard is het 40(= 40% ondoorzichtig). Deze waarde heeft alleen zin als filled=true
-
-= Pie charts =
-1 of 2 kolommen:
-de eerste bevat de titel, 
-de tweede de waarde voor in de pie chart
-Volgende kolommen worden verwijderd
-
-;labels[=true|<u>false</u>]
-:labels=false betekent dat er geen labels worden geprint bij de taartpunten. Eventueel kunnen er wel percentages getoond worden met percentages=true. Wanneer de labels worden aangezet, is het handig om de legenda uit te zetten. Anders kost het erg veel ruimte en wordt de taart ook erg klein.
-
-;percentages[=<u>true</u>|false]
-:labels=true betekent dat er percentages worden geprint bij de taartpunten.
-
-;3d[=true|<u>false</u>]
-:Zorgt voor een 3d weergave van de pie chart
-
-;exploded[=true|<u>false</u>]
-:Zet de taartpunten een klein stukje uit elkaar
-
-= Scatter charts =
-2 of 3 kolommen:
-de eerste bevat de titel, 
-de tweede de X coordinaat,
-de derde de Y coordinaat
-
-Als er geen kolom is, dan worden de coordinaten (1,1), (2,2), (3,3) etc. gebruikt.
-Wanneer er maar 1 kolom is, dan worden die coordinaten als X en als Y coordinaat gebruikt
-
-Het is ook mogelijk om ipv 2 kolommen voor X en Y coordinaten er 4 of 6 te gebruiken. Dan worden meerdere series getoond. De titel voor elke serie staat boven de X kolom ervan.
-
-;plots=<u>none</u>|open|closed
-:Laat op de gemeten punten een rondje zien, al dan niet open
-
-;plotsize=..
-:Grootte van het rondje die getoond wordt.
-
-;connected[=<u>true</u>|false]
-:Bepaalt of de punten verbonden moeten worden met een lijn
-
-= Bubble charts =
-3 of 4 kolommen:
-de eerste bevat de titel, 
-de tweede de X coordinaat,
-de derde de Y coordinaat,
-de vierde de oppervlakte van de bubble
-
-Als er geen kolom is, dan worden de coordinaten (1,1), (2,2), (3,3) etc. gebruikt, met als grootte 1.
-
-Wanneer er maar 1 kolom is, dan wordt die als oppervlakte-kolom gebruikt, met coordinaten (1,1), (2,2), (3,3).
-
-Wanneer er 2 kolommen zijn, dan wordt de eerste als X en Y coordinaat gebruikt en de tweede als oppervlakte
-
-;plotsize=..
-:Grootte van de grootste bubble die getoond wordt.
-
-;cross=[true|<u>false</u>]
-:Divides the graph in four areas.
