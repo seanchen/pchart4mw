@@ -4,7 +4,7 @@
 = Parameters for all types of charts =
 There are a number of parameters that can be set for all types of charts. 
 
-<wiki:toc max_depth="2" />
+<wiki:toc min_depth = "2" max_depth="2" />
 
 == Size of the chart==
 <dl>
