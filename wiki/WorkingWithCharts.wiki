@@ -2,7 +2,6 @@
 
 pChart4mw is capable of generating six different types of charts. Each chart type has its own tag. 
 
-====General syntax====
 The general syntax of a chart in a wiki page is
 {{{
 <pChartType p1 p2 p3 ...>
