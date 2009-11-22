@@ -1,9 +1,9 @@
 #summary Run pchart4mw as webservice
 
 === Introduction ===
+pChart4mw has the option to use it as a webservice to generate the charts. This can be useful is you want to use a different server to create the chart images. You can use the pChartwebservice.php or create your own webservice.
 
-pchart4mw can be run as a webservice.
-Note: this is advanced use and will be documented later. The documentation on this page is as-is and incomplete
+!! Note: This is advanced use and will be documented later. The documentation on this page is as-is and incomplete !!
 
 
 === Configuration ===
