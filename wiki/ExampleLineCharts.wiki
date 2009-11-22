@@ -17,6 +17,21 @@ http://pchart4mw.googlecode.com/files/pchart4mw-line-01.png
 
 ====Sample 2====
 {{{
+<pLines Title="Site Visitors" colors=FF0000,00FF00,0000FF 
+        cubic=true plots=open grid=true box=true labels=true 
+        ymin=0 ymax=8000 size=500x200>
+Jan,6748,2391,1952
+Feb,5918,4091,3001
+Mar,5211,3011,2181
+Apr,6019,3519,1791
+May,7183,5118,3219
+Jun,6109,4411,3588
+</pLines>
+}}}
+http://pchart4mw.googlecode.com/files/pchart4mw-line-03.png
+
+====Sample 3====
+{{{
 <pLines ymin=0 cubic filled plots legend>
 ,US,EU
 Jan,6748,4301
