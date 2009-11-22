@@ -1,11 +1,12 @@
 #summary Run pchart4mw as webservice
 
-= Introduction =
+=== Introduction ===
 
-Add your content here.
+pchart4mw can be run as a webservice.
+Note: this is advanced use and will be documented later. The documentation on this page is as-is and incomplete
 
 
-= Details =
+=== Configuration ===
 
 If you leave this parameter emtpy, no webservice is used. That is also the default value.
 To use it as a webservice add the following line to `LocalSettings.php`:
