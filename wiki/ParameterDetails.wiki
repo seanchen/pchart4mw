@@ -147,13 +147,28 @@ Apr,3
 }}}
 </dd>
 <dt>*box[=<u>true</u>|false]*</dt>
-<dd>This parameter is used to draw a box around the graph area. The box is drawn in the same color as the axes. The result is a solid line above and to the right of the graph area. 
+<dd>This parameter is used to draw a box around the graph area. The box is default drawn in the same color as the gridcolor. The result is a solid line above and to the right of the graph area. 
 
 _Example:_
 || Shows a box around the graph area ||
 
 {{{
 <pLines box>
+Jan,4
+Feb,6
+Mar,2
+Apr,3
+</pLines>
+}}}
+</dd>
+<dt>*boxcolor={color}*</dt>
+<dd>Sets the color of the box drawn around the chart. This parameter only has effect when 'box'=true.
+
+_Example:_
+|| Shows the box around the graph in a very light grey ||
+
+{{{
+<pLines boxcolor=#E1E1E1>
 Jan,4
 Feb,6
 Mar,2
