@@ -1,12 +1,12 @@
 #summary In-depth explanation of all general parameters
 #labels Phase-Documentation
 
-=== Parameters for all types of charts ===
+= Parameters for all types of charts =
 There are a number of parameters that can be set for all types of charts. 
 
-<wiki:toc max_depth="3" />
+<wiki:toc max_depth="2" />
 
-=== Size of the chart===
+== Size of the chart==
 <dl>
 <dt>*size={aa}x{bb}*</dt>
 <dd>Sets the size of the image to aa pixels wide and bb pixels high. If only one number is given, the graph will be that wide and also that high. The minimum size of the image is dependent on the margins and whether a title and legend are shown.
@@ -57,7 +57,7 @@ Apr,44
 </dd>
 </dl>
 
-=== Title ===
+== Title ==
 <dl>
 <dt>*title="Site visitors"*</dt>
 <dd>Sets the title of the chart to _Site visitors_. If no title is given, nothing is printed. The title is always shown on top of the chart.
@@ -93,7 +93,7 @@ Apr,44
 </dd>
 </dl>
 
-=== Axes ===
+== Axes ==
 
 <dl>
 <dt>*axis[=<u>true</u>|false]*</dt>
@@ -280,7 +280,7 @@ Apr,3
 </dd>
 </dl>
 
-=== Colors ===
+== Colors ==
 <dl>
 <dt>*colors={color}[,{color},...]*</dt>
 <dd>Defines the colors that are used to draw the chart. Every drawn serie will be drawn using a new color. You can specify multiple colors by separating them with a comma. When less colors are specified than needed, the colors are used multiple times. For example when 4 series are drawn and only red and green are specified as colors, the 1st and 3rd serie are drawn red and the 2nd and 4th are drawn green.
@@ -327,7 +327,7 @@ Production,47
 </dd>
 </dl>
 
-=== Data ===
+== Data ==
 <dl>
 <dt>*xlabels[=true|false]*</dt>
 <dd>Set this parameter if the first column contains numeric labels. The script automatically detects whether the data contains labels when the labels are non-numeric. This flag is introduced to create the possibility for numeric labels.
@@ -403,7 +403,7 @@ Y2008,Y2009
 </dd>
 </dl>
 
-=== Legend ===
+== Legend ==
 <dl>
 <dt>*legend[=none|left|top|<u>right</u>|bottom]*</dt>
 <dd>Shows the legend on the specified position. If no location is given (i.e. just 'legend'), the legend is placed on the right.
@@ -492,7 +492,7 @@ Y2008,Y2009
 </dd>
 </dl>
 
-=== Background ===
+== Background ==
 <dl>
 <dt>*bgcolor={color}*</dt>
 <dd>Sets the background color for the whole image. The 'graphbgcolor' sets the color for the chart area alone.
