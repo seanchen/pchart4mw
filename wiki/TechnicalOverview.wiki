@@ -13,7 +13,7 @@ pChart4mw is built as a wrapper around pChart. The chart generation itself is do
  # *Output*: output the correct HTML code to the browser that shows the chart.
 
 === Files ===
-The basic pChart4mw file is `pChart4mw.php`. This file is loaded by [http://www.mediawiki.org MediWiki]. It sets the default settings, determines the files to be loaded and tells [http://www.mediawiki.org MediWiki] to call a specific function based. 
+The basic pChart4mw file is `pChart4mw.php`. This file is loaded by [http://www.mediawiki.org Mediawiki]. It sets the default settings, determines the files to be loaded and tells [http://www.mediawiki.org Mediawiki] to call a specific function based. 
 
 When the wiki-code for a chart is found, a specific class for that chart is loaded. For example when the code
 {{{
