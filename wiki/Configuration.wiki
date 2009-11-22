@@ -71,8 +71,7 @@ to use the subdirectory /colorschemes of the pChart4mw subdirectory.
 </dd>
 
 <dt>*webservice*</dt>
-<dd>pChart4mw contains the possibility to use it as a webservice to generate the charts. This can be useful is you want to use a different server to create the chart images. You can use the pChartwebservice.php or create your own webservice. More information can be found on the [RunAsWebServer webservice page].
-</dd>
+pChart4mw has the option to use it as a webservice to generate the charts. This can be useful is you want to use a different server to create the chart images. You can use the pChartwebservice.php or create your own webservice. More information can be found on the [RunAsWebService webservice page].
 </dl>
 
 ===Default settings===
