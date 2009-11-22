@@ -36,4 +36,4 @@ When the same chart is requested for a second time, the system sees that the fil
 
 Although this system is not waterproof (different charts might result in the same MD5 hash), it works good enough for chart generation.
 
-Tip: Read the [SiteMaintenance Wikisite maintenance] page for required maintenance of your cache folder.
+Tip: Read the [SiteMaintenance administrators maintenance] page for required maintenance of the cache folder on your wiki site.
