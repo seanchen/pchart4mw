@@ -27,6 +27,8 @@ http://pchart4mw.googlecode.com/files/pchart4mw-col-greenblue.png
 http://pchart4mw.googlecode.com/files/pchart4mw-col-wave.png
 http://pchart4mw.googlecode.com/files/pchart4mw-col-purpleblue.png
 
+Note: Colorscheme _blue_ has the same colors as _softblue_ only in reverse order 
+
 === Make your own ===
 A colorscheme is a simple text file, that is stored in the colorschemes folder of pChart4mw. Its filename is the name of the colorscheme and it always has extension ".txt"
 
