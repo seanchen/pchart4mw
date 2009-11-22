@@ -3,9 +3,7 @@
 === Introduction ===
 pChart4mw has the option to use it as a webservice to generate the charts. This can be useful is you want to use a different server to create the chart images. You can use the pChartwebservice.php or create your own webservice.
 
-<font size="2" color="#FF7F2A">!! Note: This is advanced use and will be documented later. The documentation on this page is as-is and incomplete !!</font>
-
-
+<font size="2" color="#FF7F2A">!! Note: This is advanced use of pchart4mw. The documentation on this page is still "as-is" and incomplete.!! (November 22<sup>nd</sup> 2009</font>
 
 === Configuration ===
 
