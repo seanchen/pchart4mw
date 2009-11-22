@@ -40,7 +40,7 @@ In the explanation of the parameters below, we use the following notation standa
 
 <br>
 = General Parameters =
-This paragraph describes the general parameters that can be used in pChart4mw. The general parameters apply to all the chart types.
+This paragraph describes the general parameters that can be used in pChart4mw. The general parameters apply to all the chart types. See page [ParameterDetails Parameter details] for these parameters with examples.
 
 == Size ==
 <dl>
