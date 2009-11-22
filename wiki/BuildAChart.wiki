@@ -59,8 +59,8 @@ Dec,7843,4712,1305
 }}}
 Note: The label must be in the same column as the data it belongs to. The columns are separated by a comma and the first column contains the labels for the x-axis. Therefore the first label for the series is preceded with a comma.
 
-=== Step 6: Style the graph ===
-Apart from the data in the graph, you can control the look and feel of the graph using different [Parameters parameters]. For example title and colors. 
+=== Step 6: Style the chart ===
+Apart from the data in the chart, you can control the look and feel of the chart using different [Parameters parameters]. For example title and colors. 
 {{{
 <pbars size=300x150 title="Site Visitors" ymin=0 ymax=10000 legend>
 ,Europe,United States,Asia
