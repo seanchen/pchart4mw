@@ -61,8 +61,11 @@ Option 2: point to `$IP/extensions/pChart4mw/pChart/pChart.class` with:
 $wgPChart4mwPChartPath = $_SERVER["DOCUMENT_ROOT"] . "/wiki/extensions/pChart4mw/pChart";
 }}}
 
-=== Configure the extension ===
-Your setup is good to go. There are several optional configuration options you might like to add to `LocalSettings.php`. (Recommended is to do this after testing [YourFirstGraph your first chart]). 
+Your setup is good to go. 
 
+=== Configure the extension ===
+There are several additional configuration options you might like to add to customize pchart4mw to your personal preferences in `LocalSettings.php`. (Recommended is to do this after testing [YourFirstGraph your first chart]). 
 
 More information about the configuration can be found in the section [Configuration configuration].
+
+Important: As administrator of the wiki site make sure to read the 
