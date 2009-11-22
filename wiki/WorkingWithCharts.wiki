@@ -14,7 +14,7 @@ where
  * `p1 p2 p3 ...` is your choice of [Parameters parameters] to customize the chart
  * `data` is your data to be displayed in the chart
 
-Follow the [BuildAChart step-by-step guide] to build some example charts and get a feel for the steps required to build a chart.
+Follow the [BuildAChart step-by-step guide] to build some sample charts and get a feel for the steps required to create them.
 
 ====Chart types====
 The types of charts (with their unique tags) are:
