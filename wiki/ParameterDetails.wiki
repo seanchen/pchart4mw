@@ -4,6 +4,8 @@
 === Parameters for all types of charts ===
 There are a number of parameters that can be set for all types of charts. 
 
+<wiki:toc max_depth="3" />
+
 === Size of the chart===
 <dl>
 <dt>*size={aa}x{bb}*</dt>
