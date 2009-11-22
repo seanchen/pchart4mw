@@ -149,8 +149,6 @@ Apr,3
 <dt>*box[=<u>true</u>|false]*</dt>
 <dd>This parameter is used to draw a box around the graph area. The box is drawn in the same color as the axes. The result is a solid line above and to the right of the graph area. 
 
-This parameter is present since version 1.0.2
-
 _Example:_
 || Shows a box around the graph area ||
 
