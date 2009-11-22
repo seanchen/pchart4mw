@@ -168,7 +168,7 @@ _Example:_
 || Shows the box around the graph in a very light grey ||
 
 {{{
-<pLines boxcolor=#E1E1E1>
+<pLines box=true boxcolor=#E1E1E1>
 Jan,4
 Feb,6
 Mar,2
