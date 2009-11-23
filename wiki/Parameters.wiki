@@ -98,7 +98,7 @@ If you set the format to 'date', the values on that axis are expected to be seco
 <dt>*colorscheme=[accent|greenblue|softblue|purpleblue|paired|original|blue|wave]*</dt>
 <dd>Tells the chart to use a predefined colorscheme. A colorscheme is a set of colors looking well together. These schemes are defined in textfiles in the colorscheme directory.</dd>
 
-<dd>*N.B.* If the colors and colorscheme parameters are both set, the colors parameter has precedence over the colorscheme.</dd>
+<dd>If the colors and colorscheme parameters are both set, the colors parameter has precedence over the colorscheme.</dd>
 
 More about using and creating colorschemes see: [ColorSchemes colorschemes...].
 </dl>
