@@ -321,7 +321,7 @@ _Examples:_
 }}}
 </dd>
 <dt>*colorscheme=[accent|greenblue|softblue|purpleblue|paired|original|blue|wave]*</dt>
-<dd>Tells the chart to use a predefined colorscheme. A colorscheme is a list of colors looking well together. These schemes are defined in text files in the colorscheme directory specified in the [[Configuration]].
+<dd>Tells the chart to use a predefined colorscheme. A colorscheme is a list of colors looking well together. These schemes are defined in text files in the colorscheme directory specified in the [Configuration].
 
 If the colors and colorscheme parameters are both set, the colors parameter has precedence over the colorscheme.
 
