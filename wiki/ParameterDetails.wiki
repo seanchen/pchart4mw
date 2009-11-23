@@ -320,10 +320,10 @@ _Examples:_
 </pBars>
 }}}
 </dd>
-<dt>*colorscheme=[accent|greenblue|softblue|purpleblue|paired|original]*</dt>
-<dd>Tells the chart to use a predefined colorscheme. A colorscheme is a list of colors looking well together. These schemes are defined in textfiles in the colorscheme directory specified in the [[configuration]]. The wiki administrator can add new colorschemes if needed.
+<dt>*colorscheme=[accent|greenblue|softblue|purpleblue|paired|original|blue|wave]*</dt>
+<dd>Tells the chart to use a predefined colorscheme. A colorscheme is a list of colors looking well together. These schemes are defined in text files in the colorscheme directory specified in the [[Configuration]].
 
-*N.B.* If the colors and colorscheme parameters are both set, the colors parameter has precedence over the colorscheme.
+If the colors and colorscheme parameters are both set, the colors parameter has precedence over the colorscheme.
 
 _Example:_
 || A pie chart with soft blue tones ||
