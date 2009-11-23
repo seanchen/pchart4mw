@@ -97,8 +97,10 @@ If you set the format to 'date', the values on that axis are expected to be seco
 <dd>Defines the colors that are used to draw the chart. Every drawn serie will be drawn using a new color. You can specify multiple colors by separating them with a comma. When less colors are specified than needed, the colors are used multiple times. For example when 4 series are drawn and only red and green are specified as colors, the 1st and 3rd serie are drawn red and the 2nd and 4th are drawn green.</dd>
 <dt>*colorscheme=[accent|greenblue|softblue|purpleblue|paired|original|blue|wave]*</dt>
 <dd>Tells the chart to use a predefined colorscheme. A colorscheme is a set of colors looking well together. These schemes are defined in textfiles in the colorscheme directory.</dd>
+
 <dd>*N.B.* If the colors and colorscheme parameters are both set, the colors parameter has precedence over the colorscheme.</dd>
-<dd>Read all about using and creating [ColorSchemes colorschemes].</dd>
+
+More about using and creating colorschemes see: [ColorSchemes colorschemes...].
 </dl>
 
 == Data ==
