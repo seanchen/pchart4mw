@@ -23,4 +23,7 @@
  * http://www.mediawiki.org/wiki/Extension:Pchart4mw Mediawiki Extension page for pchart4mw
  * http://pchart.sourceforge.net Original pChart Library 
 
+Other pchart library links
+ * http://sourceforge.net/projects/pchart/
+ * http://wiki.pchart.net/doc.installation.html
 [ParameterDetails]
