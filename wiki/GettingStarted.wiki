@@ -1,4 +1,5 @@
 #summary Getting yourself setup and started
+#labels Featured
 
 === What you need ===
 The pChart for Mediawiki extension (pchart4mw) uses the (free) PHP Chart library pChart to produce these graphs.
