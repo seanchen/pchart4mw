@@ -1,4 +1,5 @@
 #summary Release notes and history of pchart4mw
+#labels Featured
 
 
 ====Current version====
