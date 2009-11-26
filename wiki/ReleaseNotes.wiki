@@ -8,7 +8,8 @@
  * Correction in link to [http://www.mediawiki.org/wiki/Extension:Pchart4mw Extension:Pchart4mw page] in pchart4mw.php file
  * pchart4mw version 1.0.5 was build with pChart library version 1.27d and PHP version 5.2<br>
  * Download: [http://pchart4mw.googlecode.com/files/pChart4mw%20v1.0.5.zip pChart4mw v1.0.5.zip]
-
+<br>
+<br>
 <font size="3" color=Red>*Older versions*</font><br>
 <br>
 <font size="2" color="#7B7B7B">*Version 1.0.4 November 20<sup>th</sup> 2009*</font><br>
