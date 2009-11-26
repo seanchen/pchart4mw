@@ -25,6 +25,7 @@
 <br>
 <font size="2" color=Blue>*References*</font><br>
 <br>
+
  * http://www.mediawiki.org/wiki/Extension:Pchart4mw Mediawiki Extension page for pchart4mw
  * http://pchart.sourceforge.net Original pChart Library 
 
