@@ -2,7 +2,7 @@
 
 This page leads you through a simple step-by-step process to build a chart with pChart4mw.
 
-A chart can be included in a wiki page using special tags. An example of such a XML-tag is `<pBars>` or `<pPie>`. For every type of chart, a different tag is available. This page shows step by step how a bar chart is made. Other types of charts are made in a similar way, using another tag. More information about other types of charts can be found on the pages linked above.
+A chart is defined in a wiki page using special tags. An example of such a XML-tag is `<pBars>` or `<pPie>`. For every type of chart, a different tag is available. This page shows step by step how a bar chart is made. Other types of charts are made in a similar way, using their own unique tag. More information about other types of charts can be found on the pages linked above.
 
 ==== Step 1: Initial tags ====
 As explained, creating a chart starts with the XML-tag. Every tag has an opening part `<pBars>` and a closing part `</pBars>`. 
