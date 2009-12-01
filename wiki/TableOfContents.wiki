@@ -18,6 +18,6 @@
   More<br>
   · [TechnicalOverview Technical Overview]<br>
   · [RunAsWebService Run as Webservice]<br>
-  · [SiteMaintenance Wikisite Maintenance]<br>
+  · [SiteMaintenance Mediawiki Maintenance]<br>
   · [FAQ Frequently Asked Questions]<br>
   · [ReleaseNotes Release Notes]
