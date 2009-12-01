@@ -22,7 +22,7 @@
  * pchart4mw version 1.0.3 was build with pChart library version 1.27d and PHP version 5.2<br>
  * Download: [http://pchart4mw.googlecode.com/files/pchart4mw%20v1.0.3.zip pChart4mw v1.0.3.zip] <font size="1" color="#7B7B7B">(deprecated)</font>
 
-===<font color=Blue> References r</font>====
+===<font color=Blue> References </font>====
  * http://www.mediawiki.org/wiki/Extension:Pchart4mw Mediawiki Extension page for pchart4mw
  * http://pchart.sourceforge.net Original pChart Library 
 
