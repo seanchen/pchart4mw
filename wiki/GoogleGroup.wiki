@@ -2,8 +2,7 @@
 
 === Introduction ===
 
-Please use the google group   · [ReleaseNotes Release Notes
-
+Please use the google group for:
  * Feedback on this extension<br> We'd love to know who is using this extension en what for (maybe share your link).
  * Share your custom made colorschemes
  * Tips and hits 
@@ -12,3 +11,5 @@ Please use the google group   · [ReleaseNotes Release Notes
 
 ===Reference===
  * User Group pchart4mw: http://groups.google.com/group/pchart4mw
+
+This user group is created on December 1<sup>st</sup> 2009
