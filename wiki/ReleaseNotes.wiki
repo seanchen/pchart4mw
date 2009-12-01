@@ -29,3 +29,6 @@
 Other pchart library links _(are in process and will evenutually also result in a version 2 of the pChart library)_
  * http://sourceforge.net/projects/pchart/
  * http://wiki.pchart.net/doc.installation.html
+
+pchart4mw user group
+ * http://groups.google.com/group/pchart4mw
