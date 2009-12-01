@@ -3,7 +3,7 @@
 
 
 ===<font color=Green>*Current version*</font>===
-<br>
+
 <font size="2" color="#7B7B7B">*Version 1.0.5 November 21<sup>st</sup> 2009* (current version)</font><br>
  * Correction in link to [http://www.mediawiki.org/wiki/Extension:Pchart4mw Extension:Pchart4mw page] in pchart4mw.php file
  * pchart4mw version 1.0.5 was build with pChart library version 1.27d and PHP version 5.2<br>
