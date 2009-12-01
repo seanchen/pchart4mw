@@ -1,0 +1,14 @@
+#summary User Group for pchart4mw
+
+=== Introduction ===
+
+Please use the google group   · [ReleaseNotes Release Notes
+
+ * Feedback on this extension<br> We'd love to know who is using this extension en what for (maybe share your link).
+ * Share your custom made colorschemes
+ * Tips and hits 
+ * Discussion
+ * etc...
+
+===Reference===
+ * User Group pchart4mw: 
