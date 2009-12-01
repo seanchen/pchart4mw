@@ -20,4 +20,5 @@
   · [RunAsWebService Run as Webservice]<br>
   · [SiteMaintenance Mediawiki Maintenance]<br>
   · [FAQ Frequently Asked Questions]<br>
-  · [ReleaseNotes Release Notes]
+  · [ReleaseNotes Release Notes]<br>
+  · [GoogleGroup User Group]
