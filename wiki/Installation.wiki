@@ -19,7 +19,6 @@ After extraction you should have the files:
          /pCache.class
          /pData.class
 }}}
-Please note that pChart4mw is tested with pChart library version 1.27d.
 
 === Step 2: Install the pChart4mw extension ===
 Download the PHP scripts from our download page and extract them into the directory
