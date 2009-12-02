@@ -31,4 +31,4 @@ Other pchart library links _(are in process and will evenutually also result in 
  * http://wiki.pchart.net/doc.installation.html
 
 pchart4mw user group
- * http://groups.google.com/group/pchart4mw
+ * http://groups.google.com/group/pchart4mw <br> <font size="1" color="#7B7B7B">The user group is created on December 1<sup>st</sup> 2009</font>
