@@ -10,7 +10,7 @@ To set yourself up you need both the pChart Library AND this pChart4mw extension
 ===Requirements===
 You need a up-and-running Mediawiki wiki-site. Make sure that the PHP version on your server is 5.x and has GD library with freetype extension enabled.
 
-Make sure to check the required version of the pChart Library with the [ReleaseNotes release notes] of pchart4mw.
+Check the required version of the pChart Library to use with pchart4mw on the [ReleaseNotes release notes] page.
 
 === Get yourself setup==
 There are a few simple steps you need to take to set yourself up:
