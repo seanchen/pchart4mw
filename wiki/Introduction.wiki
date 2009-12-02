@@ -13,3 +13,6 @@ http://pchart4mw.googlecode.com/files/pchart4mw-overview.png
 If you're new to pChart4mw continue reading the [GettingStarted getting started] section where you'll read about the [Installation installation] and [Configuration configuration] of this extension. Within minutes you'll create [YourFirstGraph your first chart] on your site!
 
 If you already have pChart4mw up-and-running continue to the [WorkingWithCharts working with charts...] section.
+
+=== Share your experience ===
+Share your experience with other users on the pchart4mw user group: http://groups.google.com/group/pchart4mw
