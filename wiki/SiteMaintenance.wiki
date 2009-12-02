@@ -5,4 +5,4 @@ As described in the [TechnicalOverview technical overview], pchart4mw stores cha
 
 A filename is for example: 4011db4213c05eed3f30f6a350072995.png
 
-The consequence is that over time the cache folder becomes populated with unused (orphan) graph images. Periodically the wiki site administrator should do some cleanup in this folder. It is recommended to delete all the files in this directory once in a while. Graph images will be (re)created whenever a page is viewed and pchart4mw discovers the graph image doesn't exist. 
+The consequence is that over time the cache folder becomes populated with unused (orphan) graph images. Periodically the wiki site administrator should do some cleanup in this folder. It is recommended to delete all the files in this directory once in a while. Chart images will be (re)created whenever a page is viewed and pchart4mw discovers the chart image doesn't exist. 
