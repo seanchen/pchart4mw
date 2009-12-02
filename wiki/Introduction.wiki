@@ -15,4 +15,4 @@ If you're new to pChart4mw continue reading the [GettingStarted getting started]
 If you already have pChart4mw up-and-running continue to the [WorkingWithCharts working with charts...] section.
 
 === Share your experience ===
-Share your experience with other users on the pchart4mw user group: http://groups.google.com/group/pchart4mw
+Share your experience with other users of pchart4mw in the user group:<br> http://groups.google.com/group/pchart4mw
