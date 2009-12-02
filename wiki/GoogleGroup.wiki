@@ -5,11 +5,9 @@ To share experience with the use of pchart4mw or to discuss it you can use the u
 Please use the google group for:
  * Feedback<br> We'd love to learn, how you like this extension, in what context you use it (maybe share your link).
  * Share your custom made [ColorSchemes colorschemes]
- * Tips and hits 
+ * Tips and tricks 
  * Discussion
  * etc...
 
 ===Reference===
- * User Group pchart4mw: http://groups.google.com/group/pchart4mw
-
-This user group is created on December 1<sup>st</sup> 2009
+ * User Group pchart4mw: http://groups.google.com/group/pchart4mw <br> _This user group is created on December 1<sup>st</sup> 2009_
