@@ -1,9 +1,9 @@
 #summary User Group for pchart4mw
 
-=== Introduction ===
+To share experience with the use of pchart4mw or to discuss it you can use the user group site for pchart4mw. 
 
 Please use the google group for:
- * Feedback on this extension<br> We'd love to know who is using this extension en what for (maybe share your link).
+ * Feedback<br> We'd love to learn, how you like this extension, in what context you use it (maybe share your link).
  * Share your custom made colorschemes
  * Tips and hits 
  * Discussion
