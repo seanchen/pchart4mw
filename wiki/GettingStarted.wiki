@@ -12,7 +12,7 @@ You need a up-and-running Mediawiki wiki-site. Make sure that the PHP version on
 
 Check the required version of the pChart Library to use with pchart4mw on the [ReleaseNotes release notes] page.
 
-=== Get yourself setup==
+=== Set yourself up==
 There are a few simple steps you need to take to set yourself up:
 
  # [Installation Install] the pChart Library 
