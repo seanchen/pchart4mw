@@ -1,4 +1,4 @@
-#summary Getting yourself setup and started
+#summary Set yourself up and get started
 
 === What you need ===
 The pChart for Mediawiki extension (pchart4mw) uses the (free) PHP Chart library pChart to produce these graphs.
