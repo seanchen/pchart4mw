@@ -23,11 +23,13 @@
  * Download: [http://pchart4mw.googlecode.com/files/pchart4mw%20v1.0.3.zip pChart4mw v1.0.3.zip] <font size="1" color="#7B7B7B">(deprecated)</font>
 
 ===<font color=Blue> References </font>====
-pchart4mw links:
+pChart4mw related links
  * http://www.mediawiki.org/wiki/Extension:Pchart4mw Mediawiki Extension page for pchart4mw
  * http://pchart.sourceforge.net Original pChart Library
  * http://groups.google.com/group/pchart4mw User Group for pchart4mw<br> <font size="1" color="#7B7B7B">The user group is created on December 1<sup>st</sup> 2009</font> 
 
-Other pchart library links _(are in process and will eventually also result in a version 2 of the pChart library)_
+Other pChart Library links _(are in process and will eventually also result in a version 2 of the pChart library)_
  * http://sourceforge.net/projects/pchart/
  * http://wiki.pchart.net/doc.installation.html
+
+Note: As far as we can tell right now pchart4mw is probably not compatible with pchart library 2.0
