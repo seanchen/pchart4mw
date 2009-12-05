@@ -1,4 +1,4 @@
-#summary Try out pchart4mw
+#summary Try pchart4mw for the first time
 
 Once pchart4mw is installed you can try creating your first bar chart.
 
