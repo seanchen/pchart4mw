@@ -32,4 +32,4 @@ Other pChart Library links _(are in process and will eventually also result in a
  * http://sourceforge.net/projects/pchart/
  * http://wiki.pchart.net/doc.installation.html
 
-Note: As far as we can tell right now pchart4mw 1.x is probably not compatible with pChart Library 2.
+Note: pChart Library 2 is a work in progress. As far as we can tell right now <font size="1" color="#7B7B7B">(December 2009)</font> pchart4mw 1.x is probably not compatible with pChart Library 2.
