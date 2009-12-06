@@ -1,11 +1,11 @@
-#summary Describes the installation of pChart4mw for wiki administrators
+#summary Describes the installation of pChart4mw for MediaWiki administrators
 #labels Phase-Deploy
 #sidebar TableOfContents
 
-This page describes the installation and configuration of the pChart library AND the pChart4mw extension. Most steps for installation and configuration are the same as for other Mediawiki extensions. When you follow the following steps, the extension should work within minutes.
+This page describes the installation and configuration of the pChart library AND the pChart4mw extension. Most steps for installation and configuration are the same as for other !MediaWiki extensions. When you follow the following steps, the extension should work within minutes.
 
 === Step 0: Check requirements===
-You need a up-and-running Mediawiki wiki-site. Make sure that the PHP version on your server is 5.x and has GD library with freetype extension enabled.
+You need a up-and-running !MediaWiki wiki-site. Make sure that the PHP version on your server is 5.x and has GD library with freetype extension enabled.
 
 Check the required version of the pChart Library to use with pchart4mw on the [ReleaseNotes release notes] page.
 
@@ -47,8 +47,8 @@ $IP/extensions/pChart4mw/colorschemes/
 }}}
 
 
-=== Step 3: Tell Mediawiki about this extension ==
-Once the files are installed you need to let Mediawiki know about this extension. Add the following line to the file {{{LocalSettings.php}}}
+=== Step 3: Tell !MediaWiki about this extension ==
+Once the files are installed you need to let !MediaWiki know about this extension. Add the following line to the file {{{LocalSettings.php}}}
 {{{
 require_once( "$IP/extensions/pChart4mw/pChart4mw.php" );
 }}}
