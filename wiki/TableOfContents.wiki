@@ -18,7 +18,7 @@
   More<br>
   · [TechnicalOverview Technical Overview]<br>
   · [RunAsWebService Run as Webservice]<br>
-  · [SiteMaintenance !MediaWiki Maintenance]<br>
+  · [SiteMaintenance MediaWiki Maintenance]<br>
   · [FAQ Frequently Asked Questions]<br>
   · [ReleaseNotes Release Notes]<br>
   · [GoogleGroup User Group]
