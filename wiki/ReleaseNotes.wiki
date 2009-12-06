@@ -24,7 +24,7 @@
 
 ===<font color=Blue> References </font>====
 pChart4mw related links
- * http://www.mediawiki.org/wiki/Extension:Pchart4mw Mediawiki Extension page for pchart4mw
+ * http://www.mediawiki.org/wiki/Extension:Pchart4mw !MediaWiki Extension page for pchart4mw
  * http://pchart.sourceforge.net Original pChart Library
  * http://groups.google.com/group/pchart4mw User Group for pchart4mw<br> <font size="1" color="#7B7B7B">The user group is created on December 1<sup>st</sup> 2009</font> 
 
