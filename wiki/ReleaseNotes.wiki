@@ -30,7 +30,10 @@ pChart4mw related links
  * http://pchart.sourceforge.net Original pChart Library
  * http://groups.google.com/group/pchart4mw User Group for pchart4mw<br> <font size="1" color="#7B7B7B">The user group is created on December 1<sup>st</sup> 2009</font> 
 
-Other pChart Library links _(are in process and will eventually also result in a version 2 of the pChart library)_
+
+===<font color=Orange>*News*</font>===
+Obviously a new major release of the pChart Library is in process. If you're interested links related to pChart Library 2 are:
+
  * http://sourceforge.net/projects/pchart/
  * http://wiki.pchart.net/doc.installation.html
 
