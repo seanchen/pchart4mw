@@ -32,7 +32,7 @@ Note: Colorscheme _blue_ has the same colors as _softblue_ only in reverse order
 === Make your own ===
 A colorscheme is a simple text file, that is stored in the colorschemes folder of pChart4mw. Its filename is the name of the colorscheme and it always has extension ".txt"
 
-To create your own colorscheme simply make a new colorscheme textfile with 6 to 8 RGB (Red Green Blue) colors. <br>
+To create your own colorscheme simply make a new colorscheme text file with RGB (Red Green Blue) colors on separate lines. <br>
 Tip: _Make colorschemes with six to eight colors so that there are enough colors in it for different data series._
 
 For example create a text file with the name wave.txt containing:
