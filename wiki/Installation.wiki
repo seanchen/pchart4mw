@@ -26,7 +26,7 @@ After extraction you should have the files:
 }}}
 
 === Step 2: Install the pChart4mw extension ===
-Download the pChart4mw extension (zip-file) from our [Downloads download page] or [ReleaseNotes release notes page] and extract it into the directory
+Download the pChart4mw extension (zip-file) from our download page or [ReleaseNotes release notes page] and extract it into the directory
 {{{
 $IP/extensions/pChart4mw
 }}}
