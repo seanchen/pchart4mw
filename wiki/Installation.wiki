@@ -2,7 +2,7 @@
 #labels Phase-Deploy
 #sidebar TableOfContents
 
-This page describes the installation and configuration of the pChart library AND the pChart4mw extension. Most steps for installation and configuration are the same as for other !MediaWiki extensions. When you follow the following steps, the extension should work within minutes.
+This page describes the installation and initial configuration of the pChart library AND the pChart4mw extension. Most steps for installation and configuration are the same as for other !MediaWiki extensions. When you follow the following steps, the extension should work within minutes.
 
 === Step 0: Check requirements===
 You need a up-and-running !MediaWiki wiki-site. Make sure that the PHP version on your server is 5.x and has GD library with freetype extension enabled.
