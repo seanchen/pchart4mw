@@ -29,7 +29,7 @@ http://pchart4mw.googlecode.com/files/pchart4mw-bar-02.png
 
 ====Sample 3====
 {{{
-<pBars TiTLe="Site Visitors" labels stacked ymin=0 size=x200>
+<pBars Title="Site Visitors" labels stacked ymin=0 size=x200>
 ,EU,US,AS
 Jan,6748,2391,1952
 Feb,5918,4091,3001
@@ -43,7 +43,7 @@ http://pchart4mw.googlecode.com/files/pchart4mw-bar-03.png
 
 ====Sample 4 ====
 {{{
-<pBars TiTLe="Site Visitors" colors=CCE6FE,99CCFE,80B3E6 labels=true ymin=0 ymax=10000 size=500x200 legend>
+<pBars Title="Site Visitors" colors=CCE6FE,99CCFE,80B3E6 labels=true ymin=0 ymax=10000 size=500x200 legend>
 ,EU,US,AS
 Jan,6748,2391,1952
 Feb,5918,4091,3001
@@ -54,4 +54,3 @@ Jun,6109,4411,3572
 </pBars>
 }}}
 http://pchart4mw.googlecode.com/files/pchart4mw-bar-04.png
-
