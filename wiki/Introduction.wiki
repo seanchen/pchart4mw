@@ -16,3 +16,6 @@ If you already have pChart4mw up-and-running continue to the [WorkingWithCharts 
 
 === Share your experience ===
 Share your experience with other users of pchart4mw in the user group:<br> http://groups.google.com/group/pchart4mw
+
+=== Issues and requests ===
+Report your issues and requests on [Issue list http://code.google.com/p/pchart4mw]/issues/list
