@@ -17,6 +17,3 @@ There are a few simple steps you need to take to set yourself up:
  # [Installation Install] the pchart4mw extension
  # [Configuration Configure] the extension so that it can be used within your site
  # [YourFirstGraph Try and test] your first chart.
-
-=== References ===
- * The pchart4mw extension page: http://www.mediawiki.org/wiki/Extension:pchart4mw  
