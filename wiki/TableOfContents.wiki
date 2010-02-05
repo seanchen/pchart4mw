@@ -21,4 +21,4 @@
   · [SiteMaintenance MediaWiki Maintenance]<br>
   · [FAQ Frequently Asked Questions]<br>
   · [ReleaseNotes Release Notes]<br>
-  · [GoogleGroup User Group]
+  · [UserGroup User Group]
