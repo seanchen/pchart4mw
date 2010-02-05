@@ -10,4 +10,5 @@ Please use the google group for:
  * etc...
 
 ===Reference===
-February 5<sup>th</sup>: Due to inappropriate spam in the user group we had to delete the pchart4mw google group. We will look for an other solution.  
+February 5<sup>th</sup>: Due to inappropriate spam in the user group we had to delete the pchart4mw google group. We will look for an other solution. Sorry for the inconvenience.
+In the mean time please use the talk page of http://www.mediawiki.org/wiki/Extension:Pchart4mw 
