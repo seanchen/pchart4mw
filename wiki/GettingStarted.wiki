@@ -13,7 +13,6 @@ Check the required version of the pChart Library to use with pchart4mw on the [R
 === Setup this extension==
 There are a few simple steps to setup this extension on your !MediaWiki site:
 
- # [Installation Install] the pChart Library 
- # [Installation Install] the pchart4mw extension
- # [Configuration Configure] the extension so that it can be used within your site
+ # [Installation Install] the pChart Library AND the pchart4mw extension
  # [YourFirstGraph Try and test] your first chart.
+ # [Configuration Configure] and customize the extension so that it can be used within your site to your personal preferences
