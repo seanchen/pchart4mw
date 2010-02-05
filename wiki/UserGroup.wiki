@@ -1,0 +1,13 @@
+#summary User Group for pchart4mw
+
+To share experience with the use of pchart4mw or to discuss it you can use the user group site for pchart4mw. 
+
+Please use the google group for:
+ * Feedback<br> We'd love to learn, how you like this extension, in what context you use it (maybe share your link).
+ * Share your custom made [ColorSchemes colorschemes]
+ * Tips and tricks 
+ * Discussion
+ * etc...
+
+===Reference===
+February 5<sup>th</sup>: Due to inappropriate spam in the user group we had to delete the pchart4mw google group. We will look for an other solution.  
