@@ -15,4 +15,4 @@ There are a few simple steps to setup this extension on your !MediaWiki site:
 
  # [Installation Install] the pChart Library AND the pchart4mw extension
  # [YourFirstGraph Try and test] your first chart.
- # [Configuration Configure] and customize the extension so that it can be used within your site to your personal preferences
+ # [Configuration Configure and customize] the extension to your personal preferences
