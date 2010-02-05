@@ -10,8 +10,8 @@ You need a up-and-running !MediaWiki wiki-site. Make sure that the PHP version o
 
 Check the required version of the pChart Library to use with pchart4mw on the [ReleaseNotes release notes] page.
 
-=== Set yourself up==
-There are a few simple steps you need to take to set yourself up:
+=== Steps to setup this extension==
+There are four simple steps to setup this extension on your MediaWiki site:
 
  # [Installation Install] the pChart Library 
  # [Installation Install] the pchart4mw extension
