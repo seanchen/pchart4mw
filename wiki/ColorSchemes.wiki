@@ -55,5 +55,5 @@ Note: Be aware of the fact that not every set of colors is usable for every type
 ===Share your custom colorscheme===
 
 Share your custom colorscheme  with other users of pchart4mw in the user group:<br>
-http://groups.google.com/group/pchart4mw 
+[GoogleGroup user group...]
  
