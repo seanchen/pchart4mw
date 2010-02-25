@@ -10,4 +10,4 @@ Over time the cache folder becomes populated with unused (orphan) chart images. 
 
 It is recommended to delete *all* cached image files in cache folder once in a while. Chart images will be (re)created whenever a page is viewed and pchart4mw discovers the chart image doesn't exist. 
 
-The frequency of cache clean up depends on the intensity of creating and changing charts your site.
+The frequency of this cache clean up depends on the intensity of the creation and changing of charts on your site.
