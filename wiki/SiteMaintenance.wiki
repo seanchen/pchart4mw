@@ -8,4 +8,6 @@ A filename is for example: 4011db4213c05eed3f30f6a350072995.png
 === Clean up ===
 Over time the cache folder becomes populated with unused (orphan) chart images. Periodically the wiki site administrator should do some clean up in cache folder. 
 
-It is recommended to delete *all* cached image files in cache folder once in a while. Chart images will be (re)created whenever a page is viewed and pchart4mw discovers the chart image doesn't exist. The frequency of this clean up depends on the intensity of use of your site.
+It is recommended to delete *all* cached image files in cache folder once in a while. Chart images will be (re)created whenever a page is viewed and pchart4mw discovers the chart image doesn't exist. 
+
+The frequency of cache clean up depends on the intensity of creating and changing charts your site.
