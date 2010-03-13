@@ -17,12 +17,12 @@ Locations for the pChart library are, for example: <br>
 
 After extraction you should have the files:
 {{{
-...pChart/Fonts/
-         /Fonts/*.ttf
-         /pChart.class
-         /pChart.class.php
-         /pCache.class
-         /pData.class
+.../pChart/Fonts/
+          /Fonts/*.ttf
+          /pChart.class
+          /pChart.class.php
+          /pCache.class
+          /pData.class
 }}}
 
 === Step 2: Install the pChart4mw extension ===
