@@ -9,7 +9,7 @@ The general syntax of a chart definition in a wiki page is
 </pChartType>
 }}}
 where
- * `<pChartType>` is the tag unique to each type of chart
+ * `<pChartType>` is the tag unique to each [#Chart_types type of chart]
  * `p1 p2 p3 ...` is your choice of [Parameters parameters] to customize the chart
  * `data` is the data to be displayed in the chart
 
