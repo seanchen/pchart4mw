@@ -1,7 +1,7 @@
 #summary Set yourself up and get started
 
 === What you need ===
-The pChart for !MediaWiki extension (pchart4mw) uses the (free) PHP Chart Library pChart to create chart images. pChart4mw works, together with the pChart Library, fully within your !MediaWiki server environment. The data that is displayed in the chart is also processed within your !MediaWiki server. 
+The pChart for !MediaWiki extension (pchart4mw) uses the (free) PHP Chart Library 'pChart' to create chart images. pChart4mw works, together with the pChart Library, fully within your !MediaWiki server environment. The data that is displayed in the chart is also processed within your !MediaWiki server. 
 
 The pChart Library is not a part of the extension pchart4mw but it is a separate product. To set yourself up you need both the pChart Library AND this pChart4mw extension.
 
