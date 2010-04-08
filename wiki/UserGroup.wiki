@@ -1,13 +1,21 @@
 #summary User Group for pchart4mw
 
-To share experience with the use of pchart4mw or to discuss it you can use the user group site for pchart4mw. 
+To share experience with the use of pchart4mw or to discuss it you can use this extensions talk page on the standard !MediaWiki site. 
 
 Please use the google group for:
  * Feedback<br> We'd love to learn, how you like this extension, in what context you use it (maybe share your link).
  * Share your custom made [ColorSchemes colorschemes]
- * Tips and tricks 
+ * Share Tips and tricks 
  * Discussion
  * etc...
+
+===Statistics in number of downloads===
+
+November 2009  56
+December 2009  65
+January  2010  83
+February 2010  95
+March    2010 113
 
 ===Reference===
 February 5<sup>th</sup> 2010: Due to inappropriate spam in the user group we decided to delete the pchart4mw user group (google group). We will look for an other solution. Sorry for the inconvenience.
