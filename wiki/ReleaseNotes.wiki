@@ -6,7 +6,7 @@
 ===<font color=Green> Current version</font>===
 
 <font size="2" color="#7B7B7B">*Version 1.0.6 April 28<sup>th</sup> 2010* (current version)</font><br>
- * Solved issue #1 html output now with correct slash 
+ * Solved issue number 1, html output now with correct slash '/'
  * pchart4mw version 1.0.6 was build with pChart library version 1.27d and PHP version 5.2
  * Download pchart4mw: [http://pchart4mw.googlecode.com/files/pChart4mw%20v1.0.6.zip pChart4mw v1.0.6.zip]
  * Download pChart Library 1.27d: http://pchart.sourceforge.net/download.php
