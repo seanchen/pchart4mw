@@ -1,6 +1,6 @@
 #summary Examples of line charts
 #labels Phase-Documentation
-This page gives several samples of bar charts.
+This page gives several samples of line charts.
 ====Sample 1====
 {{{
 <pLines Title="Site Visitors" colors=FF0000,00FF00,0000FF 
