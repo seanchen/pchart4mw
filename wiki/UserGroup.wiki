@@ -12,13 +12,13 @@ Please use the google group for:
 ===Statistics in number of downloads===
 
 ||Month||Total downloads||Version||
-||November 2009||56||1.0.5
-||December 2009||65||1.0.5
-||January  2010||83||1.0.5
-||February 2010||95||1.0.5
-||March    2010||113||1.0.5
-||April    2010||130||1.0.5
-||May      2010||36||1.0.6
+||November 2009||56||1.0.5||
+||December 2009||65||1.0.5||
+||January  2010||83||1.0.5||
+||February 2010||95||1.0.5||
+||March    2010||113||1.0.5||
+||April    2010||130||1.0.5||
+||May      2010||36||1.0.6||
 
 ===Reference===
 February 5<sup>th</sup> 2010: Due to inappropriate spam in the user group we decided to delete the pchart4mw user group (google group). We will look for an other solution. Sorry for the inconvenience.
