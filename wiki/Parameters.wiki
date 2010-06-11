@@ -24,7 +24,7 @@ _Example_:
 ||*Color*||*Red*||*Green*||*Blue*||*HTML color*||
 ||Red||255||0||0||#FF0000||
 ||Blue||0||0||255||#0000FF||
-||Yellow||0||255||255||#FF0000||
+||Yellow||0||255||255||#FFFF00||
 ||Gray||128||128||128||#808080||
 
 _See also_:
