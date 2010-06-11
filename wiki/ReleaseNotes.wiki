@@ -5,14 +5,19 @@
 
 ===<font color=Green> Current version</font>===
 
-<font size="2" color="#7B7B7B">*Version 1.0.6 April 28<sup>th</sup> 2010* (current version)</font><br>
+<font size="2" color="#7B7B7B">*Version 1.1.0 June 11<sup>th</sup> 2010* (current version)</font><br>
+ * pChart4mw now works both as tag- and as parser extension to enable integration of charting functions with other extensions.
+ * pchart4mw version 1.1.0 was build with pChart library version 1.27d and PHP version 5.2
+ * Download pchart4mw: [http://pchart4mw.googlecode.com/files/pChart4mw%20v1.1.0.zip pChart4mw v1.1.0.zip]
+ * Download pChart Library 1.27d: http://pchart.sourceforge.net/download.php
+
+===<font color=Red>*Older versions*</font>===
+
+<font size="2" color="#7B7B7B">*Version 1.0.6 April 28<sup>th</sup> 2010* </font><br>
  * Solved issue number 1, html output now with added slash '/'
  * pchart4mw version 1.0.6 was build with pChart library version 1.27d and PHP version 5.2
  * Download pchart4mw: [http://pchart4mw.googlecode.com/files/pChart4mw%20v1.0.6.zip pChart4mw v1.0.6.zip]
  * Download pChart Library 1.27d: http://pchart.sourceforge.net/download.php
-
-
-===<font color=Red>*Older versions*</font>===
 
 <font size="2" color="#7B7B7B">*Version 1.0.5 November 21<sup>st</sup> 2009* </font><br>
  * Correction in link to [http://www.mediawiki.org/wiki/Extension:Pchart4mw Extension:Pchart4mw page] in pchart4mw.php file
