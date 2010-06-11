@@ -23,8 +23,9 @@ When colors are specified using a parameter, the HTML color notation is used. HT
 _Example_:
 ||*Color*||*Red*||*Green*||*Blue*||*HTML color*||
 ||Red||255||0||0||#FF0000||
+||Green||0||255||0||#00FF00||
 ||Blue||0||0||255||#0000FF||
-||Yellow||0||255||255||#FFFF00||
+||Yellow||255||255||o||#FFFF00||
 ||Gray||128||128||128||#808080||
 
 _See also_:
