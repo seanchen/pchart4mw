@@ -17,7 +17,7 @@ Locations for the pChart library are, for example: <br>
  # Option 1: pChart library installed in {{{[documentroot]/pChart/pChart.class}}} 
  # Option 2: pChart library installed in {{{$IP/extensions/pChart4mw/pChart/pChart.class}}} _(sub-directory of pchart4mw extension)_ 
 
-After extraction you should keep these files:
+<font size="2" color="#7B7B7B">*Tip:*</font> After extraction you should only keep these files:
 {{{
 .../pChart/Fonts/
           /Fonts/*.ttf
