@@ -22,5 +22,4 @@ Please use the google group for:
 ||TOTAL        ||166||all versions||
 
 ===Reference===
-February 5<sup>th</sup> 2010: Due to inappropriate spam in the user group we decided to delete the pchart4mw user group (google group). We will look for an other solution. Sorry for the inconvenience.
-In the mean time please use the talk page of http://www.mediawiki.org/wiki/Extension_talk:Pchart4mw
+February 5<sup>th</sup> 2010: Due to inappropriate spam in the user group we decided to delete the pchart4mw user group (google group). Please use the talk page of http://www.mediawiki.org/wiki/Extension_talk:Pchart4mw
