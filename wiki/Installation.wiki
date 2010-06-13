@@ -17,7 +17,7 @@ Locations for the pChart library are, for example: <br>
  # Option 1: pChart library installed in {{{[documentroot]/pChart/pChart.class}}} 
  # Option 2: pChart library installed in {{{$IP/extensions/pChart4mw/pChart/pChart.class}}} _(sub-directory of pchart4mw extension)_ 
 
-<font size="2" color="Green">*Tip:*</font> After extraction you should only keep these files:
+After extraction you should only keep these files:
 {{{
 .../pChart/Fonts/
           /Fonts/*.ttf
@@ -26,7 +26,7 @@ Locations for the pChart library are, for example: <br>
           /pData.class
 }}}
 
-All other files that come in the pChart Library package can be deleted.
+<font size="2" color="Green">*Tip:*</font> All other files that come in the pChart Library package can be deleted, this makes for a clean and clear installation folder.
 
 
 === Step 2: Install the pChart4mw extension ===
