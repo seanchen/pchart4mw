@@ -46,7 +46,8 @@ Dec,1994
 }}}
 will produce a HTTP request like this
 {{{
-http://webservice?_type=bars&_data=Sep,3871|Oct,3500|Nov,3667|Dec,1994&size=300x200&legend=legend&opacity=60
+http://webservice?_type=bars&_data=Sep,3871|Oct,3500|Nov,3667|
+       Dec,1994&size=300x200&legend=legend&opacity=60
 }}}
 
 The different parameters are 
