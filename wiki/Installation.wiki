@@ -19,8 +19,7 @@ Locations for the pChart library are, for example: <br>
 
 After extraction you <font size="2" color="Green">*only need to keep*</font> these files:
 {{{
-.../pChart/Fonts/
-          /Fonts/*.ttf
+.../pChart/Fonts/*.ttf
           /pChart.class
           /pCache.class
           /pData.class
