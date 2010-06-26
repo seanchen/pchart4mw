@@ -18,7 +18,6 @@
  * Solved issue number 1, html output now with added slash '/'
  * pchart4mw version 1.0.6 was build with pChart library version 1.27d and PHP version 5.2
  * Download pchart4mw: [http://pchart4mw.googlecode.com/files/pChart4mw%20v1.0.6.zip pChart4mw v1.0.6.zip] <font size="1" color="#7B7B7B">(deprecated)</font>
- * Download pChart Library 1.27d: http://pchart.sourceforge.net/download.php
 
 <font size="2" color="#7B7B7B">*Version 1.0.5 November 21<sup>st</sup> 2009* </font><br>
  * Correction in link to [http://www.mediawiki.org/wiki/Extension:Pchart4mw Extension:Pchart4mw page] in pchart4mw.php file
