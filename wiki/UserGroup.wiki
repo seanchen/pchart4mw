@@ -23,14 +23,3 @@ Please use the google group for:
 
 ===Reference===
 February 5<sup>th</sup> 2010: Due to inappropriate spam in the user group we decided to delete the pchart4mw user group (google group). Please use the talk page:  http://www.mediawiki.org/wiki/Extension_talk:Pchart4mw
-
-<table border="1">
-<tr>
-<td>row 1, cell 1</td>
-<td>row 1, cell 2</td>
-</tr>
-<tr>
-<td>row 2, cell 1</td>
-<td>row 2, cell 2</td>
-</tr>
-</table> 
