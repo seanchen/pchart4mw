@@ -5,21 +5,20 @@
 
 ===<font color=Green> Current version</font>===
 
-<font size="2" color="#7B7B7B">*Version 1.1.0 June 11<sup>th</sup> 2010* (current version)</font><br>
- * pChart4mw now supports parser functions to enable integrating pchart4mw's charting capabilities with other extensions
+<font size="2" color="#7B7B7B">*Version 1.1.0 July 3<sup>rd</sup> 2010* (current version)</font><br>
+ * Added parameter skiplabels to skip labels (for bars en lines)
+ * Added parameter decimals to specify number of decimals (for bars, line, scatter and bubble)
  * Note: Documentation on this wiki will be updated as soon as possible
  * pchart4mw version 1.1.0 was build with pChart library version 1.27d and PHP version 5.2
- * Download pchart4mw: [http://pchart4mw.googlecode.com/files/pChart4mw%20v1.1.0.zip pChart4mw v1.1.0.zip]
+ * Download pchart4mw: [http://pchart4mw.googlecode.com/files/pChart4mw%20v1.1.0.zip pChart4mw v1.2.0.zip]
  * Download pChart Library 1.27d: http://pchart.sourceforge.net/download.php
 
 ===<font color=Red>*Older versions*</font>===
 
 <font size="2" color="#7B7B7B">*Version 1.1.0 June 11<sup>th</sup> 2010* </font><br>
  * pChart4mw now supports parser functions to enable integrating pchart4mw's charting capabilities with other extensions
- * Note: Documentation on this wiki will be updated as soon as possible
  * pchart4mw version 1.1.0 was build with pChart library version 1.27d and PHP version 5.2
- * Download pchart4mw: [http://pchart4mw.googlecode.com/files/pChart4mw%20v1.1.0.zip pChart4mw v1.1.0.zip]
- * Download pChart Library 1.27d: http://pchart.sourceforge.net/download.php
+ * Download pchart4mw: [http://pchart4mw.googlecode.com/files/pChart4mw%20v1.1.0.zip pChart4mw v1.1.0.zip] <font size="1" color="#7B7B7B">(deprecated)</font>
 
 <font size="2" color="#7B7B7B">*Version 1.0.6 April 28<sup>th</sup> 2010* </font><br>
  * Solved issue number 1, html output now with added slash '/'
