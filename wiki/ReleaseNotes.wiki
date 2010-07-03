@@ -6,8 +6,8 @@
 ===<font color=Green> Current version</font>===
 
 <font size="2" color="#7B7B7B">*Version 1.2.0 July 3<sup>rd</sup> 2010* (current version)</font><br>
- * Added parameter skiplabels to skip labels (for bars en lines)
- * Added parameter decimals to specify number of decimals (for bars, line, scatter and bubble)
+ * Added [Parameters#Axes parameter skiplabels] to skip labels (for bars en lines)
+ * Added [Parameters#Axes parameter decimals] to specify number of decimals (for bars, line, scatter and bubble)
  * pchart4mw version 1.2.0 was build with pChart library version 1.27d and PHP version 5.2
  * Download pchart4mw: [http://pchart4mw.googlecode.com/files/pChart4mw%20v1.1.0.zip pChart4mw v1.2.0.zip]
  * Download pChart Library 1.27d: http://pchart.sourceforge.net/download.php
