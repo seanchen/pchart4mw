@@ -5,7 +5,7 @@
 
 ===<font color=Green> Current version</font>===
 
-<font size="2" color="#7B7B7B">*Version 1.1.0 July 3<sup>rd</sup> 2010* (current version)</font><br>
+<font size="2" color="#7B7B7B">*Version 1.2.0 July 3<sup>rd</sup> 2010* (current version)</font><br>
  * Added parameter skiplabels to skip labels (for bars en lines)
  * Added parameter decimals to specify number of decimals (for bars, line, scatter and bubble)
  * Note: Documentation on this wiki will be updated as soon as possible
