@@ -13,7 +13,7 @@ When a parameter expects a value (e.g. 'title'), you can use a '=' sign and then
 Note that, when you use a lot of parameters, you can type them on subsequent lines for readability. e.g.
 {{{
 {{#pLines: Title=Site Visitors|colors=FF0000,00FF00,0000FF| 
-          ymin=0|ymax=8000|labels=true|size=500x200|data=
+           ymin=0|ymax=8000|labels=true|size=500x200|data=
 ..
 }}
 }}}
