@@ -3,6 +3,13 @@
 === Introduction ===
 pChart4mw has the option to use it as a webservice to generate the charts. This can be useful is you want to use a different server to create the chart images. You can use the pChartwebservice.php or create your own webservice.
 
+=== When to use the webservice option===
+This configuration option is available for situations where many charts change often. These situations can consume a lot of processing power from the server in creating chart images.
+
+Creating chart images is a CPU intensive process. Depending on the charting intensity on the wiki a site might require more powerful server processing capacity. pchart4mw's web service option is specifically created to enable separating the processing for creating chart images from processing for the main wiki site.
+
+However, any site with moderate changes of its charts should have no problem and should run perfectly well without a pchart4mw web service configuration. Make sure you really need this.
+
 <font size="2" color="#FF7F2A">!! Note: This is advanced use of pchart4mw. </font>
 
 === Configuration ===
