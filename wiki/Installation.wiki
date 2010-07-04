@@ -32,7 +32,7 @@ Download the pChart4mw extension (zip-file) from our download page or [ReleaseNo
 {{{
 $IP/extensions/pChart4mw
 }}}
-After extraction you should have the files:
+After extraction you should have these files and folder:
 {{{
 $IP/extensions/pChart4mw/colorschemes/
                         /colorschemes/*.txt
