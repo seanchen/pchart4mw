@@ -77,9 +77,9 @@ Sets the color of the text of the title. Use HTML hexadecimal colors.</dd>
 Sets whether the axes are shown or not. 'axis=true' means that the axes are shown, 'axis=false' tells the extension to hide the axes. When the axes are hidden, internally the color for the axes is set to be the same as the background color. Because of this implementation, hiding the axes does not work when setting the background type to gradient.</dd>
 <dt>*labels[=<u>true</u>|false]*</dt>
 <dd>Shows or hides the labels next to the axes. If no labels are given in the data section, but this parameter is set to true, numbers are shown next to the X-axis.</dd>
-<dt>*skiplabels=x*</dt>
+<dt>*skiplabels=x*</dt> <font size="1" color="#7B7B7B">Available from version 1.2.0</font>
 <dd>Skip labels every x time. Useful with a lot of data and wanting to show less labels. Default x = 1. This parameter is only useful for Line and Bar charts</dd>
-<dt>*decimals=x*</dt>
+<dt>*decimals=x*</dt> <font size="1" color="#7B7B7B">Available from version 1.2.0</font>
 <dd>Show x decimals. Sets the number of decimals to show. Default x = 0.</dd>
 <dt>*box[=<u>true</u>|false]*</dt>
 <dd>This parameter is used to draw a box around the graph area. The result is a solid line above and to the right of the graph area.</dd> 
