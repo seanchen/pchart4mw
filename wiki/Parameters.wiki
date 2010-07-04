@@ -119,6 +119,8 @@ More about using and creating colorschemes see: [ColorSchemes colorschemes...].
 
 == Data ==
 <dl>
+<dt>*data=* <font size="1" color="#7B7B7B">(pchart4mw version 1.1+)</font></dt>
+<dd>Important: This parameter is only used with the parser function syntax. This is always the last and mandatory parameter before entering the data to be displayed in the chart.</dd>
 <dt>*xlabels[=true|false]*</dt>
 <dd>Set this parameter if the first column contains numeric labels. The script automatically detects whether the data contains labels when the labels are non-numeric. This flag is introduced to create the possibility for numeric labels.</dd>
 <dt>*ylabels[=true|false]*</dt>
