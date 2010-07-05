@@ -36,7 +36,7 @@ $wgPChart4mwCacheEnabled= true;
 <dt>*cache directory*</dt>
 <dd>Directory where the created images are saved. The images are saved to this directory when created, and the saved file is loaded on the page where it should be shown. When the cache is enabled, the file is created only once, saving a lot of processing time when a page is loaded frequently. If anything in the chart code is changed, a new file is created. When the cache is disabled, the file is created again every time a page is loaded.
 
-The directory must be specified as a subdirectory of the $wgUploadPath directory. The directory must exist an be writable. By default, the cache directory is 
+The directory must be specified as a subdirectory of the $wgUploadPath directory. The directory must exist and be writeable. By default, the cache directory is 
 {{{
 $wgUploadPath/pChart4mw ([wiki]/images/pChart4mw).
 }}}
