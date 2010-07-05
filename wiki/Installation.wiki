@@ -36,7 +36,7 @@ $IP/extensions/pChart4mw/colorschemes/
 The first thing you need is a copy of the pChart library. Download the pChart Library package (rar-file) from the pChart website [http://pchart.sourceforge.net/ here...] Follow the instructions for pChart installation. The location where pChart is installed must be specified later on in {{{LocalSettings.php}}}. Remember this location. Check the system requirements for the pChart library. _(your PHP installation needs to have GD library with freetype extension enabled)_ 
 Locations for the pChart library are, for example: <br>
 
- # Most commin is to install the pChart library installed in {{{$IP/extensions/pChart4mw/pChart/*.*}}} _(sub-folder of the pchart4mw extension)_ 
+Most common is to install the pChart library installed in {{{$IP/extensions/pChart4mw/pChart/*.*}}} _(sub-folder of the pchart4mw extension)_ 
 
 After extraction you <font size="2" color="Green">*only need to keep*</font> these files:
 {{{
@@ -52,18 +52,6 @@ After extraction you <font size="2" color="Green">*only need to keep*</font> the
 Once the files are installed you need to let !MediaWiki know about this extension. Add the following line to the file {{{LocalSettings.php}}}
 {{{
 require_once( "$IP/extensions/pChart4mw/pChart4mw.php" );
-}}}
-
-Define the location where pChart library is installed. This variable contains the absolute path to the directory where the pChart class resides. Add the following line to `LocalSettings.php`:
-
-Option 1: point to `[documentroot]/pChart/pChart.class` with:
-{{{
-$wgPChart4mwPChartPath = $_SERVER["DOCUMENT_ROOT"] . "/pChart";
-}}}
-
-Option 2: point to `$IP/extensions/pChart4mw/pChart/pChart.class` with: 
-{{{
-$wgPChart4mwPChartPath = $_SERVER["DOCUMENT_ROOT"] . "/wiki/extensions/pChart4mw/pChart";
 }}}
 
 Your setup is good to go. 
