@@ -38,8 +38,7 @@ Download the pChart Library package (rar-file) from the pChart website [http://p
 $IP/extensions/pChart4mw/pChart
 }}}
 
-Make sure to have cheked the system requirements for the pChart library. _(your PHP installation needs to have GD library with freetype extension enabled)_ 
-Locations for the pChart library are, for example: <br>
+Make sure to have checked the system requirements for the pChart library. _(your PHP installation needs to have GD library with freetype extension enabled)_ <br>
 
 After extraction you <font size="2" color="Green">*only need to keep*</font> these files:
 {{{
