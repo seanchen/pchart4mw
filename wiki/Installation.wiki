@@ -33,17 +33,20 @@ $IP/extensions/pChart4mw/colorschemes/
 }}}
 
 === Step 2: Install the pChart library ===
-Download the pChart Library package (rar-file) from the pChart website [http://pchart.sourceforge.net/ here...] Follow the instructions for pChart installation. Check the system requirements for the pChart library. _(your PHP installation needs to have GD library with freetype extension enabled)_ 
-Locations for the pChart library are, for example: <br>
+Download the pChart Library package (rar-file) from the pChart website [http://pchart.sourceforge.net/ here...] Follow the instructions for pChart installation and it into the new sub-folder of the ochart4mw extension:
+{{{
+$IP/extensions/pChart4mw/pChart
+}}}
 
-Most common is to install the pChart library installed in {{{$IP/extensions/pChart4mw/pChart/*.*}}} _(sub-folder of the pchart4mw extension)_ 
+Make sure to have cheked the system requirements for the pChart library. _(your PHP installation needs to have GD library with freetype extension enabled)_ 
+Locations for the pChart library are, for example: <br>
 
 After extraction you <font size="2" color="Green">*only need to keep*</font> these files:
 {{{
-.../pChart/Fonts/*.ttf
-          /pChart.class
-          /pCache.class
-          /pData.class
+$IP/extensions/pChart4mw/pChart/Fonts/*.ttf
+                               /pChart.class
+                               /pCache.class
+                               /pData.class
 }}}
 
 <font size="2" color="Green">*! Tip:*</font> All other files that come in the pChart Library package can be deleted. Deleting the unnecessary files makes for a 'clean and clear' installation folder.
