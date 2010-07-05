@@ -12,7 +12,7 @@ pChart4mw has proven to work well with !MediaWiki versions 1.12 ... 1.16 (includ
 Check the required version of the pChart Library to use with pchart4mw on the [ReleaseNotes release notes] page.
 
 === Step 1: Install the pChart4mw extension ===
-Download the pChart4mw extension (zip-file) from our download page or [ReleaseNotes release notes page] and extract it into your new pchart4mw extension folder:
+Download the pChart4mw extension (zip-file) from our download page or [ReleaseNotes release notes page] and extract it into your new <tt>pChart4mw</tt> extension folder:
 {{{
 $IP/extensions/pChart4mw
 }}}
@@ -33,7 +33,7 @@ $IP/extensions/pChart4mw/colorschemes/
 }}}
 
 === Step 2: Install the pChart library ===
-Download the pChart Library package (rar-file) from the pChart website [http://pchart.sourceforge.net/ here...] Follow the instructions for pChart installation and extract it into the <tt>pchart</tt> sub-folder of the pchart4mw extension:
+Download the pChart Library package (rar-file) from the pChart website [http://pchart.sourceforge.net/ here...] Follow the instructions for pChart installation and extract it into the <tt>pChart</tt> sub-folder of the <tt>pchart4mw</tt> extension:
 {{{
 $IP/extensions/pChart4mw/pChart
 }}}
@@ -46,7 +46,7 @@ $IP/extensions/pChart4mw/pChart/Fonts/*.ttf
                                /pData.class
 }}}
 
-<font size="2" color="Green">*! Tip:*</font> All other files that come in the pChart Library package can be deleted. Deleting the unnecessary files makes for a 'clean and clear' installation folder.
+<font size="2" color="Green">*Tip:*</font> All the other files that come in the pChart Library package can be deleted. Deleting the unnecessary files makes for a 'clean and clear' installation folder.
 
 === Step 3: Tell !MediaWiki about this extension ==
 Once the files are installed you need to let !MediaWiki know about this extension. Add the following line to the file {{{LocalSettings.php}}}
