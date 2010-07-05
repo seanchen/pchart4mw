@@ -33,7 +33,7 @@ $IP/extensions/pChart4mw/colorschemes/
 }}}
 
 === Step 2: Install the pChart library ===
-Download the pChart Library package (rar-file) from the pChart website [http://pchart.sourceforge.net/ here...] Follow the instructions for pChart installation and it into the new sub-folder of the ochart4mw extension:
+Download the pChart Library package (rar-file) from the pChart website [http://pchart.sourceforge.net/ here...] Follow the instructions for pChart installation and extract it into the new sub-folder of the ochart4mw extension:
 {{{
 $IP/extensions/pChart4mw/pChart
 }}}
@@ -55,6 +55,13 @@ $IP/extensions/pChart4mw/pChart/Fonts/*.ttf
 Once the files are installed you need to let !MediaWiki know about this extension. Add the following line to the file {{{LocalSettings.php}}}
 {{{
 require_once( "$IP/extensions/pChart4mw/pChart4mw.php" );
+}}}
+
+=== Step 4: Check the cache folder ==
+Before you start using the wiki with this new extension. Make sure underneath folder exists and is writeable. (this is de default cache folder of pchart4mw).
+
+{{{
+$IP/images/pchart4mw/
 }}}
 
 Your setup is good to go. 
