@@ -33,7 +33,7 @@ $IP/extensions/pChart4mw/colorschemes/
 }}}
 
 === Step 2: Install the pChart library ===
-The first thing you need is a copy of the pChart library. Download the pChart Library package (rar-file) from the pChart website [http://pchart.sourceforge.net/ here...] Follow the instructions for pChart installation. The location where pChart is installed must be specified later on in {{{LocalSettings.php}}}. Remember this location. Check the system requirements for the pChart library. _(your PHP installation needs to have GD library with freetype extension enabled)_ 
+Download the pChart Library package (rar-file) from the pChart website [http://pchart.sourceforge.net/ here...] Follow the instructions for pChart installation. Check the system requirements for the pChart library. _(your PHP installation needs to have GD library with freetype extension enabled)_ 
 Locations for the pChart library are, for example: <br>
 
 Most common is to install the pChart library installed in {{{$IP/extensions/pChart4mw/pChart/*.*}}} _(sub-folder of the pchart4mw extension)_ 
