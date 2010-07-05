@@ -2,7 +2,7 @@
 #labels Phase-Deploy
 #sidebar TableOfContents
 
-This page describes the installation and initial configuration of the pChart library AND the pChart4mw extension. Most steps for installation and configuration are the same as for other !MediaWiki extensions. When you follow the following steps, the extension should work within minutes.
+This page describes the default installation and initial configuration of the pChart library AND the pChart4mw extension. Most steps of the installation and configuration are the same as for other !MediaWiki extensions. When you follow the following steps, the extension should work within minutes.
 
 === Step 0: Check requirements===
 You need a up-and-running !MediaWiki wiki-site. Make sure that the PHP version on your server is 5.x and has GD library with freetype extension enabled. 
@@ -12,11 +12,11 @@ pChart4mw has proven to work well with !MediaWiki versions 1.12 ... 1.16 (includ
 Check the required version of the pChart Library to use with pchart4mw on the [ReleaseNotes release notes] page.
 
 === Step 1: Install the pChart4mw extension ===
-Download the pChart4mw extension (zip-file) from our download page or [ReleaseNotes release notes page] and extract it into the new extension folder:
+Download the pChart4mw extension (zip-file) from our download page or [ReleaseNotes release notes page] and extract it into your new pchart4mw extension folder:
 {{{
 $IP/extensions/pChart4mw
 }}}
-After extraction you should have these files and sub-folder:
+After extraction you should have these files and the colorschemes sub-folder:
 {{{
 $IP/extensions/pChart4mw/colorschemes/
                         /colorschemes/*.txt
@@ -33,7 +33,7 @@ $IP/extensions/pChart4mw/colorschemes/
 }}}
 
 === Step 2: Install the pChart library ===
-Download the pChart Library package (rar-file) from the pChart website [http://pchart.sourceforge.net/ here...] Follow the instructions for pChart installation and extract it into the new sub-folder of the pchart4mw extension:
+Download the pChart Library package (rar-file) from the pChart website [http://pchart.sourceforge.net/ here...] Follow the instructions for pChart installation and extract it into the <tt>pchart</tt> sub-folder of the pchart4mw extension:
 {{{
 $IP/extensions/pChart4mw/pChart
 }}}
