@@ -33,7 +33,7 @@ $IP/extensions/pChart4mw/colorschemes/
 }}}
 
 === Step 2: Install the pChart library ===
-Download the pChart Library package (rar-file) from the pChart website [http://pchart.sourceforge.net/ here...] Follow the instructions for pChart installation and extract it into the new sub-folder of the ochart4mw extension:
+Download the pChart Library package (rar-file) from the pChart website [http://pchart.sourceforge.net/ here...] Follow the instructions for pChart installation and extract it into the new sub-folder of the pchart4mw extension:
 {{{
 $IP/extensions/pChart4mw/pChart
 }}}
