@@ -11,28 +11,12 @@ pChart4mw has proven to work well with !MediaWiki versions 1.12 ... 1.16 (includ
 
 Check the required version of the pChart Library to use with pchart4mw on the [ReleaseNotes release notes] page.
 
-=== Step 1: Install the pChart library ===
-The first thing you need is a copy of the pChart library. Download the pChart Library package (rar-file) from the pChart website [http://pchart.sourceforge.net/ here...] Follow the instructions for pChart installation. The location where pChart is installed must be specified later on in {{{LocalSettings.php}}}. Remember this location. Check the system requirements for the pChart library. _(your PHP installation needs to have GD library with freetype extension enabled)_ 
-Locations for the pChart library are, for example: <br>
- # Option 1: pChart library installed in {{{[documentroot]/pChart/pChart.class}}} 
- # Option 2: pChart library installed in {{{$IP/extensions/pChart4mw/pChart/pChart.class}}} _(sub-directory of pchart4mw extension)_ 
-
-After extraction you <font size="2" color="Green">*only need to keep*</font> these files:
-{{{
-.../pChart/Fonts/*.ttf
-          /pChart.class
-          /pCache.class
-          /pData.class
-}}}
-
-<font size="2" color="Green">*! Tip:*</font> All other files that come in the pChart Library package can be deleted. Deleting the unnecessary files makes for a 'clean and clear' installation folder.
-
-=== Step 2: Install the pChart4mw extension ===
-Download the pChart4mw extension (zip-file) from our download page or [ReleaseNotes release notes page] and extract it into the directory
+=== Step 1: Install the pChart4mw extension ===
+Download the pChart4mw extension (zip-file) from our download page or [ReleaseNotes release notes page] and extract it into the new extension folder:
 {{{
 $IP/extensions/pChart4mw
 }}}
-After extraction you should have these files and folder:
+After extraction you should have these files and sub-folder:
 {{{
 $IP/extensions/pChart4mw/colorschemes/
                         /colorschemes/*.txt
@@ -48,6 +32,21 @@ $IP/extensions/pChart4mw/colorschemes/
                         /changes.txt
 }}}
 
+=== Step 2: Install the pChart library ===
+The first thing you need is a copy of the pChart library. Download the pChart Library package (rar-file) from the pChart website [http://pchart.sourceforge.net/ here...] Follow the instructions for pChart installation. The location where pChart is installed must be specified later on in {{{LocalSettings.php}}}. Remember this location. Check the system requirements for the pChart library. _(your PHP installation needs to have GD library with freetype extension enabled)_ 
+Locations for the pChart library are, for example: <br>
+
+ # Most commin is to install the pChart library installed in {{{$IP/extensions/pChart4mw/pChart/*.*}}} _(sub-folder of the pchart4mw extension)_ 
+
+After extraction you <font size="2" color="Green">*only need to keep*</font> these files:
+{{{
+.../pChart/Fonts/*.ttf
+          /pChart.class
+          /pCache.class
+          /pData.class
+}}}
+
+<font size="2" color="Green">*! Tip:*</font> All other files that come in the pChart Library package can be deleted. Deleting the unnecessary files makes for a 'clean and clear' installation folder.
 
 === Step 3: Tell !MediaWiki about this extension ==
 Once the files are installed you need to let !MediaWiki know about this extension. Add the following line to the file {{{LocalSettings.php}}}
