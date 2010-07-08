@@ -1,7 +1,7 @@
 #summary Examples of bubble charts
 #labels Phase-Documentation
 
-This page gives several samples of radar charts.
+This page gives several samples of bubble charts.
 
 ====Sample 1====
 {{{
