@@ -12,7 +12,7 @@
   · [ExamplePieCharts Charts: Pie]<br>
   · [ExampleScatterCharts Charts: Scatter]<br>
   · [ExampleRadarCharts Charts: Radar]<br>
-  · [ExampleBubleCharts Charts: Bubble]<br>
+  · [ExampleBubbleCharts Charts: Bubble]<br>
   · [Parameters Parameters]<br>
   · [ColorSchemes Colorschemes]<br>
   More<br>
