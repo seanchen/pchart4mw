@@ -2,11 +2,38 @@
 
 <table border="1">
 <tr>
-<td>row 1, cell 1</td>
-<td>row 1, cell 2</td>
+ <td>http://pchart4mw.googlecode.com/files/pchart4mw-radar-03.png</td>
+ <td>
+{{{
+<pRadar size=400x300 striped filled>
+,Allocated Budget,Actual Spending
+Sales,4,5
+Marketing,2,5
+Development,6,1
+Customer Support,2,1
+Information Technology,3,2
+Administration,1,1
+</pRadar>
+}}}
+ </td>
 </tr>
 <tr>
 <td>row 2, cell 1</td>
 <td>row 2, cell 2</td>
 </tr>
 </table> 
+
+
+
+{{{
+<pRadar size=400x300 striped filled>
+,Allocated Budget,Actual Spending
+Sales,4,5
+Marketing,2,5
+Development,6,1
+Customer Support,2,1
+Information Technology,3,2
+Administration,1,1
+</pRadar>
+}}}
+http://pchart4mw.googlecode.com/files/pchart4mw-radar-03.png
