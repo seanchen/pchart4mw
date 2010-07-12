@@ -1,6 +1,6 @@
 #Sandbox for wiki tests
 
-<table border="1">
+<table border="0">
 <tr>
  <td>http://pchart4mw.googlecode.com/files/pchart4mw-radar-03.png</td>
  <td>
