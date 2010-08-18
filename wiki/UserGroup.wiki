@@ -21,7 +21,8 @@ Please use the google group for:
 ||May      2010||36||1.0.6||
 ||June     2010||23||1.1.0||
 ||July     2010||27||1.2.0||
-||TOTAL        ||206||all versions||
+||July     2010||17||1.2.0||
+||TOTAL        ||223||all versions||
 
 ===Reference===
 February 5<sup>th</sup> 2010: Due to inappropriate spam in the user group we decided to delete the pchart4mw user group (google group). Please use the talk page:  http://www.mediawiki.org/wiki/Extension_talk:Pchart4mw
