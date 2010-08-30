@@ -53,4 +53,4 @@ pChart4mw uses the pChart Library to generate the chart images. It seems that a 
  * http://sourceforge.net/projects/pchart/
  * http://wiki.pchart.net/doc.installation.html
 
-Note: pChart Library 2 is a work in progress. As far as we can tell right now <font size="1" color="#7B7B7B">(December 2009)</font> pchart4mw 1.x is probably not compatible with pChart Library 2.
+Note: pChart Library 2 is a work in progress. As is stated on the pChart 2.0 site (introduction, on August 20<sup>th</sup> 2010) pChart library 2.x is not compatible with pChart Library 1.x. Therefore pChart4mw 1.x is also not compatible with pChart library 2.x.
