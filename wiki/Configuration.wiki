@@ -24,6 +24,7 @@ to use the tahoma.ttf font from the Fonts subdirectory in the pChart directory.
 $wgPChart4mwFontSize	= 8;
 }}}
 </dd>
+</dl>
 
 <dl>
 <dt>*image format*</dt>
@@ -34,6 +35,7 @@ Add the following line to `LocalSettings.php`:
 $wgPChart4mwImageFormat = "png";
 }}}
 </dd>
+</dl>
 
 <dt>*cache enabled*</dt>
 <dd>Flag whether the built-in cache should be used. Using the cache the system will only create each chart once and save it to disk. If no changes are detected, the image that is already created will be used. The default value for this parameter is true.
