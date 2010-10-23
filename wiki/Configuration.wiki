@@ -17,6 +17,14 @@ to use the tahoma.ttf font from the Fonts subdirectory in the pChart directory.
 </dd>
 </dl>
 
+</dd>
+<dt>*font size*</dt>
+<dd>Fontsize in points that is used for writing text into the charts. Add the following line to `LocalSettings.php`:
+{{{
+$wgPChart4mwFontSize	= 8;
+}}}
+</dd>
+
 <dl>
 <dt>*image format*</dt>
 <dd>
@@ -44,13 +52,7 @@ Add the following line to `LocalSettings.php`:
 {{{
 $wgPChart4mwCacheDir = "pChart4mw";
 }}}
-</dd>
-<dt>*font size*</dt>
-<dd>Fontsize in points that is used for writing text into the charts. Add the following line to `LocalSettings.php`:
-{{{
-$wgPChart4mwFontSize	= 8;
-}}}
-</dd>
+
 <dt>*color scheme directory*</dt>
 <dd>Directory containing the color schemes. These color schemes are text files with a color on each line. Every color is a comma-separated RGB color. For example:
 {{{
