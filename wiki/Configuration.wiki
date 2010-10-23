@@ -37,6 +37,7 @@ $wgPChart4mwImageFormat = "png";
 </dd>
 </dl>
 
+<dl>
 <dt>*cache enabled*</dt>
 <dd>Flag whether the built-in cache should be used. Using the cache the system will only create each chart once and save it to disk. If no changes are detected, the image that is already created will be used. The default value for this parameter is true.
 Add the following line to `LocalSettings.php`:
@@ -44,6 +45,9 @@ Add the following line to `LocalSettings.php`:
 $wgPChart4mwCacheEnabled= true;
 }}}
 </dd>
+</dl>
+
+<dl>
 <dt>*cache directory*</dt>
 <dd>Directory where the created images are saved. The images are saved to this directory when created, and the saved file is loaded on the page where it should be shown. When the cache is enabled, the file is created only once, saving a lot of processing time when a page is loaded frequently. If anything in the chart code is changed, a new file is created. When the cache is disabled, the file is created again every time a page is loaded.
 
@@ -56,7 +60,9 @@ Add the following line to `LocalSettings.php`:
 $wgPChart4mwCacheDir = "pChart4mw";
 }}}
 </dd>
+</dl>
 
+<dl>
 <dt>*color scheme directory*</dt>
 <dd>Directory containing the color schemes. These color schemes are text files with a color on each line. Every color is a comma-separated RGB color. For example:
 {{{
@@ -75,7 +81,9 @@ $wgPChart4mwDefaultColorSchemeDir = "$IP/extensions/pChart4mw/colorschemes";
 }}}
 to use the subdirectory /colorschemes of the pChart4mw subdirectory.
 </dd>
+</dl>
 
+<dl>
 <dt>*webservice*</dt>
 pChart4mw has the option to use it as a webservice to generate the charts. This can be useful is you want to use a different server to create the chart images. You can use the pChartwebservice.php or create your own webservice. More information can be found on the [RunAsWebService webservice page].
 </dl>
