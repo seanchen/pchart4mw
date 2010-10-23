@@ -17,7 +17,7 @@ to use the tahoma.ttf font from the Fonts subdirectory in the pChart directory.
 </dd>
 </dl>
 
-</dd>
+<dl>
 <dt>*font size*</dt>
 <dd>Fontsize in points that is used for writing text into the charts. Add the following line to `LocalSettings.php`:
 {{{
@@ -34,6 +34,7 @@ Add the following line to `LocalSettings.php`:
 $wgPChart4mwImageFormat = "png";
 }}}
 </dd>
+
 <dt>*cache enabled*</dt>
 <dd>Flag whether the built-in cache should be used. Using the cache the system will only create each chart once and save it to disk. If no changes are detected, the image that is already created will be used. The default value for this parameter is true.
 Add the following line to `LocalSettings.php`:
@@ -52,6 +53,7 @@ Add the following line to `LocalSettings.php`:
 {{{
 $wgPChart4mwCacheDir = "pChart4mw";
 }}}
+</dd>
 
 <dt>*color scheme directory*</dt>
 <dd>Directory containing the color schemes. These color schemes are text files with a color on each line. Every color is a comma-separated RGB color. For example:
