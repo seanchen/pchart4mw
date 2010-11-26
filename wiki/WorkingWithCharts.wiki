@@ -22,7 +22,7 @@ The types of charts (with their unique tags) are:
  * [ExamplePieCharts Pie charts] using tag `<pPie>`
  * [ExampleScatterCharts Scatter charts] using tag `<pScatter>`
  * [ExampleRadarCharts Radar charts] using tag `<pRadar>`
- * [ExampleBubleCharts Bubble charts] using tag `<pBubble>`
+ * [ExampleBubbleCharts Bubble charts] using tag `<pBubble>`
 
 Information on how to create the different charts with all specific parameters can be found on the example pages per chart type.
 
