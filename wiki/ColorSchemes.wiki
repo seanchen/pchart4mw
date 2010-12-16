@@ -26,6 +26,7 @@ http://pchart4mw.googlecode.com/files/pchart4mw-col-greenblue.png
 <br>
 http://pchart4mw.googlecode.com/files/pchart4mw-col-wave.png
 http://pchart4mw.googlecode.com/files/pchart4mw-col-purpleblue.png
+http://pchart4mw.googlecode.com/files/pchart4mw-col-excel.png
 
 Note: Colorscheme _blue_ has the same colors as _softblue_ only in reverse order 
 
