@@ -6,6 +6,8 @@ To configure and customize this extension, several parameters can be set.
  * [#Optional_settings Optional settings], these settings are optional to configure pchart4mw to your personal preference.
  * [#Default_settings Default settings], these settings are also optional and are used to set defaults for the charts on your wiki.
 
+Note that in all settings, path and file names are case sensitive.
+
 === Optional settings ===
 <dl>
 <dt>*font location*</dt>
