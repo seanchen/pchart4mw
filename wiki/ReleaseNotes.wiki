@@ -5,14 +5,19 @@
 
 ===<font color=Green> Current version</font>===
 
+<font size="2" color="#7B7B7B">*Version 1.2.1 December 16<sup>th</sup> 2010* (current version)</font><br>
+ * Added custom colorscheme: excel.txt
+ * pchart4mw version 1.2.1 was build with pChart library version 1.27d and PHP version 5.2
+ * Download pchart4mw: [http://pchart4mw.googlecode.com/files/pChart4mw%20v1.1.1.zip pChart4mw v1.2.1.zip]
+ * Download pChart Library 1.27d: http://pchart.sourceforge.net/download.php
+
+===<font color=Red>*Archived versions*</font>===
+
 <font size="2" color="#7B7B7B">*Version 1.2.0 July 3<sup>rd</sup> 2010* (current version)</font><br>
  * Added parameter [Parameters#Axes skiplabels] to skip labels (for bars and lines)
  * Added parameter [Parameters#Axes decimals] to specify number of decimals (for bars, line, scatter and bubble)
  * pchart4mw version 1.2.0 was build with pChart library version 1.27d and PHP version 5.2
  * Download pchart4mw: [http://pchart4mw.googlecode.com/files/pChart4mw%20v1.1.0.zip pChart4mw v1.2.0.zip]
- * Download pChart Library 1.27d: http://pchart.sourceforge.net/download.php
-
-===<font color=Red>*Archived versions*</font>===
 
 <font size="2" color="#7B7B7B">*Version 1.1.0 June 11<sup>th</sup> 2010* </font><br>
  * pChart4mw now supports parser functions to enable integrating pchart4mw's charting capabilities with other extensions
