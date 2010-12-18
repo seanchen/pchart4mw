@@ -46,6 +46,7 @@ Add the following line to `LocalSettings.php`:
 {{{
 $wgPChart4mwCacheEnabled= true;
 }}}
+Good practice: Enable cache on your site. Rendering images is processing intensive therefore it is recommended to prevent unnecessary rendering by enabling cache.  
 </dd>
 </dl>
 
