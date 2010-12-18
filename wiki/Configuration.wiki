@@ -110,4 +110,4 @@ $wgPChart4mwLinesDefaults = Array ( "grid" => "false", "ymin" => "0", "colors" =
 $wgPChart4mwBarsDefaults = Array ( "ymin" => "0" );
 $wgPChart4mwPieDefaults = Array ( "3d" => "3d" );
 }}}
-Important: Note that changing default settings for charts doesn't show in existing charts when caching is enabled. When caching is enabled, existing rendered chart image files need to be deleted so that pchart4mw can recreate them using the changed default settings.
+Important: Note that - when caching is enabled - setting or changing default settings doesn't effect existing charts. When caching is enabled, existing rendered chart image files need to be deleted so that pchart4mw can recreate them using the changed default settings.
