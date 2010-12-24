@@ -89,6 +89,11 @@ To set a default size for all charts, add the following line to `LocalSettings.p
 $wgPChart4mwDefaults = Array ( "size" => "200x120" );
 }}}
 
+To set a default textfont and textsize for all charts, add the following line to `LocalSettings.php`:
+{{{
+$wgPChart4mwDefaults = Array ( "textfont" => "mini.ttf", "textsize" => "5" ); 
+}}}
+
 You can separate multiple settings with a comma.
 {{{
 $wgPChart4mwDefaults = Array ( "size" => "200x120", "colorscheme" => "softblue" );
