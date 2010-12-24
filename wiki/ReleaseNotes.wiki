@@ -12,12 +12,12 @@
  * Included pChart (version 1.27d) library files in the distribution for ease of installation and configuration
  * Moved the fonts folder under pChart4mw extensions root: ..\pChart4mw\fonts
  * When upgrading from a previous version of pChart4mw:
- ** Take note of the changed folder structure of pChart4mw
- ** Take note of needed localsettings.php changes (remove old globals)
+   * Take note of the changed folder structure of pChart4mw
+   * Take note of needed localsettings.php changes (remove old globals)
  * Best apporach is to completely remove the old version of pChart4mw and install this
    new version. (make sure to save your custom colorschemes and fonts if you have them)
  * The default font for pChart4mw is tahoma.ttf. Set your preffered font in localsettings.php using $wgPChart4mwDefaults for example:
- ** $wgPChart4mwDefaults = Array ( "textfont" => "myfont.ttf", "textsize" => "5" ); 
+   * $wgPChart4mwDefaults = Array ( "textfont" => "myfont.ttf", "textsize" => "5" ); 
  * pchart4mw version 1.2.1 was build with pChart library version 1.27d and PHP version 5.2
  * Download pchart4mw: [http://pchart4mw.googlecode.com/files/pChart4mw%20v1.3.0.zip pChart4mw v1.3.0.zip]
 
