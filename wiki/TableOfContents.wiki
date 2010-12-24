@@ -15,6 +15,7 @@
   · [ExampleBubbleCharts Charts: Bubble]<br>
   · [Parameters Parameters]<br>
   · [ColorSchemes Colorschemes]<br>
+  · [Fonts Fonts]<br>
   More<br>
   · [TechnicalOverview Technical Overview]<br>
   · [RunAsWebService Run as Webservice]<br>
