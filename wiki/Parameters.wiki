@@ -65,6 +65,12 @@ These settings determine the margin from the border of the image to the border o
 <dl>
 <dt>*title="Site visitors"*</dt>
 <dd>Sets the title of the chart to _Site visitors_. If no title is given, nothing is printed. The title is always shown on top of the chart.</dd>
+<dt>*titlefont={fontname}*</dt>
+<dd>
+Sets the font of the text of the title. Use the filename of the font with its extension. For example: tahoma.ttf</dd>
+<dt>*titlesize={size}*</dt>
+<dd>
+Sets the size of the text of the title (in pixels). For example: 8</dd>
 <dt>*titlecolor={color}*</dt>
 <dd>
 Sets the color of the text of the title. Use HTML hexadecimal colors.</dd>
