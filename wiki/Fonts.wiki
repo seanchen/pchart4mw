@@ -9,6 +9,7 @@ There are two ways to use fonts:
 {{{
 $wgPChart4mwDefaults = Array ( "textfont" => "mini.ttf", "textsize" => "5" ); 
 }}}
+Good practice: We consider configuring preferred fonts for the whole wiki site a good practice. It provides uniformity in your charts.
  * You can set a preferred font in a chart definition (see [Parameters#Text text parameters]). For example:
 {{{
 textfont=mini.ttf textsize=5 titlefont=georgia.ttf titlesize=12
