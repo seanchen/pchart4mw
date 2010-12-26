@@ -6,7 +6,10 @@ Fonts are used to create text in charts along x- and y-axes, labels, legend and 
 === Setting preferred font ===
 You can set the preferred font in two ways:
 
- # For your whole site
+ # For your whole site <br/>To set a default textfont and textsize for all charts, add the following line to `LocalSettings.php`:
+{{{
+$wgPChart4mwDefaults = Array ( "textfont" => "mini.ttf", "textsize" => "5" ); 
+}}}
  # For each chart individual
  
 If no general preference is configured the default font is tahoma.
