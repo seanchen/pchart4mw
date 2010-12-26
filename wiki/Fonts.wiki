@@ -39,5 +39,4 @@ These 'mini' fonts collection is particularly useful for charts.
 
 ===Share your font tips===
 
-Share your font tips with other users of pchart4mw in the user group:<br>
-[UserGroup user group...]
+Share your font tips with other users of pchart4mw in the user group: [UserGroup user group...]
