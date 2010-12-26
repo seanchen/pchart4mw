@@ -2,7 +2,7 @@
 #labels Featured
 
 === Introduction ===
-Fonts are used to create text in charts along x- and y-axes, labels, legend and title. pChart4mw enables you to set your preferred font for text and for the title seperately.
+Fonts are used to create text in charts along x- and y-axes, labels, legend and title. pChart4mw enables you to set your preferred font for text (axes, labels and legend) and for the title separately.
 
 === Using fonts===
 There are two ways to use fonts:
@@ -36,7 +36,7 @@ Tips we like to share with you of the mini fonts are:
  * http://www.fonts101.com/fonts/view/Pixel_Fonts/31977/MINI_7_Tight.aspx  minitight font download
  * http://www.minifonts.com/ Original creator of the mini fonts where these fonts can be purchased
 
-These 'mini' fonts collection is particularly useful for charts.
+The 'mini' fonts collection is particularly useful for text (axes, labels and legend) in charts 
 
 ===Share your font tips===
 
