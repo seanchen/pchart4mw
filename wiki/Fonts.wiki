@@ -1,4 +1,5 @@
 #summary Using fonts
+#labels Featured
 
 === Introduction ===
 Fonts are used to create text in charts along x- and y-axes, labels, legend and title. pChart4mw enables you to set your preferred font for text and for the title seperately.
