@@ -2,6 +2,7 @@
 #labels Featured
 
 
+pChart4mw is released under the [http://www.gnu.org/licenses/gpl.html GNU General Public License v3.0] 
 
 ===<font color=Green> Current version</font>===
 
