@@ -9,8 +9,10 @@ There are two ways to use fonts:
 {{{
 $wgPChart4mwDefaults = Array ( "textfont" => "mini.ttf", "textsize" => "5" ); 
 }}}
- * For each chart individual
- 
+ * You can set a preferred font in a chart definition (see [Parameters#Colors color parameters]). For example:
+{{{
+textfont=mini.ttf textsize=5 titlefont=georgia.ttf titlesize=12
+}}}
 If no general preference is configured the default font is tahoma.
 
 == Usage ==
