@@ -13,11 +13,10 @@ $wgPChart4mwDefaults = Array ( "textfont" => "mini.ttf", "textsize" => "5" );
 {{{
 textfont=mini.ttf textsize=5 titlefont=georgia.ttf titlesize=12
 }}}
-If no general preference is configured the default font is tahoma.
+<br/>
+If no preference is configured the default font is tahoma.
 
-== Usage ==
-
-=== Standard colorschemes ===
+=== Samples ===
 http://pchart4mw.googlecode.com/files/pchart4mw-font-01.png
 http://pchart4mw.googlecode.com/files/pchart4mw-font-02.png
 <br>
