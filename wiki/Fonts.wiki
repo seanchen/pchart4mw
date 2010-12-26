@@ -20,6 +20,7 @@ Good practice: We consider configuring preferred fonts for the whole wiki site a
 
 === Samples ===
 Underneath are two samples of the same chart. The left chart uses a mini font and the right chart uses the default tahoma font. The mini font gives sharp and perfectly aligned text as labes and in the legend.
+<br/>
 http://pchart4mw.googlecode.com/files/pchart4mw-font-01.png
 http://pchart4mw.googlecode.com/files/pchart4mw-font-02.png
 <br>
