@@ -13,8 +13,8 @@ $wgPChart4mwDefaults = Array ( "textfont" => "mini.ttf", "textsize" => "5" );
 {{{
 textfont=mini.ttf textsize=5 titlefont=georgia.ttf titlesize=12
 }}}
+If no preference is configured the default font is tahoma.
 <br/>
-If no preference is configured the default font is tahoma. <br/>
 Good practice: We consider configuring preferred fonts for the whole wiki site a good practice. It provides uniformity in your charts.
 
 === Samples ===
