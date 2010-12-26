@@ -3,14 +3,13 @@
 === Introduction ===
 Fonts are used to create text in charts along x- and y-axes, labels, legend and title. pChart4mw enables you to set your preferred font for text and for the title seperately.
 
-=== Setting preferred font ===
-You can set the preferred font in two ways:
-
- # For your whole site <br/>To set a default textfont and textsize for all charts, add the following line to `LocalSettings.php`:
+=== Using fonts===
+There are two ways to use fonts:
+ * You can set your own default fonts in the configuration of pChart4mw. This colorscheme will then be used as default for all the charts unless other fonts are defined for a specific chart. See also paragraph default settings in the [Configuration#Default_settings configuration] page. For example:
 {{{
 $wgPChart4mwDefaults = Array ( "textfont" => "mini.ttf", "textsize" => "5" ); 
 }}}
- # For each chart individual
+ * For each chart individual
  
 If no general preference is configured the default font is tahoma.
 
