@@ -25,7 +25,7 @@ http://pchart4mw.googlecode.com/files/pchart4mw-font-01.png
 http://pchart4mw.googlecode.com/files/pchart4mw-font-02.png
 <br>
 
-== Tips==
+=== Tips ===
 pchart4mw comes with only a basic set of fonts for copyright reasons. You can add your own in your fonts folder. There are many good fonts to be found on the Internet.
 
 Tips we like to share with you of the mini fonts are:
