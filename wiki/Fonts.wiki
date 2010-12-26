@@ -15,6 +15,7 @@ textfont=mini.ttf textsize=5 titlefont=georgia.ttf titlesize=12
 }}}
 If no preference is configured the default font is tahoma.
 <br/>
+<br/>
 Good practice: We consider configuring preferred fonts for the whole wiki site a good practice. It provides uniformity in your charts.
 
 === Samples ===
