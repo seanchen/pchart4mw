@@ -27,14 +27,14 @@ http://pchart4mw.googlecode.com/files/pchart4mw-font-01.png
 http://pchart4mw.googlecode.com/files/pchart4mw-font-02.png
 <br>
 === Tips ===
-pchart4mw comes with only a basic set of fonts for copyright reasons. You can add your own in your fonts folder. There are many good fonts to be found on the Internet.
+pchart4mw is distributed with only a basic set of fonts for copyright and license reasons. You can add your own fonts in your fonts folder. There are many good fonts to be found on the Internet.
 
-Tips we like to share with you of the mini fonts are:
+One tip we like'd to share with you is that of 'mini' fonts:
 
  * http://www.fonts101.com/ search for 'mini' and find for example:
- * http://www.fonts101.com/fonts/view/Uncategorized/31978/MINI_7.aspx  mini font download
- * http://www.fonts101.com/fonts/view/Pixel_Fonts/31977/MINI_7_Tight.aspx  minitight font download
- * http://www.minifonts.com/ Original creator of the mini fonts where these fonts can be purchased
+ * http://www.fonts101.com/fonts/view/Uncategorized/31978/MINI_7.aspx  'mini' font download
+ * http://www.fonts101.com/fonts/view/Pixel_Fonts/31977/MINI_7_Tight.aspx  'minitight' font download
+ * http://www.minifonts.com/ Original creator of the 'mini' fonts. Here these fonts can be purchased. You can also learn a lot about fonts on this site.
 
 The 'mini' fonts collection is particularly useful for text (axes, labels and legend) in charts. The 'mini' fonts collection is not distributed with pChart4mw.
 
