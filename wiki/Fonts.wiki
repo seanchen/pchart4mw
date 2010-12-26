@@ -1,10 +1,15 @@
 #summary Using fonts
 
 === Introduction ===
-Fonts are used to create text in charts along x- and y-axes, labels, legend and title. pChart4mw enables You to set your preferred font for text and for the title seperately.
+Fonts are used to create text in charts along x- and y-axes, labels, legend and title. pChart4mw enables you to set your preferred font for text and for the title seperately.
 
-=== Default font ===
-If no general preference is configured in localsettings.php or in the chart definition with the font parameters the default font is tahoma.
+=== Setting preferred font ===
+You can set the preferred font in two ways:
+
+ # For your whole site
+ # For each chart individual
+ 
+If no general preference is configured the default font is tahoma.
 
 == Usage ==
 
