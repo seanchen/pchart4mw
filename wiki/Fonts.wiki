@@ -36,7 +36,7 @@ Tips we like to share with you of the mini fonts are:
  * http://www.fonts101.com/fonts/view/Pixel_Fonts/31977/MINI_7_Tight.aspx  minitight font download
  * http://www.minifonts.com/ Original creator of the mini fonts where these fonts can be purchased
 
-The 'mini' fonts collection is particularly useful for text (axes, labels and legend) in charts 
+The 'mini' fonts collection is particularly useful for text (axes, labels and legend) in charts. The 'mini' fonts collection is not distributed with pChart4mw.
 
 ===Share your font tips===
 
