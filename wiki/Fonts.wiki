@@ -8,6 +8,10 @@ If no general preference is configured in localsettings.php or in the chart defi
 
 == Usage ==
 
-
+=== Standard colorschemes ===
+http://pchart4mw.googlecode.com/files/pchart4mw-font-01.png
+http://pchart4mw.googlecode.com/files/pchart4mw-font-02.png
+<br>
+....
 
 == Tips==
