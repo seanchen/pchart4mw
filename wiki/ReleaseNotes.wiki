@@ -73,4 +73,4 @@ pChart4mw uses the pChart Library to generate the chart images. A new major rele
  * http://sourceforge.net/projects/pchart/
  * http://wiki.pchart.net/doc.installation.html
 
-Note: pChart Library 2 is a work in progress. As is stated on the pChart 2.0 site pChart 2 is not compatible with its predecessor pChart 1.27d. Therefore pChart4mw 1.x will not work with pChart 2.
+Note: pChart 2.0 is a work in progress. As is stated on the pChart 2.0 site pChart 2.0 is not compatible with its predecessor pChart 1.27d. Therefore pChart4mw 1.x will not work with pChart 2.0.
