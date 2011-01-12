@@ -29,7 +29,7 @@ http://pchart4mw.googlecode.com/files/pchart4mw-font-02.png
 === Tips ===
 pchart4mw is distributed with only a basic set of fonts for copyright and license reasons. You can add your own fonts in your fonts folder. There are many good fonts to be found on the Internet.
 
-One tip we like'd to share with you is that of 'mini' fonts:
+One tip we like'd to share with you is that of 'mini' fonts (used in the sample above):
 
  * http://www.fonts101.com/ search for 'mini' and find for example:
  * http://www.fonts101.com/fonts/view/Uncategorized/31978/MINI_7.aspx  'mini' font download
