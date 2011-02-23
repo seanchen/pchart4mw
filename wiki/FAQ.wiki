@@ -2,4 +2,10 @@
 
 ==== Introduction ====
 
-There are no Frequently Asked Questions yet. Over time this page will gradually be filled with FAQ's that reach us (for example from the [GoogleGroup user group] of pchart4mw).
+There are no Frequently Asked Questions yet. Over time this page will gradually be filled with FAQ's that reach us (for example from the [User group] of pchart4mw).
+
+==== FAQ ====
+<dl>
+<dt>*Q: I only see a blank (transparant) image?*</dt>
+<dd>A: This can happen when pChart4mw does not receive any data. Make sure there is data in the chart definition and that the data is properly separated with line-breaks.</dd>
+</dl>
