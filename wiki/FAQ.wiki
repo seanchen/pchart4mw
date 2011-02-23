@@ -6,6 +6,6 @@ There are no Frequently Asked Questions yet. Over time this page will gradually 
 
 ==== FAQ ====
 <dl>
-<dt>*Q: I only see a blank (transparant) image?*</dt>
-<dd>A: This can happen when pChart4mw does not receive any data. Make sure there is data in the chart definition and that the data is properly separated with line-breaks.</dd>
+<dt>Q: I only see a blank (transparant) image?</dt>
+<dt>A: This can happen when pChart4mw does not receive any data. Make sure there is data in the chart definition and that the data is properly separated with line-breaks.</dt>
 </dl>
