@@ -53,6 +53,9 @@ http://pchart4mw.googlecode.com/files/pchart4mw-col-wave.png
 
 Note: Be aware of the fact that not every set of colors is usable for every type of chart. A line chart for example needs better distinguishable colors than a bar chart.
 
+If you wish to create your own palette a helpful site is: 
+http://colorbrewer2.org/
+
 ===Share your custom colorscheme===
 
 Share your custom colorscheme  with other users of pchart4mw in the user group:<br>
