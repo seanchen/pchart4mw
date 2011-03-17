@@ -20,6 +20,6 @@
   · [TechnicalOverview Technical Overview]<br>
   · [RunAsWebService Run as Webservice]<br>
   · [SiteMaintenance MediaWiki Maintenance]<br>
-  · [FAQ Frequently Asked Questions]<br>
+  · [FAQ FAQ]<br>
   · [ReleaseNotes Release Notes]<br>
   · [UserGroup User Group]
