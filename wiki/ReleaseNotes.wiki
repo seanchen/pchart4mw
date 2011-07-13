@@ -6,6 +6,13 @@ pChart4mw is released under the [http://www.gnu.org/licenses/gpl.html GNU Genera
 
 ===<font color=Green> Current version</font>===
 
+<font size="2" color="#7B7B7B">*Version 1.3.1 July 13<sup>th</sup> 2011* (current version)</font><br>
+ * Fixed: Line chart 'filled' parameter working with standard non-cubic lines 
+ * pchart4mw version 1.2.1 was build with pChart library version 1.27d and PHP version 5.2
+ * Download pchart4mw: [http://pchart4mw.googlecode.com/files/pChart4mw%20v1.3.1.zip pChart4mw v1.3.1.zip]
+
+===<font color=Red>*Archived versions*</font>===
+
 <font size="2" color="#7B7B7B">*Version 1.3.0 December 24<sup>th</sup> 2010* (current version)</font><br>
  * Added new features: textfont, textsize, titlefont and titlesize parameters, see [Fonts fonts...]
  * Removed globals $wgPChart4mwFont and $wgPChart4mwFontSize
@@ -19,9 +26,6 @@ pChart4mw is released under the [http://www.gnu.org/licenses/gpl.html GNU Genera
  * The default font for pChart4mw is tahoma.ttf. Set your preffered font in localsettings.php using $wgPChart4mwDefaults for example:
    * $wgPChart4mwDefaults = Array ( "textfont" => "myfont.ttf", "textsize" => "5" ); 
  * pchart4mw version 1.2.1 was build with pChart library version 1.27d and PHP version 5.2
- * Download pchart4mw: [http://pchart4mw.googlecode.com/files/pChart4mw%20v1.3.0.zip pChart4mw v1.3.0.zip]
-
-===<font color=Red>*Archived versions*</font>===
 
 <font size="2" color="#7B7B7B">*Version 1.2.1 December 16<sup>th</sup> 2010*</font><br>
  * Added custom colorscheme: excel.txt
