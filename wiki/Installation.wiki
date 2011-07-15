@@ -51,7 +51,7 @@ $IP/images/pChart4mw/
 Your setup is good to go. 
 
 === Configure the extension ===
-There are additional configuration options you might like to set to customize pchart4mw to your personal preferences. (Recommended is to do this after testing [YourFirstGraph your first chart]). 
+There are additional (optional) configuration options you might like to set to customize your installation of pchart4mw to your personal preferences. (Recommended is to do this after testing [YourFirstGraph your first chart]). 
 
 Information about configuration of pchart4mw can be found in the section [Configuration configuration].
 
