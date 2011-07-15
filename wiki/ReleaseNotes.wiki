@@ -75,11 +75,11 @@ pChart4mw related links
  * http://pchart.sourceforge.net Original pChart Library
 
 
-===<font color=#999900> Development of pChart library 2 </font>===
+===<font color=#999900> pChart library 2.x </font>===
 
-pChart4mw uses the pChart Library to generate the chart images. A new major release of the pChart Library has been released in January 2011. This is pChart 2. Related links to pChart Library 2 are:
+pChart4mw uses the pChart Library to generate the chart images. A new major release of the pChart Library (pChart 2.x) has been released in January 2011. Links to pChart 2.x are:
 
  * http://www.pchart.net
  * http://sourceforge.net/projects/pchart/
 
-Note: As is stated on the pChart 2.0 site pChart 2.0 is not compatible with its predecessor pChart 1.27d. Therefore pChart4mw 1.x will not work with pChart 2.0.
+Note: As is stated on the pChart 2.x site pChart 2.x is not compatible with its predecessor pChart 1.27d. Therefore pChart4mw 1.x will not work with pChart 2.x. Currently there are no plans to migrate pChart4mw to pChart 2.x, pChart4mw will remain using pChart 1.x for some time.
