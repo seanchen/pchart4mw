@@ -1,4 +1,4 @@
-#Statistics of pChart4mw downloads
+#summary Statistics of pChart4mw downloads
 
 This page shows the number of downloads of each public release of pChart4mw since it came out:
 
