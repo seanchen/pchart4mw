@@ -2,7 +2,7 @@
 
 This page shows the number of downloads of each public release of pChart4mw since it came out:
 
-||Version||Released||#Downloads||
+||Version||Released||#Downloads<sup>1)</sup>||
 ||1.0.3||JUL 2009||17||
 ||1.0.4||NOV 2009||2||
 ||1.0.5||NOV 2009||130||
@@ -14,3 +14,5 @@ This page shows the number of downloads of each public release of pChart4mw sinc
 ||1.3.1||JUL 2011||4||
 ||1.3.2||JUL 2011||current||
 ||TOTAL||        ||634||
+
+<sup>1)</sup>Each release shows its version number, release month end the number of downloads of that version until the newer version became available.
