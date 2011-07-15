@@ -72,7 +72,7 @@ pChart4mw is released under the [http://www.gnu.org/licenses/gpl.html GNU Genera
 ===<font color=Blue> References </font>====
 pChart4mw related links
  * http://www.mediawiki.org/wiki/Extension:Pchart4mw !MediaWiki Extension page for pchart4mw
- * http://pchart.sourceforge.net Original pChart Library
+ * http://pchart.sourceforge.net Original pChart 1.x Library
 
 
 ===<font color=#999900> pChart library 2.x </font>===
