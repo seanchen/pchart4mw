@@ -13,12 +13,11 @@ pChart4mw is released under the [http://www.gnu.org/licenses/gpl.html GNU Genera
 
 ===<font color=Red>*Archived versions*</font>===
 
-<font size="2" color="#7B7B7B">*Version 1.3.1 July 13<sup>th</sup> 2011* (current version)</font><br>
+<font size="2" color="#7B7B7B">*Version 1.3.1 July 13<sup>th</sup> 2011*</font><br>
  * Fixed: Line chart 'filled' parameter working with standard non-cubic lines 
- * Download pchart4mw: [http://pchart4mw.googlecode.com/files/pChart4mw%20v1.3.1.zip pChart4mw v1.3.1.zip]
+ * Download pchart4mw: [http://pchart4mw.googlecode.com/files/pChart4mw%20v1.3.1.zip pChart4mw v1.3.1.zip] <font size="1" color="#7B7B7B">(deprecated)</font>
 
-
-<font size="2" color="#7B7B7B">*Version 1.3.0 December 24<sup>th</sup> 2010* (current version)</font><br>
+<font size="2" color="#7B7B7B">*Version 1.3.0 December 24<sup>th</sup> 2010* </font><br>
  * Added new features: textfont, textsize, titlefont and titlesize parameters, see [Fonts fonts...]
  * Removed globals $wgPChart4mwFont and $wgPChart4mwFontSize
  * Added global $wgPChart4mwFontPath absolute path to the fonts folder
@@ -30,7 +29,8 @@ pChart4mw is released under the [http://www.gnu.org/licenses/gpl.html GNU Genera
    * Best apporach is to completely remove the old version of pChart4mw and install this new version. (make sure to save your custom colorschemes and fonts if you have them)
  * The default font for pChart4mw is tahoma.ttf. Set your preffered font in localsettings.php using $wgPChart4mwDefaults for example:
    * $wgPChart4mwDefaults = Array ( "textfont" => "myfont.ttf", "textsize" => "5" ); 
- * pchart4mw version 1.2.1 was build with pChart library version 1.27d and PHP version 5.2
+ * pchart4mw version 1.3.o was build with pChart library version 1.27d and PHP version 5.2
+ * Download pchart4mw: [http://pchart4mw.googlecode.com/files/pChart4mw%20v1.3.0.zip pChart4mw v1.3.0.zip] <font size="1" color="#7B7B7B">(deprecated)</font>
 
 <font size="2" color="#7B7B7B">*Version 1.2.1 December 16<sup>th</sup> 2010*</font><br>
  * Added custom colorscheme: excel.txt
