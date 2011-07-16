@@ -19,7 +19,12 @@ If no preference is configured the default font is tahoma.
 Good practice: We consider configuring preferred fonts for the whole wiki site a good practice. It provides uniformity in your charts. Use this method if possible and limit the use of font settings per chart.
 
 === Samples ===
-Underneath are two samples of the same chart. Both charts use the Tahoma font for the title. The left chart uses a 'mini' font and the right chart uses the default 'tahoma' font for axes and labels. Both look good but the 'mini' font gives sharp and perfectly aligned text in labels and legend.
+Underneath are some samples of the same chart. All samples use the Tahoma font for the title. The fonts used for the axes and legend are:
+Sample 1: 'mini' font (not distributed with pchart4mw, see tip)
+Sample 2: tahoma font (default)
+Sample 3: pf_arma_five font with fontsize 6 (distributed with pchart4mw).
+
+Both look good but the 'mini' font and pf_arma_five font give sharp and perfectly aligned text in labels and legend.
 <br/>
 http://pchart4mw.googlecode.com/files/pchart4mw-font-01.png
 http://pchart4mw.googlecode.com/files/pchart4mw-font-02.png
