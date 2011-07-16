@@ -15,4 +15,4 @@ This page shows the number of downloads of each public release<sup>1)</sup> of p
 ||1.0.3||JUL 2009||17||
 ||TOTAL||        ||634||
 
-<sup>1)</sup> Each release shows its version number, release month end the number of downloads of that version until the newer version became available.
+<sup>1)</sup> Each release shows its version number, release month and the number of downloads until a newer version became available.
