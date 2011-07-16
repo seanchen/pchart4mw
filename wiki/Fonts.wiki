@@ -23,6 +23,7 @@ Underneath are two samples of the same chart. Both charts use the Tahoma font fo
 <br/>
 http://pchart4mw.googlecode.com/files/pchart4mw-font-01.png
 http://pchart4mw.googlecode.com/files/pchart4mw-font-02.png
+http://pchart4mw.googlecode.com/files/pchart4mw-font-03.png
 <br/>
 === Tips ===
 pchart4mw is distributed with only a basic set of fonts for copyright and license reasons. You can add your own fonts in your fonts folder. There are many good fonts to be found on the Internet.
