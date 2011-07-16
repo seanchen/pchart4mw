@@ -16,7 +16,6 @@ textfont=pf_arma_five.ttf textsize=6 titlefont=georgia.ttf titlesize=12
 }}}
 If no preference is configured the default font is tahoma.
 <br/>
-<br/>
 Good practice: We consider configuring preferred fonts for the whole wiki site a good practice. It provides uniformity in your charts. Use this method if possible and limit the use of font settings per chart.
 
 === Samples ===
