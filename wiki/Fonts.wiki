@@ -21,7 +21,7 @@ Good practice: We consider configuring preferred fonts for the whole wiki site a
 === Samples ===
 Underneath are some samples of the same chart. All samples use the Tahoma font for the title. The fonts used for the axes and legend in the samples are:
  # mini font (not distributed with pchart4mw, see our tip)
- # tahoma font (default)
+ # tahoma font (default, distributed with pchart4mw)
  # pf_arma_five font with textsize 6 (distributed with pchart4mw)
 
 All charts look good but the 'mini' font and pf_arma_five font give sharp and perfectly aligned text in labels and legend.
