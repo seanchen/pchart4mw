@@ -9,7 +9,7 @@ This page describes the default installation and initial configuration of the pC
 You need a up-and-running !MediaWiki wiki-site. Make sure that the PHP version on your server is 5.x and has GD library with freetype extension enabled. pChart4mw has proven to work well with !MediaWiki versions 1.12 ... 1.17 (including its new vector skin).<br><font size="2" color="#7B7B7B">(Note: Do not use PHP5.3.1, it has a bug in it and is not supported to run with !MediaWiki.)</font>
 
 Check other requirements on the [ReleaseNotes release notes] page.
-==== b) Save custom colorschemes or fonts or ====
+==== b) Save custom colorschemes or fonts ====
 When you are upgrading from an older version of pChart4mw make sure to save any custom colorschemes or fonts that you might have added to your installation. (and don't forget to put them back after upgrading).
 
 === Step 1: Install the pChart4mw extension ===
