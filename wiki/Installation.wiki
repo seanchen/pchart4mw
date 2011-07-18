@@ -34,8 +34,8 @@ $IP/extensions/pChart4mw/colorschemes/
                         /pChart4mw.radar.php
                         /pChart4mw.scatter.class.php
                         /library.inc.php
-                        /changes.txt
-                        /licence.txt
+                        /0-changes.txt
+                        /0-licence.txt
 }}}
 
 === Step 2: Tell !MediaWiki about this extension ==
