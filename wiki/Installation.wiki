@@ -4,10 +4,14 @@
 
 This page describes the default installation and initial configuration of the pChart4mw extension version 1.3.0<sup>+</sup>. Most steps of the installation and configuration are the same as for other !MediaWiki extensions. When you follow the following steps, the extension should work within minutes.
 
-=== Step 0: Check requirements===
+=== Step 0: Preparations ===
+==== Check requirements ===
 You need a up-and-running !MediaWiki wiki-site. Make sure that the PHP version on your server is 5.x and has GD library with freetype extension enabled. pChart4mw has proven to work well with !MediaWiki versions 1.12 ... 1.17 (including its new vector skin).<br><font size="2" color="#7B7B7B">(Note: Do not use PHP5.3.1, it has a bug in it and is not supported to run with !MediaWiki.)</font>
 
 Check other requirements on the [ReleaseNotes release notes] page.
+
+==== Save custom fonts or colorschemes ====
+If you're upgrading from an older version of pChart4mw make sure to save any custom colorschemes or fonts that you might have added to your installation. (and don't forget to put them back after upgrading).
 
 === Step 1: Install the pChart4mw extension ===
 Download the pChart4mw extension (zip-file) from our download page or [ReleaseNotes release notes page] and extract it into your new <tt>pChart4mw</tt> extension folder:
