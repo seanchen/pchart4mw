@@ -7,14 +7,14 @@ pChart4mw is released under the [http://www.gnu.org/licenses/gpl.html GNU Genera
 ===<font color=Green> Current version</font>===
 
 <font size="2" color="#7B7B7B">*Version 1.3.2 July 15<sup>th</sup> 2011* (current version)</font><br>
- * Fixed: Removed trailing ?> characters from all php code files 
+ * Minor technical fix: Removed trailing ?> characters from all php code files 
  * pchart4mw version 1.3.2 was build with pChart library version 1.27d and PHP version 5.2
  * Download pchart4mw: [http://pchart4mw.googlecode.com/files/pChart4mw%20v1.3.2.zip pChart4mw v1.3.2.zip]
 
 ===<font color=Red>*Archived versions*</font>===
 
 <font size="2" color="#7B7B7B">*Version 1.3.1 July 13<sup>th</sup> 2011*</font><br>
- * Fixed: Line chart 'filled' parameter working with standard non-cubic lines 
+ * Functional fix: Line chart 'filled' parameter working with standard non-cubic lines 
  * Download pchart4mw: [http://pchart4mw.googlecode.com/files/pChart4mw%20v1.3.1.zip pChart4mw v1.3.1.zip] <font size="1" color="#7B7B7B">(deprecated)</font>
 
 <font size="2" color="#7B7B7B">*Version 1.3.0 December 24<sup>th</sup> 2010* </font><br>
