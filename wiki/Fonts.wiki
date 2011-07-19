@@ -31,7 +31,7 @@ http://pchart4mw.googlecode.com/files/pchart4mw-font-02.png
 http://pchart4mw.googlecode.com/files/pchart4mw-font-03.png
 <br/>
 === Tips ===
-pchart4mw is distributed with a basic set of fonts for copyright and license reasons. You can add your own fonts in your fonts folder. There are many good fonts to be found on the Internet.
+pchart4mw is distributed with a basic set of fonts to honour copyright and license terms. You can add your own fonts in your fonts folder. There are many good fonts to be found on the Internet.
 
 One tip we like'd to share with you is that of 'mini' fonts (used in the sample above):
 
