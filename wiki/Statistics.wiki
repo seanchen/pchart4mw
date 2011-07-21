@@ -4,6 +4,7 @@ This page shows the number of downloads of each public release<sup>1)</sup> of p
 
 ||Version||Released||#Downloads||
 ||1.3.2||JUL 2011||current||
+||1.3.2||JUL 2011||9||
 ||1.3.1||JUL 2011||4||
 ||1.3.0||DEC 2010||227||
 ||1.2.1||DEC 2010||9||
@@ -13,6 +14,6 @@ This page shows the number of downloads of each public release<sup>1)</sup> of p
 ||1.0.5||NOV 2009||130||
 ||1.0.4||NOV 2009||2||
 ||1.0.3||JUL 2009||17||
-||TOTAL||        ||634||
+||TOTAL||        ||643||
 
 <sup>1)</sup> Each release shows its version number, release month and the number of downloads until a newer version became available.
