@@ -1,4 +1,4 @@
-#About pChart4mw
+#summary About pChart4mw
 
 == Its Authors ==
 pChart4mw is build, maintained and documented by Robert Horlings and Gérard de Smaele
