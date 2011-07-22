@@ -1,7 +1,5 @@
 #summary Archive of older, deprecated versions of pChart4mw
-
 <P STYLE="text-align: right;">[ReleaseNotes Back to Release Notes...]</P>
-
 ===<font color=Red>*Archived versions*</font>===
 
 <font size="2" color="#7B7B7B">*Version 1.2.1 December 16<sup>th</sup> 2010*</font><br>
