@@ -22,5 +22,7 @@
   · [SiteMaintenance MediaWiki Maintenance]<br>
   · [FAQ FAQ]<br>
   · [ReleaseNotes Release Notes]<br>
+  Extra<br>
   · [Statistics]<br>
+  · [UserGroup User Group];br:
   · [UserGroup User Group]
