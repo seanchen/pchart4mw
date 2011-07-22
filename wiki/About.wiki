@@ -1,7 +1,7 @@
 #About pChart4mw
 
 == Its Authors ==
-pChart4mw is build, maintained and documented by Robert Horlings and G&	eacute;rard de Smaele
+pChart4mw is build, maintained and documented by Robert Horlings and Gérard de Smaele
 
-* Robert focusses mainly on the programming side and is the technical brain behind the extension and its design.
-* G&eacute;rard focusses on the functional design and documentation.
+ * Robert focusses mainly on the programming side and is the technical brain behind the extension and its design.
+ * Gérard focusses on the functional design and documentation.
