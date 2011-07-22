@@ -40,49 +40,6 @@ pChart4mw is released under the [http://www.gnu.org/licenses/gpl.html GNU Genera
 
 Older Archive see: [Archive Old Archive]
 
-<font size="2" color="#7B7B7B">*Version 1.2.1 December 16<sup>th</sup> 2010*</font><br>
- * Added custom colorscheme: excel.txt
- * pchart4mw version 1.2.1 was build with pChart library version 1.27d and PHP version 5.2
- * Download pchart4mw: [http://pchart4mw.googlecode.com/files/pChart4mw%20v1.2.1.zip pChart4mw v1.2.1.zip] <font size="1" color="#7B7B7B">(deprecated)</font>
-
-<font size="2" color="#7B7B7B">*Version 1.2.0 July 3<sup>rd</sup> 2010*</font><br>
- * Added parameter [Parameters#Axes skiplabels] to skip labels (for bars and lines)
- * Added parameter [Parameters#Axes decimals] to specify number of decimals (for bars, line, scatter and bubble)
- * pchart4mw version 1.2.0 was build with pChart library version 1.27d and PHP version 5.2
- * Download pchart4mw: [http://pchart4mw.googlecode.com/files/pChart4mw%20v1.2.0.zip pChart4mw v1.2.0.zip] <font size="1" color="#7B7B7B">(deprecated)</font>
-
-<font size="2" color="#7B7B7B">*Version 1.1.0 June 11<sup>th</sup> 2010* </font><br>
- * pChart4mw now supports parser functions to enable integrating pchart4mw's charting capabilities with other extensions
- * pchart4mw version 1.1.0 was build with pChart library version 1.27d and PHP version 5.2
- * Download pchart4mw: [http://pchart4mw.googlecode.com/files/pChart4mw%20v1.1.0.zip pChart4mw v1.1.0.zip] <font size="1" color="#7B7B7B">(deprecated)</font>
-
-<font size="2" color="#7B7B7B">*Version 1.0.6 April 28<sup>th</sup> 2010* </font><br>
- * Solved issue number 1, html output now with added slash '/'
- * pchart4mw version 1.0.6 was build with pChart library version 1.27d and PHP version 5.2
- * Download pchart4mw: [http://pchart4mw.googlecode.com/files/pChart4mw%20v1.0.6.zip pChart4mw v1.0.6.zip] <font size="1" color="#7B7B7B">(deprecated)</font>
-
-<font size="2" color="#7B7B7B">*Version 1.0.5 November 21<sup>st</sup> 2009* </font><br>
- * Correction in link to [http://www.mediawiki.org/wiki/Extension:Pchart4mw Extension:Pchart4mw page] in pchart4mw.php file
- * pchart4mw version 1.0.5 was build with pChart library version 1.27d and PHP version 5.2
- * Download pchart4mw: [http://pchart4mw.googlecode.com/files/pChart4mw%20v1.0.5.zip pChart4mw v1.0.5.zip] <font size="1" color="#7B7B7B">(deprecated)</font>
-
-<font size="2" color="#7B7B7B">*Version 1.0.4 November 20<sup>th</sup> 2009*</font><br>
- * Added [Parameters#Axes parameter boxcolor] to set the color of the (optional) box around the chart.<br>
- * Added two new standard [ColorSchemes colorschemes] 'blue' and 'wave'
- * pchart4mw version 1.0.4 was build with pChart library version 1.27d and PHP version 5.2<br>
- * Download: [http://pchart4mw.googlecode.com/files/pChart4mw%20v1.0.4.zip pChart4mw v1.0.4.zip] <font size="1" color="#7B7B7B">(deprecated)</font>
-
-<font size="2"color="#7B7B7B">*Version 1.0.3 November 11<sup>th</sup> 2009*</font>
- * The first publicly available version of pchart4mw. The extension itself was first published on this site on July 30<sup>th</sup> 2009. The documentation (this wiki) plus the Mediawiki extension page were finalized on November 11<sup>th</sup> 2009.<br>
- * pchart4mw version 1.0.3 was build with pChart library version 1.27d and PHP version 5.2<br>
- * Download: [http://pchart4mw.googlecode.com/files/pchart4mw%20v1.0.3.zip pChart4mw v1.0.3.zip] <font size="1" color="#7B7B7B">(deprecated)</font>
-
-===<font color=Blue> References </font>====
-pChart4mw related links
- * http://www.mediawiki.org/wiki/Extension:Pchart4mw !MediaWiki Extension page for pchart4mw
- * http://pchart.sourceforge.net Original pChart 1.x Library
-
-
 ===<font color=#999900> pChart library 2.x </font>===
 
 pChart4mw uses the pChart Library to generate the chart images. A new major release of the pChart Library (pChart 2.x) has been released in January 2011. Links to pChart 2.x are:
