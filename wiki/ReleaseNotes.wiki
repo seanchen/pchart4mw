@@ -38,6 +38,8 @@ pChart4mw is released under the [http://www.gnu.org/licenses/gpl.html GNU Genera
  * pchart4mw version 1.3.o was build with pChart library version 1.27d and PHP version 5.2
  * Download pchart4mw: [http://pchart4mw.googlecode.com/files/pChart4mw%20v1.3.0.zip pChart4mw v1.3.0.zip] <font size="1" color="#7B7B7B">(deprecated)</font>
 
+Older Archive see: [Archive Old Archive]
+
 <font size="2" color="#7B7B7B">*Version 1.2.1 December 16<sup>th</sup> 2010*</font><br>
  * Added custom colorscheme: excel.txt
  * pchart4mw version 1.2.1 was build with pChart library version 1.27d and PHP version 5.2
