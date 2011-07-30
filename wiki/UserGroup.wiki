@@ -12,7 +12,7 @@ Please use the google group for:
 
 
 ===Reference===
-February 5<sup>th</sup> 2010: Due to inappropriate spam in the user group we decided to delete the pchart4mw user group (google group). Please use the talk page:  http://www.mediawiki.org/wiki/Extension_talk:Pchart4mw
+For discussion and sharing please use the talk page:  http://www.mediawiki.org/wiki/Extension_talk:Pchart4mw
 
 A personal wiki site that uses pchart4mw:
 http://www.smaele.com/mw01/index.php (Language: Dutch)
