@@ -4,7 +4,7 @@ To share experience with the use of pchart4mw or to discuss it you can use this 
 
 Please use the google group for:
  * Feedback<br> We'd love to learn, how you like this extension, in what context you use it (maybe share your link).
- * Share your custom made [ColorSchemes colorschemes]
+ * Share your custom made [ColorSchemes colorschemes...]
  * Share your font tips: [Fonts fonts...]
  * Share all other Tips and tricks 
  * Discussion
