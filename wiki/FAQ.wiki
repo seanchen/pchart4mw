@@ -23,7 +23,7 @@ This page will gradually be filled with FAQ's that reach us (for example from th
 <tr>
 </tr>
 <td valign="top">*A*</td>
-<td>pChart4mw requires PHP with GD Library and freetype extension enables. To check if your PHP installation matches these requirements make a text file named phpinfo.php with the following content:
+<td>pChart4mw requires PHP with GD Library and freetype extension enabled. To check if your PHP installation matches these requirements you need te aquire the PHP settings. Make a text file named phpinfo.php with the following content:
 {{{
 <?php
 
