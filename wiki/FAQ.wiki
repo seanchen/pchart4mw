@@ -7,22 +7,22 @@ This page will gradually be filled with FAQ's that reach us (for example from th
 ==== Q & A ====
 <table border="0">
 <tr>
-<td valign="top" width="15px">*Q:*</td>
+<td valign="top" width="15px">*Q*</td>
 <td>I only see a blank (transparent) image?</td>
 <tr>
 </tr>
-<td valign="top">*A:*</td>
+<td valign="top">*A*</td>
 <td>This happens when pChart4mw does not receive any data. Make sure there is data in the chart definition and that each data-item is properly separated with line-breaks.</td>
 </tr>
 </table> 
 
 <table border="0">
 <tr>
-<td valign="top" width="15px">*Q:*</td>
+<td valign="top" width="15px">*Q*</td>
 <td>How do I check the PHP settings of my server?</td>
 <tr>
 </tr>
-<td valign="top">*A:*</td>
+<td valign="top">*A*</td>
 <td>pChart4mw requires PHP with GD Library and freetype extension enables. To check if your PHP installation matches these requirements make a text file named phpinfo.php with the following content:
 {{{
 <?php
@@ -37,20 +37,3 @@ You will see a lot of PHP info as output. Search for "freetype" and under the he
 </td>
 </tr>
 </table> 
-
-
-<dl>
-<dt>Q: How do I check the PHP settings of my server?</dt>
-<dt>A: pChart4mw requires PHP with GD Library and freetype extension enables. To check if your PHP installation matches these requirements make a text file named phpinfo.php with the following content:
-{{{
-<?php
-
-// Show all information, defaults to INFO_ALL
-phpinfo();
-?>
-}}}
-The with your browser, browser tot this page: http:\\...\phpinfo.php, ... being the URL to where you placed the file.
-
-You will see a lot of PHP info as output. Search for "freetype" and under the header gd you can see if GD and freetype are enabled or not.
-</dt>
-</dl>
