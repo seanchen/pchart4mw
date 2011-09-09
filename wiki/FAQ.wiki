@@ -7,7 +7,7 @@ This page will gradually be filled with FAQ's that reach us (for example from th
 ==== Q&A New===
 <table border="0">
 <tr>
-<td valign="top" width="10px">Q</td>
+<td valign="top" width="20px">Q:</td>
 <td>I only see a blank (transparent) image?</td>
 <tr>
 </tr>
