@@ -33,7 +33,7 @@ phpinfo();
 }}}
 Then with your browser, browser to this page: {{{http:\\...\phpinfo.php}}}, ... being the URL to where you placed the file.
 
-Youlll see a lot of PHP info as output. Search for "freetype" and under the header gd you can see whether or not GD and freetype are enabled.
+As a result you'll see a lot of PHP info as output. Search for "freetype" and under the header gd you can see whether or not GD and freetype are enabled.
 </td>
 </tr>
 </table> 
