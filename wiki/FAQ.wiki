@@ -31,7 +31,7 @@ This page will gradually be filled with FAQ's that reach us (for example from th
 phpinfo();
 ?>
 }}}
-Then with your browser, browser to this page: '<tt>http:\\...\phpinfo.php</tt>', ... being the URL to where you placed the file.
+Then with your browser, browser to this page: {{{<tt>http:\\...\phpinfo.php</tt>}}}, ... being the URL to where you placed the file.
 
 Youlll see a lot of PHP info as output. Search for "freetype" and under the header gd you can see whether or not GD and freetype are enabled.
 </td>
