@@ -4,6 +4,17 @@
 
 This page will gradually be filled with FAQ's that reach us (for example from the [UserGroup] of pchart4mw) or the extension's talk page.
 
+==== Q&A New===
+<table border="1">
+<tr>
+<td>Q</td>
+<td>I only see a blank (transparent) image></td>
+<td>A</td>
+<td>This can happen when pChart4mw does not receive any data. Make sure there is data in the chart definition and that each data-item is properly separated with line-breaks.</td>
+</tr>
+
+</table> 
+
 ==== Q & A ====
 <dl>
 <dt>Q: I only see a blank (transparant) image?</dt>
@@ -25,7 +36,5 @@ The with your browser, browser tot this page: http:\\...\phpinfo.php, ... being 
 You will see a lot of PHP info as output. Search for "freetype" and under the header gd you can see if GD and freetype are enabled or not.
 </dt>
 </dl>
-
-
 
 
