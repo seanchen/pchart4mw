@@ -30,8 +30,8 @@ phpinfo();
 
 ?>
 }}}
-Save the file {{{phpinfo.php}}} on your webserver. For example {{{http:\\www.yoursite.com\phpinfo.php}}}.
-Then with your browser, browser to that page: {{{http:\\www.yoursite.com\phpinfo.php}}}.
+Save the file {{{phpinfo.php}}} on your webserver. For example {{{http:\\www.yoursite.com\phpinfo.php}}}.<br>
+With your browser, browse to that page: {{{http:\\www.yoursite.com\phpinfo.php}}}.
 
 As a result you'll see a lot of PHP info as output. Search for "freetype" and under the header *gd* you can check whether or not GD and freetype are enabled.
 </td>
