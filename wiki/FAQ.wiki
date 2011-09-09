@@ -9,6 +9,8 @@ This page will gradually be filled with FAQ's that reach us (for example from th
 <tr>
 <td>Q</td>
 <td>I only see a blank (transparent) image></td>
+<tr>
+</tr>
 <td>A</td>
 <td>This can happen when pChart4mw does not receive any data. Make sure there is data in the chart definition and that each data-item is properly separated with line-breaks.</td>
 </tr>
@@ -36,5 +38,3 @@ The with your browser, browser tot this page: http:\\...\phpinfo.php, ... being 
 You will see a lot of PHP info as output. Search for "freetype" and under the header gd you can see if GD and freetype are enabled or not.
 </dt>
 </dl>
-
-
