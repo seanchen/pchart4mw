@@ -7,7 +7,7 @@ pChart4mw is released under the [http://www.gnu.org/licenses/gpl.html GNU Genera
 ===<font color=Green> Current version</font>===
 
 <font size="2" color="#7B7B7B">*Version 1.4.0 May 12<sup>th</sup> 2012* (current version)</font><br>
- * Added: Parameters threshold and thcolor
+ * Added: Parameters [Parameters threshold and thcolor]
  * Minor technical fix: deprecated PHP function split() removed
  * pchart4mw version 1.4.0 was build with pChart library version 1.27d and PHP version 5.2
  * Download pchart4mw: [http://pchart4mw.googlecode.com/files/pChart4mw%20v1.4.0.zip pChart4mw v1.4.0.zip]
