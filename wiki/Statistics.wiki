@@ -1,6 +1,6 @@
 #summary Statistics of pChart4mw downloads
 
-This page shows the number of downloads of each public release<sup>1)</sup> of pChart4mw since its first public release:
+This page shows the number of downloads of each public release<sup>1)</sup> of pChart4mw since its first release:
 
 ||Version||Released||#Downloads||
 ||1.4.0||MAY 2012||current||
