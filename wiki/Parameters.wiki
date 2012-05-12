@@ -162,6 +162,14 @@ These values can be set to override automatic scaling. Different combinations of
 <dd>Sets the color for the border around the legend.</dd>
 </dl>
 
+== Threshold ==
+<dl>
+<dt>*threshold=value*</dt>
+<dd>Sets a theshold line and its value on the Y-axis</dd>
+<dt>*thcolor={color}*</dt>
+<dd>Sets color of the threshold line.</dd>
+</dl>
+
 == Background ==
 <dl>
 <dt>*bgcolor={color}*</dt>
