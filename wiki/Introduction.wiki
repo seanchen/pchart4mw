@@ -9,7 +9,7 @@ As a wiki author you create a chart definition within a wiki page. To do this _y
 
 http://pchart4mw.googlecode.com/files/pchart4mw-overview.png
 
-=== How do I get started with pchart4wm? ===
+=== How do I get started with pchart4mw? ===
 If you're new to pChart4mw continue reading the [GettingStarted getting started] section where you'll read about the [Installation installation] and [Configuration configuration] of this extension. Within minutes you'll create [YourFirstGraph your first chart] on your site!
 
 If you already have pChart4mw up-and-running continue to the [WorkingWithCharts working with charts...] section.
