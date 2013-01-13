@@ -13,6 +13,3 @@ Please use the google group for:
 
 ===Reference===
 For discussion and sharing please use the talk page:  http://www.mediawiki.org/wiki/Extension_talk:Pchart4mw
-
-A personal wiki site that uses pchart4mw:
-http://www.smaele.com/mw01/index.php (Language: Dutch)
