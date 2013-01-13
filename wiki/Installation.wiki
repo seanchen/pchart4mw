@@ -45,7 +45,7 @@ require_once( "$IP/extensions/pChart4mw/pChart4mw.php" );
 }}}
 
 === Step 3: Check the cache folder ==
-Before you start using the site with this new extension. Important: make sure underneath folder exists and is writeable! (this is de default cache folder of pchart4mw). On Unix use the chmod 777 command to set proper permissions. 
+Before you start using the site with this new extension, make sure the cache folder exists and is writeable! <br> On Unix use the chmod 777 command to set proper permissions. 
 
 {{{
 $IP/images/pChart4mw/
